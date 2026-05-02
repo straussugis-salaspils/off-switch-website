@@ -1,0 +1,159 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: var(--font-baskerville), "Georgia", "Times New Roman", serif;
+  --font-sans: var(--font-bricolage), system-ui, -apple-system, sans-serif;
+
+  --color-ink: #1a1817;
+  --color-ink-light: #3d3835;
+  --color-ground: #faf9f6;
+  --color-surface: #f3f0eb;
+  --color-surface-raised: #ece8e1;
+  --color-border: #ddd8d0;
+  --color-border-light: #eae6df;
+  --color-muted: #7d7570;
+  --color-muted-light: #a39d98;
+  --color-accent: #1b6e4a;
+  --color-accent-dim: #2d9966;
+  --color-accent-surface: #daeee4;
+  --color-white: #ffffff;
+
+  --color-deep: #0f0e0c;
+  --color-deep-surface: #1a1917;
+  --color-deep-border: #2e2b28;
+  --color-deep-muted: #8a8480;
+  --color-deep-text: #f0ece4;
+
+  --tracking-display: -0.035em;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-ground);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+  background-color: var(--color-accent-surface);
+  color: var(--color-ink);
+}
+
+h1, h2 {
+  text-wrap: balance;
+}
+
+.cluster-heading {
+  color: var(--color-ink) !important;
+}
+
+/* Shared card hover behavior — APPLY ONLY TO CLICKABLE ELEMENTS
+   (Link, <a>, <button>). Hover signals interactivity; using it on
+   static informational cards is misleading.
+
+   - .card-hover: light surfaces — border shifts to accent + 2px accent
+     top-bar appears at the inner top edge of the card (so the top reads
+     thicker than the other three sides on hover).
+   - .card-hover-dark: same effect using accent-dim for dark surfaces.
+
+   The top bar is rendered as a ::before pseudo-element positioned at
+   top:0 inside the card's padding-box. It spans full width and sits just
+   below the border. Combined with the 1-2px border itself going accent,
+   the total visible top emphasis on hover is 3-4px.
+
+   Static informational/result cards must not use these classes. Use bare
+   `border border-border bg-white` (or equivalent) instead. */
+.card-hover {
+  position: relative;
+  transition: border-color 200ms ease;
+}
+.card-hover::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background-color: transparent;
+  transition: background-color 200ms ease;
+  pointer-events: none;
+}
+.card-hover:hover,
+.card-hover:focus-visible {
+  border-color: var(--color-accent);
+  outline: none;
+}
+.card-hover:hover::before,
+.card-hover:focus-visible::before {
+  background-color: var(--color-accent);
+}
+
+/* Premium table panel — wraps any data table or key-value dossier
+   so it reads as a designed evidence panel, not a plain list of rows.
+   Apply .table-card to the <div> wrapping the <table>, and .table-card-head
+   to the <thead> <tr> for the tinted header strip.
+   Composes cleanly with overflow-x-auto for tables that need horizontal
+   scroll fallback at narrow widths. */
+.table-card {
+  border: 1px solid var(--color-border);
+  background-color: var(--color-white);
+}
+.table-card-head {
+  background-color: var(--color-surface);
+}
+
+.card-hover-dark {
+  position: relative;
+  transition: border-color 200ms ease;
+}
+.card-hover-dark::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background-color: transparent;
+  transition: background-color 200ms ease;
+  pointer-events: none;
+}
+.card-hover-dark:hover,
+.card-hover-dark:focus-visible {
+  border-color: var(--color-accent-dim);
+  outline: none;
+}
+.card-hover-dark:hover::before,
+.card-hover-dark:focus-visible::before {
+  background-color: var(--color-accent-dim);
+}
+
+.grain {
+  background-image:
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='4' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='300' height='300' filter='url(%23n)' opacity='0.07'/%3E%3C/svg%3E"),
+    linear-gradient(var(--color-deep), var(--color-deep));
+  background-repeat: repeat, no-repeat;
+  background-size: 300px 300px, 100% 100%;
+}
+
+/* Eyebrow system — five locked types. Color choice tracks role:
+   - context (above hero H1): neutral, never green; choose deep-muted (dark hero)
+     or muted (light hero) at the use site
+   - section / section-dark: green, reserved for recurring pattern sections
+     (Recognition / Mechanism / Method / Case summary / Field summary / proof)
+   - micro / micro-tight: card and table field labels, always neutral, never green */
+.eyebrow-context      { @apply text-xs uppercase tracking-widest mb-4; }
+.eyebrow-section      { @apply text-xs uppercase tracking-widest mb-4 text-accent; }
+.eyebrow-section-dark { @apply text-xs uppercase tracking-widest mb-6 text-accent-dim; }
+.eyebrow-micro        { @apply text-xs uppercase tracking-widest mb-2 text-muted-light; }
+.eyebrow-micro-tight  { @apply text-[10px] uppercase tracking-widest mb-1.5 text-muted-light; }
