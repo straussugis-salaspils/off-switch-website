@@ -1,6 +1,5 @@
 ﻿import type { Metadata } from "next";
 import Link from "next/link";
-import Button from "@/components/ui/Button";
 import { TestimonialCard } from "@/components/blocks/TestimonialCard";
 import CTABand from "@/components/blocks/CTABand";
 
@@ -43,6 +42,11 @@ export default function TheMethod() {
               independently between sessions. The practitioner designs the sequence. The
               work happens between sessions.
             </p>
+            <p className="text-base text-deep-muted leading-relaxed max-w-2xl mb-4">
+              You do not need to arrive with a perfectly organized story. It is enough to
+              notice what keeps repeating, where the reaction arrives faster than thought,
+              and what no longer switches off through effort alone.
+            </p>
             <p className="text-base text-deep-muted leading-relaxed max-w-2xl">
               The method does not require the client to tell their story, to understand the
               origin of their symptoms, or to relive what happened. The progress is
@@ -63,6 +67,11 @@ export default function TheMethod() {
               There is a level below the story where emotional activation remains active —
               in the body, attached to specific memories, anticipated situations, and sensory
               triggers. That level does not respond to understanding alone.
+            </p>
+            <p className="text-base text-ink-light leading-relaxed mb-4">
+              In the moment, the body often reacts before the mind has time to intervene.
+              That is not a failure of insight or character. It is the level this method is
+              designed to work with.
             </p>
             <p className="text-base text-ink-light leading-relaxed mb-4">
               Someone can know exactly where their anxiety comes from, have spent years
@@ -749,3 +758,4 @@ export default function TheMethod() {
     </>
   );
 }
+

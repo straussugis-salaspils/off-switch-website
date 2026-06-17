@@ -27,6 +27,11 @@ export default function InstitutionalLeader() {
               Senior Organizational Leader Under Multiple Crises
             </h1>
             <p className="text-base text-deep-muted leading-relaxed max-w-2xl mb-4">
+              This case matters because the pressure outside did not disappear. What
+              changed was the leader&rsquo;s capacity to move through it with restored sleep,
+              work capacity, and a lower internal load.
+            </p>
+            <p className="text-base text-deep-muted leading-relaxed max-w-2xl mb-4">
               An anonymized practitioner case. Function returned while the external
               crisis remained unresolved — a senior leader moved from functional collapse
               to stable work capacity, restored sleep, and a lower internal load.
@@ -134,7 +139,7 @@ export default function InstitutionalLeader() {
           <div className="max-w-3xl">
             <h2 className="font-serif text-2xl lg:text-3xl font-light text-ink mb-5">Working interpretation</h2>
             <p className="text-base text-ink-light leading-relaxed">
-              The working interpretation was that the "burnout" framing was a downstream
+              The working interpretation was that the &ldquo;burnout&rdquo; framing was a downstream
               readout of a much wider accumulated load. The external pressures were not
               about to resolve quickly. The accumulated load needed to come down regardless
               of whether the external situations changed — because standard conversational
@@ -226,7 +231,7 @@ export default function InstitutionalLeader() {
               <p className="text-base text-ink-light leading-relaxed">
                 Sleep improved substantially. A shorter working day with protected
                 recovery time was established; net work output remained stable. The
-                "burnout" framing dissolved — it was a downstream effect, not the
+                &ldquo;burnout&rdquo; framing dissolved — it was a downstream effect, not the
                 primary problem.
               </p>
               <p className="text-base text-ink-light leading-relaxed">

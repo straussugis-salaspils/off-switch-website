@@ -1,4 +1,5 @@
 ﻿import type { Metadata } from "next";
+import Button from "@/components/ui/Button";
 
 export const metadata: Metadata = {
   title: "Book a First Conversation",
@@ -22,8 +23,8 @@ export default function Book() {
               whether it fits. That&rsquo;s the whole agenda.
             </p>
             <p className="text-base text-deep-muted leading-relaxed">
-              No commitment is required from the conversation itself. It works in both
-              directions.
+              No commitment is required from the conversation itself. This is not a sales
+              trap, and it is not a test of readiness. Fit is checked in both directions.
             </p>
           </div>
         </div>
@@ -90,7 +91,9 @@ export default function Book() {
             <p className="text-base text-muted leading-relaxed">
               It helps to have a rough sense of your situation — what you&rsquo;re dealing
               with, how long, what you&rsquo;ve already tried. A plain description is
-              enough. There is nothing to prepare.
+              enough. You do not need to arrive with a perfectly formulated problem. It
+              is enough to describe what keeps repeating, what you have already tried,
+              and what you no longer want to carry alone.
             </p>
           </div>
         </div>
@@ -123,10 +126,13 @@ export default function Book() {
               Select a time. The conversation takes 45 minutes.
             </p>
 
-            {/* Calendly placeholder */}
             <div className="border border-accent/40 bg-ground p-10 text-center">
-              <p className="text-sm text-muted-light mb-3">Scheduling — to be connected before launch</p>
-              <p className="font-serif text-lg text-muted">[ Calendly embed ]</p>
+              <p className="text-sm text-muted-light mb-6">
+                Choose a time in Calendly. The conversation takes 45 minutes.
+              </p>
+              <Button href="https://calendly.com/ugisstrauss/private-1to1-fit-conversation" variant="primary" size="lg">
+                Open booking
+              </Button>
             </div>
           </div>
         </div>

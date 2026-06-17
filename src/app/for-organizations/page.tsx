@@ -72,6 +72,10 @@ export default function ForOrganizations() {
               When people are still performing — but capacity is already declining.
             </p>
             <p className="text-base text-deep-muted leading-relaxed max-w-xl mb-4">
+              Often it does not look dramatic. A person keeps doing the role, while sleep,
+              recovery, judgment, and emotional steadiness become less reliable.
+            </p>
+            <p className="text-base text-deep-muted leading-relaxed max-w-xl mb-4">
               Relevant when sustained stress, trauma exposure, burnout risk, or
               post-crisis overload begins affecting judgment, recovery, retention, and
               performance.
@@ -471,6 +475,11 @@ export default function ForOrganizations() {
               What this conversation produces: a clear read on whether the situation
               fits the method, what kind of engagement would be relevant, and what it
               would involve. No commitment is required from the conversation.
+            </p>
+            <p className="text-base text-deep-muted leading-relaxed mb-4">
+              You do not need to bring a perfect brief. It is enough to describe what is
+              happening with people, where the load is affecting work, and what the
+              organization has already tried.
             </p>
             <p className="text-sm text-deep-muted/80 leading-relaxed mb-3">
               Possible inquiry types:

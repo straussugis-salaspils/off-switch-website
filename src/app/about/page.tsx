@@ -30,6 +30,11 @@ export default function About() {
               applied work with individuals, teams, and organizations under pressure.
             </p>
             <p className="text-base text-deep-muted leading-relaxed max-w-2xl mb-4">
+              I came to this method because I kept seeing the same gap: people could
+              understand their reactions very well, and still be carried by the same
+              reaction in the moment.
+            </p>
+            <p className="text-base text-deep-muted leading-relaxed max-w-2xl mb-4">
               Private 1:1 work spans 15+ years and hundreds of clients, beginning in
               coaching and developing into the structured Off-Switch Method work.
             </p>
@@ -38,6 +43,60 @@ export default function About() {
               them: stress, overload, trauma load, emotional triggers, and reactions that
               do not yield to insight.
             </p>
+          </div>
+        </div>
+      </section>
+
+      {/* BUSINESS TRAINING BACKGROUND */}
+      <section className="pt-[96px] pb-[96px]">
+        <div className="max-w-[1120px] mx-auto px-6 lg:px-12">
+          <div className="max-w-[760px]">
+            <h2 className="font-serif text-[46px] leading-[1.05] font-light text-ink mb-8">
+              Training, business games, and behavior under pressure
+            </h2>
+            <div className="space-y-5">
+              <p className="text-base text-ink-light leading-[1.65]">
+                Before The Off-Switch Method, a substantial part of my professional life
+                was built around corporate training, business games, and simulations.
+              </p>
+              <p className="text-base text-ink-light leading-[1.65]">
+                Through Nordic / NTI, I spent many years creating and delivering programs
+                where leaders and teams did not simply listen to theory. They entered a
+                live management environment: making decisions, negotiating, meeting
+                uncertainty, competition, responsibility, conflicting interests, and time
+                pressure.
+              </p>
+              <p className="text-base text-ink-light leading-[1.65]">
+                For me, this was always more than skills training. In a well-designed
+                business game, it quickly becomes visible how a person behaves not in a
+                calm conversation, but in the moment when there is risk, responsibility,
+                limited information, and a need to act.
+              </p>
+              <p className="text-base text-ink-light leading-[1.65]">
+                That is where I kept seeing the same important gap: a person may
+                understand the right answer, know the model, and agree with the logic —
+                but under pressure still return to the old reaction.
+              </p>
+              <p className="text-base text-ink-light leading-[1.65]">
+                This experience became one of the professional foundations of my
+                approach. The Off-Switch Method grew not only from individual work with
+                anxiety, stress, and emotional triggers, but also from years of observing
+                how people, teams, and leaders act inside complex systems.
+              </p>
+              <p className="text-base text-ink-light leading-[1.65]">
+                More about my work in corporate training, business games, and simulations
+                can be found on the{" "}
+                <a
+                  href="https://nti.su/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-accent hover:text-ink transition-colors underline underline-offset-4"
+                >
+                  Nordic / NTI
+                </a>{" "}
+                website.
+              </p>
+            </div>
           </div>
         </div>
       </section>

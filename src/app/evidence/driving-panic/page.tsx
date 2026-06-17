@@ -27,6 +27,11 @@ export default function DrivingPanicCase() {
               Driving Panic and Public Pressure Overload
             </h1>
             <p className="text-base text-deep-muted leading-relaxed max-w-2xl mb-4">
+              This case matters not only because the tracker score changed. What mattered
+              was that a situation that had narrowed daily life to a few miles gradually
+              stopped governing ordinary decisions.
+            </p>
+            <p className="text-base text-deep-muted leading-relaxed max-w-2xl mb-4">
               An anonymized practitioner case in which a client who could not drive more
               than roughly five miles beyond the city limits reduced a self-maintained
               anxiety tracker from 79 to 4 over 90 days, and gradually regained driving
@@ -163,7 +168,7 @@ export default function DrivingPanicCase() {
                 <p className="text-base text-ink-light leading-relaxed">
                   Once the wider overload had reduced, the driving-specific material was
                   addressed: the original panic episode, anticipatory activation, and the
-                  external-evaluation pattern connected to the system's elevated baseline.
+                  external-evaluation pattern connected to the system&rsquo;s elevated baseline.
                   These were worked as a single connected pattern rather than isolated
                   symptoms.
                 </p>

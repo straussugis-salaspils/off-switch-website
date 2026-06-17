@@ -19,10 +19,15 @@ export default function OneToOne() {
             <h1 className="font-serif text-5xl lg:text-6xl font-light text-deep-text leading-tight tracking-display mb-6">
               1:1 Work
             </h1>
-            <p className="text-base text-deep-muted leading-relaxed max-w-2xl">
+            <p className="text-base text-deep-muted leading-relaxed max-w-2xl mb-4">
               Ugis Strauss delivers the Off-Switch Method in structured 1:1 engagements.
               Private work usually runs as a structured 12-session engagement over 3–4
               months, with daily practice between sessions. It has a beginning and an end.
+            </p>
+            <p className="text-base text-deep-muted leading-relaxed max-w-2xl">
+              You do not need to prove that it is difficult enough, or explain the whole
+              problem perfectly in advance. You can begin with what keeps repeating, what
+              you have already tried, and where the reaction still takes over.
             </p>
           </div>
         </div>

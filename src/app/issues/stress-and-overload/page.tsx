@@ -79,7 +79,7 @@ export default function StressAndOverload() {
             may be more relevant.
           </p>
           <p className="text-sm text-muted leading-relaxed">
-            If the pressure shows up as mental loops that won't stop,{" "}
+            If the pressure shows up as mental loops that won&rsquo;t stop,{" "}
             <Link href="/issues/overthinking" className="text-accent hover:text-accent-dim transition-colors">
               Overthinking
             </Link>{" "}

@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { useState, useEffect } from "react";
 
@@ -27,23 +28,31 @@ export default function Nav() {
   return (
     <header className={`border-b sticky top-0 z-50 transition-all duration-300 ${scrolled ? "border-border bg-ground/95 backdrop-blur-md" : "border-border-light bg-ground"}`}>
       <div className="max-w-[1120px] mx-auto px-6 lg:px-12">
-        <div className="flex items-center justify-between h-16 lg:h-18">
+        <div className="flex items-center justify-between gap-6 h-16 lg:h-[68px]">
           {/* Logo */}
           <Link
             href="/"
-            className="font-serif text-xl font-normal text-ink tracking-wide hover:text-accent transition-colors"
+            className="block shrink-0 transition-opacity hover:opacity-80"
             onClick={() => setOpen(false)}
+            aria-label="Off-Switch Method"
           >
-            Ugis Strauss
+            <Image
+              src="/off-switch-method-logo.svg"
+              alt="Off-Switch Method"
+              width={1200}
+              height={220}
+              className="h-10 w-auto md:h-11 xl:h-[52px]"
+              priority
+            />
           </Link>
 
           {/* Desktop nav */}
-          <nav className="hidden lg:flex items-center gap-6">
+          <nav className="hidden xl:flex flex-1 items-center justify-center gap-5">
             {navLinks.map((link) => (
               <Link
                 key={link.href}
                 href={link.href}
-                className={`text-sm tracking-wide whitespace-nowrap transition-colors ${
+                className={`text-[13px] tracking-wide whitespace-nowrap transition-colors ${
                   pathname === link.href || pathname.startsWith(link.href + "/")
                     ? "text-accent"
                     : "text-ink-light hover:text-accent"
@@ -55,10 +64,10 @@ export default function Nav() {
           </nav>
 
           {/* Desktop CTA */}
-          <div className="hidden lg:block shrink-0">
+          <div className="hidden xl:block shrink-0">
             <Link
               href="https://calendly.com/ugisstrauss/private-1to1-fit-conversation"
-              className="text-sm px-5 py-2.5 bg-accent text-white hover:bg-accent-dim transition-colors tracking-wide whitespace-nowrap"
+              className="text-[13px] px-4 py-2.5 bg-accent text-white hover:bg-accent-dim transition-colors tracking-wide whitespace-nowrap"
             >
               Book a first conversation
             </Link>
@@ -66,7 +75,7 @@ export default function Nav() {
 
           {/* Mobile hamburger */}
           <button
-            className="lg:hidden p-2 text-ink"
+            className="xl:hidden p-2 text-ink"
             onClick={() => setOpen(!open)}
             aria-label="Toggle navigation"
           >
@@ -93,7 +102,7 @@ export default function Nav() {
 
       {/* Mobile menu */}
       {open && (
-        <div className="lg:hidden border-t border-border-light bg-ground">
+        <div className="xl:hidden border-t border-border-light bg-ground">
           <nav className="max-w-[1120px] mx-auto px-6 py-6 flex flex-col gap-5">
             {navLinks.map((link) => (
               <Link

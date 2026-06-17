@@ -27,6 +27,11 @@ export default function ComplexPtsdBurnout() {
               Complex PTSD and Burnout
             </h1>
             <p className="text-base text-deep-muted leading-relaxed max-w-2xl mb-4">
+              The important change here was not only a lower tracker score. It was the
+              return of practical agency in areas where the load had been closing down
+              work, money, and close relationships.
+            </p>
+            <p className="text-base text-deep-muted leading-relaxed max-w-2xl mb-4">
               An anonymized practitioner case in which a long-standing complex PTSD and
               burnout pattern reduced from a self-rated tracker score of 72 to 7 over
               approximately 14 weeks — with the reduction continuing after the engagement

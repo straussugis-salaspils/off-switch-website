@@ -146,6 +146,11 @@ export default function Evidence() {
               Evidence
             </h1>
             <p className="text-base text-deep-muted leading-relaxed max-w-2xl mb-4">
+              When someone has lived for years with anxiety, panic, burnout, or trauma
+              load, “this may help” is not enough. It matters to see where the method has
+              been applied, what was measured, and where the limits are named clearly.
+            </p>
+            <p className="text-base text-deep-muted leading-relaxed max-w-2xl mb-4">
               The evidence includes field application data, anonymized individual case
               outcomes, participant reports, and practitioner uptake.
             </p>

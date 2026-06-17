@@ -28,7 +28,10 @@ export default function Home() {
               For anxiety, overload, panic, trauma load, and emotional triggers &mdash; even when you understand what is happening.
             </p>
             <p className="text-base lg:text-lg text-deep-muted leading-relaxed mb-8 max-w-2xl">
-              A structured method for reducing the charge behind persistent stress activation when insight alone is not enough.
+              You may understand what is happening — and still find yourself inside the
+              same reaction again. In the moment, the body often reacts faster than the
+              mind can intervene. The method is not there to explain the problem one more
+              time. It is for the moment when the reaction itself needs to lose force.
             </p>
             <div className="border-t border-deep-border pt-5 mb-12 max-w-xl">
               <p className="text-sm text-deep-muted leading-relaxed">
@@ -37,6 +40,9 @@ export default function Home() {
               </p>
             </div>
             <div className="flex flex-col sm:flex-row items-start sm:items-center gap-5">
+              <Button href="https://calendly.com/ugisstrauss/private-1to1-fit-conversation" variant="primary" size="lg">
+                Book a first conversation
+              </Button>
               <Button href="/the-method" variant="primary" size="lg">
                 How the method works
               </Button>
@@ -126,7 +132,8 @@ export default function Home() {
 
           <p className="text-base text-ink-light leading-relaxed mt-8 max-w-2xl">
             The Off-Switch Method reduces the charge on specific material — until the
-            trigger no longer has the same fuel.
+            trigger no longer has the same fuel. The work is not about finding one more
+            explanation. It is about changing what the reaction is still drawing from.
           </p>
         </div>
       </section>

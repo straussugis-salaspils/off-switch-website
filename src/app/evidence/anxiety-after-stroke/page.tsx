@@ -27,6 +27,11 @@ export default function AnxietyAfterStroke() {
               Catastrophic Anxiety and Future Collapse After Stroke
             </h1>
             <p className="text-base text-deep-muted leading-relaxed max-w-2xl mb-4">
+              This case matters not because life became easier. What mattered was that the
+              old collapse response did not return in situations where it had previously
+              felt almost inevitable.
+            </p>
+            <p className="text-base text-deep-muted leading-relaxed max-w-2xl mb-4">
               An anonymized practitioner case in which catastrophic anticipation following
               a stroke remained active after medical recovery. The work addressed the
               internal future-collapse pattern, not the medical condition itself. The

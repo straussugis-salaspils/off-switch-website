@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 const footerLinks = [
   { label: "The Method", href: "/the-method" },
@@ -29,10 +30,16 @@ export default function Footer() {
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 lg:gap-16">
           {/* Brand */}
           <div>
-            <p className="font-serif text-xl text-ink mb-3">Ugis Strauss</p>
+            <Image
+              src="/off-switch-method-logo.svg"
+              alt="Off-Switch Method"
+              width={1200}
+              height={220}
+              className="h-11 w-auto mb-4"
+            />
             <p className="text-sm text-muted leading-relaxed max-w-xs">
-              The Off-Switch Method. A structured intervention for anxiety, trauma, and
-              persistent emotional patterns.
+              The Off-Switch Method. A structured method for working with emotional
+              charge, triggers, and stress reactions.
             </p>
           </div>
 
