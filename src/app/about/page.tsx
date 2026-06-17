@@ -60,11 +60,10 @@ export default function About() {
                 was built around corporate training, business games, and simulations.
               </p>
               <p className="text-base text-ink-light leading-[1.65]">
-                Through Nordic / NTI, I spent many years creating and delivering programs
-                where leaders and teams did not simply listen to theory. They entered a
-                live management environment: making decisions, negotiating, meeting
-                uncertainty, competition, responsibility, conflicting interests, and time
-                pressure.
+                For many years, I created and delivered programs where leaders and teams
+                did not simply listen to theory. They entered a live management
+                environment: making decisions, negotiating, meeting uncertainty,
+                competition, responsibility, conflicting interests, and time pressure.
               </p>
               <p className="text-base text-ink-light leading-[1.65]">
                 For me, this was always more than skills training. In a well-designed
@@ -82,19 +81,6 @@ export default function About() {
                 approach. The Off-Switch Method grew not only from individual work with
                 anxiety, stress, and emotional triggers, but also from years of observing
                 how people, teams, and leaders act inside complex systems.
-              </p>
-              <p className="text-base text-ink-light leading-[1.65]">
-                More about my work in corporate training, business games, and simulations
-                can be found on the{" "}
-                <a
-                  href="https://nti.su/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-accent hover:text-ink transition-colors underline underline-offset-4"
-                >
-                  Nordic / NTI
-                </a>{" "}
-                website.
               </p>
             </div>
           </div>
@@ -198,7 +184,7 @@ export default function About() {
                   {
                     period: "20+ years",
                     label: "Management simulations and training organization building",
-                    body: "Built and led simulation-based management programs across 15+ countries. Designed and managed training organizations, trainer certification networks, and repeatable delivery systems — including the NTI Internal Trainer University, with 120+ management trainers certified.",
+                    body: "Built and led simulation-based management programs across 15+ countries. Designed and managed training organizations, trainer certification networks, and repeatable delivery systems, with 120+ management trainers certified.",
                   },
                   {
                     period: "15+ years",
@@ -257,7 +243,7 @@ export default function About() {
               },
               {
                 title: "Train-the-trainer systems",
-                body: "Designed the NTI Internal Trainer University concept, curriculum, and one-year trainer certification program. Over 120 management trainers certified for institutional and corporate clients.",
+                body: "Designed a one-year internal trainer certification concept, curriculum, and delivery system. Over 120 management trainers certified for institutional and corporate clients.",
               },
               {
                 title: "Institutional educator",
@@ -361,7 +347,7 @@ export default function About() {
               the reason for their reaction and still keep reacting.
             </p>
             <p className="text-base text-ink-light leading-[1.65] mb-5">
-              The work therefore became focused on the activation itself, not the
+              The work became focused on the reaction itself, not the
               explanation. Insight is real and useful — on its own, it does not always
               change the pattern that fires under pressure.
             </p>
@@ -369,7 +355,7 @@ export default function About() {
               From that observation, the method became a structured sequence: reduce
               accumulated emotional load first, address deeper material without
               destabilizing the client, and end when the reaction no longer drives the
-              same response. Sequence, observable measurement, and defined endpoint are
+              same response. Sequence, clear measurement, and a defined endpoint are
               shaped by the prior simulation, training, organizational work, and private
               client work.
             </p>
@@ -508,3 +494,4 @@ export default function About() {
     </>
   );
 }
+
