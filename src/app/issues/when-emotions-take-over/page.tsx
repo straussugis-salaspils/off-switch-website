@@ -1,18 +1,20 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import IssuePageLayout from "@/components/blocks/IssuePageLayout";
+import { buildPageMetadata } from "@/lib/page-metadata";
 
-export const metadata: Metadata = {
-  title: "When Emotions Take Over | The Off-Switch Method",
+export const metadata: Metadata = buildPageMetadata({
+  title: "When Emotions Take Over Before You Can Choose",
   description:
-    "For reactions that rise faster than conscious choice: anger, panic, shame, fear, hurt, or defensiveness. A structured Off-Switch Method page on emotional activation.",
-};
+    "For anger, panic, shame, fear, hurt or defensiveness that rises faster than conscious choice and remains difficult to interrupt.",
+  path: "/issues/when-emotions-take-over",
+});
 
 export default function WhenEmotionsTakeOver() {
   return (
     <>
     <IssuePageLayout
-      h1="When Emotions Take Over"
+      h1="When Emotions Take Over Before You Can Choose"
       intro={[
         "The reaction is already happening before you have chosen it.",
         "You may understand the situation. You may even know how you should respond. But in the moment, the body has already moved first. Anger, panic, shame, fear, hurt, or defensiveness rises before there is enough space to choose.",
@@ -54,6 +56,12 @@ export default function WhenEmotionsTakeOver() {
         cta: { label: "Full case documentation on the Evidence page", href: "/evidence" },
       }}
       proofLabel="Reported individual outcome"
+      readingGuides={[
+        { title: "Why your reaction can feel bigger than the situation", description: "How a present event can activate more than the present event alone appears to contain.", href: "/articles/why-your-reaction-feels-bigger-than-the-situation" },
+        { title: "Emotional triggers: what they are", description: "How a specific cue starts a known response before deliberate choice has time to intervene.", href: "/articles/emotional-triggers" },
+        { title: "The past and difficult memories", description: "Browse the Library topic on connected memories, recurring cues and reactions that continue in the present.", href: "/library/past-difficult-memories" },
+        { title: "Anger, guilt and self-worth", description: "Explore related patterns involving irritation, anger, old conflict, guilt and self-judgement.", href: "/library/anger-guilt-self-worth" },
+      ]}
       ctas={{
         closing:
           "If the pattern is consistent and has not responded to previous approaches, the first step is a conversation about your specific situation.",

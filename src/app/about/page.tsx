@@ -22,7 +22,7 @@ export default function About() {
               Founder of The Off-Switch Method
             </p>
             <p className="text-base text-deep-text leading-relaxed max-w-2xl mb-4">
-              A background in behavior under pressure, private client work, structured
+              A background in behavior under pressure, private 1:1 client work, structured
               method development, and field application under real emotional load.
             </p>
             <p className="text-base text-deep-muted leading-relaxed max-w-2xl mb-4">
@@ -97,7 +97,7 @@ export default function About() {
             <p className="text-base text-ink-light leading-[1.65] mb-10">
               Before The Off-Switch Method, this work lived in executive training,
               business simulations, leadership programs, crisis decision games,
-              institutional education, training organizations, and private client work.
+              institutional education, training organizations, and private 1:1 client work.
               Programs were delivered across 15+ countries.
             </p>
             <div className="border border-border bg-white p-6 lg:p-8">
@@ -105,7 +105,7 @@ export default function About() {
                 {[
                   { value: "28+ years", label: "Applied behavior-under-pressure work" },
                   { value: "15+ years", label: "Private 1:1 work" },
-                  { value: "Hundreds", label: "Private clients" },
+                  { value: "Hundreds", label: "Private 1:1 clients" },
                   { value: "120+", label: "Trainers certified" },
                   { value: "20+", label: "Proprietary simulations built" },
                 ].map((m) => (
@@ -189,7 +189,7 @@ export default function About() {
                   {
                     period: "15+ years",
                     label: "Private 1:1 work with hundreds of clients",
-                    body: "Started in coaching and developed into structured private work with anxiety, pressure, emotional triggers, burnout, and recurring reaction patterns.",
+                    body: "Started in coaching and developed into structured private 1:1 work with anxiety, pressure, emotional triggers, burnout, and recurring reaction patterns.",
                   },
                   {
                     period: "Development",
@@ -357,7 +357,7 @@ export default function About() {
               destabilizing the client, and end when the reaction no longer drives the
               same response. Sequence, clear measurement, and a defined endpoint are
               shaped by the prior simulation, training, organizational work, and private
-              client work.
+              1:1 client work.
             </p>
             <p className="text-base text-ink-light leading-[1.65]">
               It is not an open-ended support model. Not a substitute for medical,
@@ -393,7 +393,7 @@ export default function About() {
               Measured completed cohorts showed substantial symptom reduction, with the
               full evidence and limitations documented separately.
             </p>
-            <Button href="/ukraine-project" variant="ghost" size="sm">
+            <Button href="/evidence/ukraine-2022" variant="ghost" size="sm">
               Read the documented Ukraine field application →
             </Button>
           </div>
@@ -440,7 +440,7 @@ export default function About() {
               Where this work now applies
             </h2>
             <p className="text-base text-ink-light leading-[1.65] mb-10">
-              Today, the method is applied in focused private work, institutional contexts,
+              Today, the method is applied in focused private 1:1 work, institutional contexts,
               and professional referral or collaboration settings.
             </p>
             <div className="border-t border-border">
@@ -476,7 +476,7 @@ export default function About() {
               Start with a conversation
             </h2>
             <p className="text-base text-deep-muted leading-[1.65] mb-10">
-              Private work begins with a 45-minute conversation: a clear look at your
+              Private 1:1 work begins with a 45-minute conversation: a clear look at your
               situation, what has already been tried, whether the method fits, and what
               the next step would involve.
             </p>

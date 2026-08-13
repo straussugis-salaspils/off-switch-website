@@ -1,17 +1,19 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import IssuePageLayout from "@/components/blocks/IssuePageLayout";
+import { buildPageMetadata } from "@/lib/page-metadata";
 
-export const metadata: Metadata = {
-  title: "Overthinking",
-  description: "The thinking has kept going past the point where it was useful. The problem is not the quality of the analysis. The problem is that the mind cannot disengage.",
-};
+export const metadata: Metadata = buildPageMetadata({
+  title: "Overthinking That Continues After It Stops Helping",
+  description: "For analysis, replaying and future scenarios that continue after thinking has stopped producing useful information or decisions.",
+  path: "/issues/overthinking",
+});
 
 export default function Overthinking() {
   return (
     <>
     <IssuePageLayout
-      h1="Overthinking"
+      h1="Overthinking That Continues After It Stops Helping"
       intro={[
         "The thinking has kept going past the point where it was useful.",
         "Overthinking can look like analysis, planning, reviewing, preparing, or trying to prevent something from going wrong. But when the loop keeps running after it has stopped helping, the issue is often not lack of clarity. The system is activated, and the mind is trying to solve what the body has not released.",
@@ -52,6 +54,12 @@ export default function Overthinking() {
         cta: { label: "Full documentation on the Evidence page", href: "/evidence" },
       }}
       proofLabel="Reported individual outcome"
+      readingGuides={[
+        { title: "Repetitive thoughts, sleep and low mood", description: "Browse the complete Library topic on mental loops, nighttime replay and difficulty switching off.", href: "/library/thoughts-sleep-low-mood" },
+        { title: "Why thoughts go in circles without reaching a decision", description: "Why another round of analysis may repeat the problem instead of resolving it.", href: "/articles/why-thoughts-go-in-circles" },
+        { title: "Why your mind replays the day at night", description: "How unfinished activation can continue reviewing the day and preparing for tomorrow.", href: "/articles/why-your-mind-replays-the-day-at-night" },
+        { title: "Why you cannot relax even when there is time", description: "Why available time and physical tiredness do not necessarily make disengagement possible.", href: "/articles/why-you-cannot-relax" },
+      ]}
       ctas={{
         closing: "If the loop keeps returning to the same material, and previous approaches have not changed that, this page explains what the method is actually working on.",
         primary: { label: "Book a first conversation", href: "https://calendly.com/ugisstrauss/private-1to1-fit-conversation" },

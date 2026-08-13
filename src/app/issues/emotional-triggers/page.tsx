@@ -1,11 +1,13 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import IssuePageLayout from "@/components/blocks/IssuePageLayout";
+import { buildPageMetadata } from "@/lib/page-metadata";
 
-export const metadata: Metadata = {
-  title: "Recurring Triggers | The Off-Switch Method",
-  description: "You know the pattern. You know exactly where it comes from. It still fires.",
-};
+export const metadata: Metadata = buildPageMetadata({
+  title: "Recurring Triggers That Still Fire Despite Insight",
+  description: "For a known emotional trigger that continues to produce the old reaction even after you understand the pattern and its origins.",
+  path: "/issues/emotional-triggers",
+});
 
 export default function EmotionalTriggers() {
   return (
@@ -49,6 +51,11 @@ export default function EmotionalTriggers() {
         context: "Ukraine",
         cta: { label: "Full documentation on the Evidence page", href: "/evidence" },
       }}
+      readingGuides={[
+        { title: "Emotional triggers: what they are and why they start a reaction", description: "The definition and mechanism: how a present cue becomes connected to an automatic response.", href: "/articles/emotional-triggers" },
+        { title: "Why your reaction can feel bigger than the situation", description: "How the present moment and older activated material can arrive inside one reaction.", href: "/articles/why-your-reaction-feels-bigger-than-the-situation" },
+        { title: "The past and difficult memories", description: "Browse the Library topic on recurring triggers, connected memories and reactions that continue in the present.", href: "/library/past-difficult-memories" },
+      ]}
       ctas={{
         closing: "If the pattern is familiar and still live, the next step is understanding what actually addresses it.",
         primary: { label: "Book a first conversation", href: "https://calendly.com/ugisstrauss/private-1to1-fit-conversation" },

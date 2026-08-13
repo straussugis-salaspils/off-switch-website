@@ -1,15 +1,17 @@
 import type { Metadata } from "next";
 import IssuePageLayout from "@/components/blocks/IssuePageLayout";
+import { buildPageMetadata } from "@/lib/page-metadata";
 
-export const metadata: Metadata = {
-  title: "Anxiety",
-  description: "Understanding the anxiety and switching off the anxiety are two different kinds of work. This is relevant to the gap between them.",
-};
+export const metadata: Metadata = buildPageMetadata({
+  title: "Persistent Anxiety After You Understand It",
+  description: "For anxiety that remains active after you understand its origins, recognise the pattern and have already done useful work on it.",
+  path: "/issues/anxiety",
+});
 
 export default function Anxiety() {
   return (
     <IssuePageLayout
-      h1="Anxiety"
+      h1="Anxiety That Persists After You Understand It"
       intro={[
         "The anxiety is already there when you wake up. Before the day has given it a reason.",
         "Most people who find this page have worked on it. Sometimes for years. Therapy that was real and useful. Insights that are genuinely theirs — where it came from, what shaped it, why it makes sense in context. The pattern can be described with more precision than most people who haven't lived inside it.",
@@ -50,6 +52,12 @@ export default function Anxiety() {
         cta: { label: "Full documentation on the Evidence page", href: "/evidence" },
       }}
       proofLabel="Reported individual outcome"
+      readingGuides={[
+        { title: "Anxiety and specific fears", description: "Browse the complete Library topic, from persistent anxiety to fear that spreads across similar situations.", href: "/library/anxiety-specific-fears" },
+        { title: "Why anxiety can feel as though it has no cause", description: "How anxiety can be real and specific even when the present moment offers no obvious explanation.", href: "/articles/anxiety-for-no-reason" },
+        { title: "Why anxiety can remain after you solve the main problem", description: "Why changing the situation and changing the response to it are not always the same piece of work.", href: "/articles/why-anxiety-returns-after-solving-a-problem" },
+        { title: "How to tell whether an anxiety response has changed", description: "A practical way to test whether the old signal still produces the same automatic reaction.", href: "/articles/how-to-know-anxiety-response-has-changed" },
+      ]}
       ctas={{
         closing: "If this is familiar — understanding solid, response still active — the next step is understanding how the method works.",
         primary: { label: "Book a first conversation", href: "https://calendly.com/ugisstrauss/private-1to1-fit-conversation" },

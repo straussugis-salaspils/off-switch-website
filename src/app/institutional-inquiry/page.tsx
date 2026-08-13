@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import InquiryForm from "@/components/blocks/InquiryForm";
+import OrganizationsNavigation from "@/components/layout/OrganizationsNavigation";
 
 export const metadata: Metadata = {
   title: "Institutional Inquiry",
@@ -10,6 +11,7 @@ export const metadata: Metadata = {
 export default function InstitutionalInquiry() {
   return (
     <>
+      <OrganizationsNavigation />
       {/* HERO */}
       <section className="pt-20 pb-12 lg:pt-28 lg:pb-16 grain">
         <div className="max-w-screen-xl mx-auto px-6 lg:px-10">

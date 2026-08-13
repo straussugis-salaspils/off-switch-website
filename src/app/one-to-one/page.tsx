@@ -1,305 +1,299 @@
-﻿import type { Metadata } from "next";
+import type { Metadata } from "next";
+import Link from "next/link";
+
+import FormatsNavigation from "@/components/layout/FormatsNavigation";
 import Button from "@/components/ui/Button";
-import { TestimonialCard } from "@/components/blocks/TestimonialCard";
-import CTABand from "@/components/blocks/CTABand";
+import { buildPageMetadata } from "@/lib/page-metadata";
 
-export const metadata: Metadata = {
-  title: "1:1 Work",
+const recognitionPoints = [
+  "You understand the pattern, but the reaction still starts in the real situation.",
+  "One problem changes and the next connected one becomes visible.",
+  "One situation is now calm while a similar response is still active somewhere else.",
+  "The problem looks singular from the outside but separates into several working targets.",
+  "The old response is lower — and the remaining task is now a real problem, a skill or a life decision.",
+] as const;
+
+const routeSteps = [
+  {
+    number: "01",
+    title: "Learn the tool",
+    body: "In the first meeting you learn the regulation practice and begin using it between sessions.",
+  },
+  {
+    number: "02",
+    title: "Choose a specific response",
+    body: "Each step uses a precise situation, memory or physical reaction that is active now.",
+  },
+  {
+    number: "03",
+    title: "Test the change",
+    body: "A conversation, drive, night of sleep, decision or action shows what changed beyond the meeting.",
+  },
+  {
+    number: "04",
+    title: "Set the next step",
+    body: "Ugis adjusts the subject, depth and order according to the facts of the previous week.",
+  },
+] as const;
+
+const faq = [
+  [
+    "Can I start now?",
+    "Yes. The first step is a conversation about your situation and whether private 1:1 work is the appropriate format.",
+  ],
+  [
+    "How long does the route take?",
+    "Three months: 12 private 1:1 Zoom meetings and independent practice between them.",
+  ],
+  [
+    "What happens between meetings?",
+    "You apply the tool to the agreed material and test the change in real situations. Those facts determine the next meeting.",
+  ],
+] as const;
+
+export const metadata: Metadata = buildPageMetadata({
+  title: "Private 1:1 Off-Switch Work with Ugis Strauss",
   description:
-    "Ugis Strauss delivers the Off-Switch Method in structured 1:1 engagements. Private work usually runs as a structured 12-session engagement over 3–4 months, with a clear endpoint.",
-};
+    "A three-month private 1:1 Off-Switch route: 12 meetings with Ugis Strauss, independent practice and change tested in ordinary life.",
+  path: "/one-to-one",
+});
 
-export default function OneToOne() {
+export default function OneToOnePage() {
   return (
     <>
-      {/* HERO */}
-      <section className="pt-20 pb-16 lg:pt-28 lg:pb-24 grain">
-        <div className="max-w-[1120px] mx-auto px-6 lg:px-12">
-          <div className="max-w-3xl">
-            <h1 className="font-serif text-5xl lg:text-6xl font-light text-deep-text leading-tight tracking-display mb-6">
-              1:1 Work
-            </h1>
-            <p className="text-base text-deep-muted leading-relaxed max-w-2xl mb-4">
-              Ugis Strauss delivers the Off-Switch Method in structured 1:1 engagements.
-              Private work usually runs as a structured 12-session engagement over 3–4
-              months, with daily practice between sessions. It has a beginning and an end.
-            </p>
-            <p className="text-base text-deep-muted leading-relaxed max-w-2xl">
-              You do not need to prove that it is difficult enough, or explain the whole
-              problem perfectly in advance. You can begin with what keeps repeating, what
-              you have already tried, and where the reaction still takes over.
-            </p>
-          </div>
-        </div>
-      </section>
+      <FormatsNavigation />
 
-      {/* WHO COMES */}
-      <section className="py-16 lg:py-20 bg-surface">
-        <div className="max-w-[1120px] mx-auto px-6 lg:px-12">
-          <div className="max-w-3xl">
-            <h2 className="font-serif text-3xl lg:text-4xl font-light text-ink mb-6">
-              Who comes for 1:1 work
-            </h2>
-            <div className="space-y-4 mb-8">
-              <p className="text-base text-ink-light leading-relaxed">
-                People who can describe their anxiety in precise detail — where it came
-                from, what triggers it, why it makes sense — and still wake up inside the
-                same reaction. The understanding is there. The automatic response has not
-                changed.
+      <section className="grain bg-deep py-16 sm:py-20 lg:py-24">
+        <div className="mx-auto w-full max-w-[1180px] px-5 sm:px-7 lg:px-10">
+          <div className="grid gap-12 lg:grid-cols-[minmax(0,1fr)_19rem] lg:items-end lg:gap-20">
+            <div>
+              <p className="eyebrow-page-dark">Private 1:1 Off-Switch format</p>
+              <h1 className="type-page-title max-w-4xl text-deep-text">
+                Private 1:1 work with Ugis
+              </h1>
+              <p className="mt-7 max-w-2xl text-base leading-7 text-deep-muted sm:text-lg">
+                For situations that do not fit one shared route — where the next step has to be chosen from what actually changed during your previous week.
               </p>
-              <p className="text-base text-ink-light leading-relaxed">
-                People who have already done real work on this. Years of therapy, coaching,
-                self-development, or sustained effort. It produced insight. The patterns
-                remained.
-              </p>
-              <p className="text-base text-ink-light leading-relaxed">
-                Executives, founders, and professionals in high-demand roles where sustained
-                emotional load has become a problem they can no longer manage around.
-              </p>
-            </div>
-
-            <TestimonialCard
-              quote="I was functioning well from the outside. Internally I was carrying constant load — not one trauma, just accumulation that never reset. The effect showed up in clarity and recovery speed, not only in stress levels. For someone in a demanding role, that is what matters."
-              attribution="John Bennett"
-            />
-
-            <p className="text-base text-ink-light leading-relaxed mt-6">
-              People who want a structured engagement with a clear arc and a defined
-              endpoint. Not an ongoing support relationship. A course of work that finishes.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* WHAT BRINGS PEOPLE */}
-      <section className="py-16 lg:py-20">
-        <div className="max-w-[1120px] mx-auto px-6 lg:px-12">
-          <div className="max-w-3xl">
-            <h2 className="font-serif text-3xl lg:text-4xl font-light text-ink mb-6">
-              What brings people here
-            </h2>
-            <div className="space-y-3 mb-8">
-              {[
-                "Anxiety that has been understood and worked on for years and still fires without apparent cause.",
-                "A sustained period of pressure — a difficult role, a difficult period — that ended. The reaction is still carried in the body.",
-                "Grief, loss, or shock that was processed in words but is still present in the body when the memory surfaces.",
-                "A specific pattern — a reactive response, an avoidance behaviour, a recurring situation that always produces the same result — that has not responded to previous work.",
-                "A high-stakes period ahead where the current emotional baseline is not the starting point they want.",
-              ].map((item, i) => (
-                <p key={i} className="text-base text-ink-light leading-relaxed">
-                  {item}
+              <div className="mt-9">
+                <Button
+                  href="https://calendly.com/ugisstrauss/private-1to1-fit-conversation"
+                  variant="primary"
+                  size="lg"
+                >
+                  Book a first conversation
+                </Button>
+                <p className="mt-4 max-w-xl text-sm leading-6 text-deep-muted">
+                  Forty-five minutes to describe the situation, what you have tried and whether this route fits.
                 </p>
+              </div>
+            </div>
+
+            <dl className="border-t border-deep-border">
+              {[
+                ["Length", "3 months"],
+                ["Meetings", "12 private 1:1 Zoom meetings"],
+                ["Fee", "€6,000"],
+                ["Start", "available now"],
+              ].map(([term, value]) => (
+                <div key={term} className="border-b border-deep-border py-4">
+                  <dt className="text-[0.6875rem] uppercase tracking-widest text-deep-muted">{term}</dt>
+                  <dd className="mt-1 font-serif text-xl text-deep-text">{value}</dd>
+                </div>
               ))}
-            </div>
-
-            <div className="space-y-6 mb-6">
-              <TestimonialCard
-                quote="I realized that for the last 10 years I could not move forward just because of situations from my past. I tried many methods and was sure I had dealt with everything — only here did it turn out those situations were still affecting me."
-                attribution="Victoria Vayzhgela"
-                context="Ukraine"
-              />
-              <TestimonialCard
-                quote="I had done years of therapy, including CBT. I understood my patterns. The reactions were still there. This was the first time something shifted not in how I thought about my history, but in how my system actually responded to it."
-                attribution="Brooke McDermont"
-              />
-            </div>
-
-            <p className="text-base text-ink-light leading-relaxed mb-6">
-              If a pattern above lands close, a fit conversation is the right next step.
-            </p>
-
-            <Button href="/who-this-is-for" variant="ghost" size="sm">
-              Dealing with a specific pattern → Who This Is For
-            </Button>
+            </dl>
           </div>
         </div>
       </section>
 
-      {/* 1:1 PROCESS FLOW */}
-      <section className="py-16 lg:py-20 bg-deep">
-        <div className="max-w-[1120px] mx-auto px-6 lg:px-12">
-          <h2 className="font-serif text-3xl lg:text-4xl font-light text-deep-text mb-8 tracking-display">
-            How the engagement runs
-          </h2>
-          <div className="grid grid-cols-1 sm:grid-cols-5 gap-px bg-deep-border max-w-5xl">
+      <section className="py-16 sm:py-20 lg:py-24">
+        <div className="mx-auto grid w-full max-w-[1180px] gap-10 px-5 sm:px-7 lg:grid-cols-[minmax(16rem,0.62fr)_minmax(0,1.38fr)] lg:gap-20 lg:px-10">
+          <div>
+            <p className="eyebrow-section">What brings people here</p>
+            <h2 className="font-serif text-3xl leading-tight tracking-display text-ink lg:text-4xl">
+              The problem no longer fits one ready-made answer
+            </h2>
+          </div>
+          <ul className="border-t border-border">
+            {recognitionPoints.map((point, index) => (
+              <li
+                key={point}
+                className="grid gap-4 border-b border-border py-5 sm:grid-cols-[2.5rem_minmax(0,1fr)] sm:py-6"
+              >
+                <span className="font-serif text-lg text-accent">{String(index + 1).padStart(2, "0")}</span>
+                <p className="max-w-3xl text-base leading-7 text-ink-light sm:text-lg">{point}</p>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </section>
+
+      <section className="bg-deep py-16 sm:py-20 lg:py-24">
+        <div className="mx-auto grid w-full max-w-[1180px] gap-12 px-5 sm:px-7 lg:grid-cols-[minmax(0,1fr)_21rem] lg:gap-20 lg:px-10">
+          <div>
+            <p className="eyebrow-section-dark">Published case</p>
+            <h2 className="max-w-3xl font-serif text-3xl leading-tight tracking-display text-deep-text lg:text-4xl">
+              The road became part of ordinary life again
+            </h2>
+            <p className="mt-7 max-w-2xl text-base leading-7 text-deep-muted sm:text-lg">
+              After a panic episode, a client could drive only a few miles from the city. The work moved from background load to the road incident itself. Change was tested first in imagination, then through real journeys.
+            </p>
+            <Link
+              href="/evidence/driving-panic"
+              className="mt-8 inline-flex min-h-11 items-center text-sm font-medium text-accent-dim hover:text-deep-text"
+            >
+              Read the full case →
+            </Link>
+          </div>
+          <dl className="border-t border-deep-border">
             {[
-              { step: "01", label: "Initial conversation", desc: "45 minutes. Your situation. What you've tried. Whether this is a fit." },
-              { step: "02", label: "Fit assessment", desc: "Clear picture of what the engagement involves and what it requires." },
-              { step: "03", label: "Private work", desc: "Three phases, usually 12 sessions over 3–4 months. Most progress happens in daily practice between sessions." },
-              { step: "04", label: "Tracking change", desc: "Symptom score is measured each session. Progress is tracked as a number, not left as a general impression." },
-              { step: "05", label: "Integrate", desc: "Behavioral and structural work. Sessions become infrequent. The engagement closes when the work is done." },
-            ].map((item) => (
-              <div key={item.step} className="bg-deep-surface p-6 lg:p-8">
-                <p className="font-serif text-xs text-deep-muted mb-3">{item.step}</p>
-                <p className="text-base font-medium text-deep-text mb-3">{item.label}</p>
-                <p className="text-sm text-deep-muted leading-[1.7]">{item.desc}</p>
+              ["Limit", "a few miles from the city"],
+              ["How it was tested", "in imagination, then on the road"],
+              ["What returned", "the ability to drive again"],
+            ].map(([term, value]) => (
+              <div key={term} className="border-b border-deep-border py-5">
+                <dt className="text-xs uppercase tracking-widest text-deep-muted">{term}</dt>
+                <dd className="mt-2 font-serif text-2xl leading-snug text-deep-text">{value}</dd>
+              </div>
+            ))}
+          </dl>
+        </div>
+      </section>
+
+      <section className="bg-surface py-16 sm:py-20 lg:py-24">
+        <div className="mx-auto w-full max-w-[1180px] px-5 sm:px-7 lg:px-10">
+          <p className="eyebrow-section">What counts as change</p>
+          <h2 className="max-w-4xl font-serif text-3xl leading-tight tracking-display text-ink lg:text-4xl">
+            Not a good conversation about the result — a different response in the same life
+          </h2>
+          <div className="mt-12 grid border-y border-border md:grid-cols-3">
+            {[
+              ["01", "Response", "The same trigger can be checked again without producing the previous automatic answer."],
+              ["02", "Action", "Choice is available again in the conversation, journey, decision or boundary."],
+              ["03", "Reality", "If the external problem remains, it can be addressed without the old response taking control."],
+            ].map(([number, title, body], index) => (
+              <div
+                key={number}
+                className={`py-8 md:px-8 ${index < 2 ? "border-b border-border md:border-b-0 md:border-r" : ""}`}
+              >
+                <p className="text-xs tracking-widest text-accent">{number}</p>
+                <h3 className="mt-6 font-serif text-2xl text-ink lg:text-3xl">{title}</h3>
+                <p className="mt-4 text-sm leading-6 text-muted sm:text-base sm:leading-7">{body}</p>
               </div>
             ))}
           </div>
         </div>
       </section>
 
-      {/* HOW IT'S STRUCTURED */}
-      <section className="py-16 lg:py-20 bg-surface">
-        <div className="max-w-[1120px] mx-auto px-6 lg:px-12">
-          <div className="max-w-3xl">
-            <h2 className="font-serif text-3xl lg:text-4xl font-light text-ink mb-6">
-              How the work is structured
+      <section className="py-16 sm:py-20 lg:py-24">
+        <div className="mx-auto grid w-full max-w-[1180px] gap-10 px-5 sm:px-7 lg:grid-cols-[18rem_minmax(0,1fr)] lg:gap-20 lg:px-10">
+          <div>
+            <p className="eyebrow-section">How the three months work</p>
+            <h2 className="font-serif text-3xl leading-tight tracking-display text-ink lg:text-4xl">
+              One cycle, repeated with new material
             </h2>
-            <p className="text-base text-ink-light leading-relaxed mb-6">
-              The Off-Switch Method moves through three phases. Each must be substantially
-              complete before the next begins.
+            <p className="mt-6 text-sm leading-6 text-muted sm:text-base sm:leading-7">
+              Ugis holds the structure. The evidence appears between meetings, where you apply the tool independently.
             </p>
-            <div className="space-y-5 mb-8">
-              <p className="text-base text-ink-light leading-relaxed">
-                The Regulate phase works down accumulated emotional load — chronic stress,
-                body tension, future anxiety — to a level where deeper work is accessible
-                without destabilizing. The client learns the primary tool in Session 1
-                and uses it daily from that point.
-              </p>
-              <p className="text-base text-ink-light leading-relaxed">
-                The Repattern phase works through the full emotional history systematically
-                — not only the presenting situation, but the whole range of material that is
-                still carrying activation. This runs for approximately two months of daily
-                practice, mostly between sessions.
-              </p>
-              <p className="text-base text-ink-light leading-relaxed">
-                The Integrate phase addresses what remains after the emotional work:
-                behavioral patterns, structural habits, and ways of operating that are now
-                visible as the primary issue.
-              </p>
-              <p className="text-base text-ink-light leading-relaxed">
-                Sessions become less frequent as the work progresses. The engagement closes
-                when the work is done.
+          </div>
+          <ol className="border-t border-border">
+            {routeSteps.map((step) => (
+              <li
+                key={step.number}
+                className="grid gap-3 border-b border-border py-6 sm:grid-cols-[3.5rem_14rem_minmax(0,1fr)] sm:gap-6 sm:py-7"
+              >
+                <span className="font-serif text-xl text-accent">{step.number}</span>
+                <h3 className="font-serif text-xl leading-snug text-ink sm:text-2xl">{step.title}</h3>
+                <p className="text-sm leading-6 text-muted sm:text-base sm:leading-7">{step.body}</p>
+              </li>
+            ))}
+          </ol>
+        </div>
+      </section>
+
+      <section className="bg-deep py-16 sm:py-20 lg:py-24">
+        <div className="mx-auto w-full max-w-[1180px] px-5 sm:px-7 lg:px-10">
+          <p className="eyebrow-section-dark">1:1 or group</p>
+          <h2 className="max-w-4xl font-serif text-3xl leading-tight tracking-display text-deep-text lg:text-4xl">
+            Private 1:1 work fits when the shared order is no longer enough
+          </h2>
+          <div className="mt-10 grid border-y border-deep-border md:grid-cols-2">
+            <div className="py-8 md:border-r md:border-deep-border md:pr-10">
+              <p className="text-xs uppercase tracking-widest text-accent-dim">Private 1:1 work</p>
+              <p className="mt-5 font-serif text-xl leading-snug text-deep-text sm:text-2xl">
+                Subject, depth and next move are reset after each step according to your situation.
               </p>
             </div>
-            <p className="text-base text-ink-light leading-relaxed mb-8">
-              The aim of private work is not endless discussion. Once the
-              technique is learned, individual targets can sometimes be worked
-              on in minutes; the full process provides the sequence, pacing,
-              tracking, and integration around that.
-            </p>
-            <Button href="/the-method" variant="ghost" size="sm">
-              Full detail on The Method page →
-            </Button>
-          </div>
-        </div>
-      </section>
-
-      {/* BY THE TIME THE WORK CLOSES */}
-      <section className="py-16 lg:py-20">
-        <div className="max-w-[1120px] mx-auto px-6 lg:px-12">
-          <div className="max-w-3xl">
-            <h2 className="font-serif text-3xl lg:text-4xl font-light text-ink mb-6">
-              By the time the work closes
-            </h2>
-            <p className="text-base text-ink-light leading-relaxed">
-              The typical pattern at engagement close is: the presenting issue no longer
-              drives the person in the same way, sleep and recovery have returned, and
-              behavioral patterns that were previously masked by emotional load have become
-              visible and addressable. Sessions become infrequent. The engagement ends.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* WHAT IT REQUIRES */}
-      <section className="py-16 lg:py-20">
-        <div className="max-w-[1120px] mx-auto px-6 lg:px-12">
-          <div className="max-w-3xl">
-            <h2 className="font-serif text-3xl lg:text-4xl font-light text-ink mb-6">
-              What the work requires
-            </h2>
-            <p className="text-base text-ink-light leading-relaxed mb-4">
-              The primary tool is introduced in Session 1 and owned by the client from that
-              point. It takes about fifteen minutes to learn.
-            </p>
-            <p className="text-base text-ink-light leading-relaxed mb-4">
-              Progress depends on regular practice. A client working with it fifteen to
-              thirty minutes daily moves through the work substantially faster than one who
-              uses it only when symptoms are acute. One client cleared his full emotional
-              history in approximately one month by using the technique consistently during
-              otherwise idle time — commuting, waiting, brief gaps in the working day. That
-              pace is unusual. The principle is not.
-            </p>
-            <p className="text-base text-ink-light leading-relaxed mb-4">
-              In the middle phase, the main workload is a structured review of personal
-              history — at the client&rsquo;s own pace — until each area no longer
-              drives the same response. This runs for approximately two months.
-            </p>
-            <p className="text-base text-ink-light leading-relaxed">
-              Clients who are not willing or able to practice daily between sessions are not
-              a fit for this engagement.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* WHO THIS IS NOT FOR */}
-      <section className="py-16 lg:py-20 bg-surface">
-        <div className="max-w-[1120px] mx-auto px-6 lg:px-12">
-          <div className="max-w-3xl">
-            <h2 className="font-serif text-3xl lg:text-4xl font-light text-ink mb-8">
-              Who this is not for
-            </h2>
-            <div className="space-y-5">
-              {[
-                {
-                  label: "People who want ongoing conversational support.",
-                  body: "The work here is structured and finite. A practitioner offering long-term therapeutic support is better suited.",
-                },
-                {
-                  label: "People whose situation requires immediate psychiatric care.",
-                  body: "The Off-Switch Method works alongside psychiatric treatment where that is already part of the picture. It does not replace it.",
-                },
-                {
-                  label: "People looking for accountability coaching or goal support.",
-                  body: "That is a different kind of work.",
-                },
-                {
-                  label: "People who are not prepared to practice daily between sessions.",
-                  body: "Without the daily work, the method does not progress.",
-                },
-              ].map((item, i) => (
-                <div key={i} className="border-b border-border-light pb-5">
-                  <p className="text-base font-medium text-ink mb-1">{item.label}</p>
-                  <p className="text-sm text-muted leading-relaxed">{item.body}</p>
-                </div>
-              ))}
+            <div className="border-t border-deep-border py-8 md:border-t-0 md:pl-10">
+              <p className="text-xs uppercase tracking-widest text-deep-muted">Group</p>
+              <p className="mt-5 font-serif text-xl leading-snug text-deep-text sm:text-2xl">
+                Fits when you can follow a shared sequence and practise independently between meetings.
+              </p>
+              <Link
+                href="/group"
+                className="mt-7 inline-flex min-h-11 items-center text-sm font-medium text-accent-dim hover:text-deep-text"
+              >
+                Explore the group →
+              </Link>
             </div>
           </div>
         </div>
       </section>
 
-      {/* FIRST CONVERSATION */}
-      <section className="py-16 lg:py-20">
-        <div className="max-w-[1120px] mx-auto px-6 lg:px-12">
-          <div className="max-w-2xl">
-            <h2 className="font-serif text-3xl lg:text-4xl font-light text-ink mb-4">
-              The first conversation
+      <section className="py-16 sm:py-20 lg:py-24">
+        <div className="mx-auto grid w-full max-w-[1180px] gap-10 px-5 sm:px-7 lg:grid-cols-[18rem_minmax(0,1fr)] lg:gap-20 lg:px-10">
+          <div>
+            <p className="eyebrow-section">Before deciding</p>
+            <h2 className="font-serif text-3xl leading-tight tracking-display text-ink lg:text-4xl">
+              The format in brief
             </h2>
-            <p className="text-base text-ink-light leading-relaxed mb-4">
-              The first step is a 45-minute conversation. You describe your situation and
-              what you&rsquo;ve already tried. I give you a clear picture of what the
-              engagement involves and whether it fits. No commitment is required from that
-              conversation.
-            </p>
-            <p className="text-base text-ink-light leading-relaxed mb-8">
-              If it makes sense to proceed, Session 1 follows and the work begins.
-            </p>
-            <Button href="https://calendly.com/ugisstrauss/private-1to1-fit-conversation" variant="primary" size="lg">
-              Book a first conversation
-            </Button>
+          </div>
+          <div className="border-t border-border">
+            {faq.map(([question, answer]) => (
+              <details key={question} className="group border-b border-border">
+                <summary className="flex min-h-16 cursor-pointer list-none items-center justify-between gap-5 py-5 font-serif text-xl leading-snug text-ink marker:content-none sm:text-2xl">
+                  {question}
+                  <span aria-hidden="true" className="shrink-0 text-accent transition-transform group-open:rotate-45">+</span>
+                </summary>
+                <p className="max-w-3xl pb-6 pr-8 text-sm leading-6 text-muted sm:text-base sm:leading-7">{answer}</p>
+              </details>
+            ))}
           </div>
         </div>
       </section>
 
-      <CTABand
-        dark
-        body="If this is the right kind of work, the first step is simple."
-        primary={{ label: "Book a first conversation", href: "https://calendly.com/ugisstrauss/private-1to1-fit-conversation" }}
-        secondary={{ label: "See the Evidence", href: "/evidence" }}
-      />
+      <section className="bg-surface py-16 sm:py-20 lg:py-24">
+        <div className="mx-auto grid w-full max-w-[1180px] gap-10 px-5 sm:px-7 lg:grid-cols-[minmax(0,1fr)_20rem] lg:items-end lg:gap-20 lg:px-10">
+          <div>
+            <p className="eyebrow-section">Next step</p>
+            <h2 className="max-w-3xl font-serif text-3xl leading-tight tracking-display text-ink lg:text-4xl">
+              First determine whether 1:1 fits
+            </h2>
+            <p className="mt-6 max-w-2xl text-base leading-7 text-ink-light sm:text-lg">
+              Describe the situation and what you have already tried. The first conversation establishes whether this is the right route.
+            </p>
+            <div className="mt-8 flex flex-col items-start gap-4 sm:flex-row sm:items-center">
+              <Button
+                href="https://calendly.com/ugisstrauss/private-1to1-fit-conversation"
+                variant="primary"
+                size="lg"
+              >
+                Book a first conversation
+              </Button>
+              <Link
+                href="/formats"
+                className="inline-flex min-h-11 items-center text-sm font-medium text-accent hover:text-ink"
+              >
+                Compare formats →
+              </Link>
+            </div>
+          </div>
+          <dl className="border-t-2 border-accent pt-6 lg:text-right">
+            <dt className="text-xs uppercase tracking-widest text-muted">3 months · 12 meetings</dt>
+            <dd className="mt-2 font-serif text-4xl tracking-display text-ink sm:text-5xl">€6,000</dd>
+            <dd className="mt-3 text-sm text-muted">Available now</dd>
+          </dl>
+        </div>
+      </section>
     </>
   );
 }

@@ -1,18 +1,20 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import IssuePageLayout from "@/components/blocks/IssuePageLayout";
+import { buildPageMetadata } from "@/lib/page-metadata";
 
-export const metadata: Metadata = {
-  title: "Burnout | The Off-Switch Method",
+export const metadata: Metadata = buildPageMetadata({
+  title: "Burnout When Rest Does Not Restore Capacity",
   description:
-    "For people whose energy, motivation, and capacity have started to break down after prolonged pressure. A structured Off-Switch Method page on burnout and recovery failure.",
-};
+    "For burnout in which rest, time away or reduced pressure has not restored energy, motivation and functional capacity.",
+  path: "/issues/burnout",
+});
 
 export default function Burnout() {
   return (
     <>
     <IssuePageLayout
-      h1="Burnout"
+      h1="Burnout When Rest Does Not Restore Capacity"
       intro={[
         "You rested. It didn't bring you back.",
         "Burnout is not only being tired. It is what happens when pressure has continued for long enough that rest no longer fully restores capacity. The system has been running under demand for too long, and the normal return to energy, motivation, and clarity has started to break down.",
@@ -55,6 +57,12 @@ export default function Burnout() {
         cta: { label: "Full case and documentation on the Evidence page", href: "/evidence" },
       }}
       proofLabel="Reported individual outcome"
+      readingGuides={[
+        { title: "Work, burnout and difficulty acting", description: "Browse the complete Library topic on overload, burnout, work patterns and blocked action.", href: "/library/work-burnout-action" },
+        { title: "How to recover from burnout without rebuilding the same system", description: "Recovery is not complete if the same working system immediately recreates the same load.", href: "/articles/how-to-recover-from-burnout" },
+        { title: "Why one holiday does not fix burnout", description: "Why temporary relief may not change the accumulated load or the structure producing it.", href: "/articles/why-a-holiday-does-not-fix-burnout" },
+        { title: "Why you cannot stop working even when exhausted", description: "What can keep the work response running after energy and capacity have already fallen.", href: "/articles/why-you-cannot-stop-working-when-exhausted" },
+      ]}
       ctas={{
         closing:
           "If this is familiar — rest not restoring, capacity reduced, recovery not happening — the mechanism explanation is the right starting point.",

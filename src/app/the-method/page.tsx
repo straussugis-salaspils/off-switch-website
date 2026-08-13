@@ -417,7 +417,7 @@ export default function TheMethod() {
                 minutes.
               </p>
               <p className="text-base text-ink-light leading-relaxed">
-                The private process is not a two-minute cure. It is a structured
+                The private 1:1 process is not a two-minute cure. It is a structured
                 process that teaches the person how to apply this work
                 repeatedly, safely, and independently.
               </p>
@@ -434,7 +434,7 @@ export default function TheMethod() {
                 />
                 <TestimonialCard
                   quote="I had moved on, married, had children, and forgiven what happened, but there was still residue from a traumatic experience in my twenties. The work was not painful. It felt like something shifted in my mind and emotions. It was not erased — it simply stopped carrying the same charge."
-                  attribution="Private client"
+                  attribution="Private 1:1 client"
                 />
               </div>
               <p className="text-xs text-muted-light leading-relaxed italic">
@@ -676,7 +676,7 @@ export default function TheMethod() {
               What a full engagement looks like
             </h2>
             <p className="text-base text-ink-light leading-relaxed mb-8">
-              A standard private engagement is usually structured around 12 sessions
+              A standard private 1:1 engagement is usually structured around 12 sessions
               over 3–4 months. Early sessions may be closer together; later sessions are
               spaced according to phase, progress, and the client&rsquo;s ability to
               work independently between sessions.
@@ -752,8 +752,10 @@ export default function TheMethod() {
 
       <CTABand
         dark
-        primary={{ label: "See the Evidence", href: "/evidence" }}
-        secondary={{ label: "Book a first conversation", href: "https://calendly.com/ugisstrauss/private-1to1-fit-conversation" }}
+        heading="How to do this work"
+        body="Private 1:1 work can begin now. The next group is planned for January 2027. The Method remains the same; what changes is the level of personal direction and how the route is chosen."
+        primary={{ label: "Compare formats", href: "/formats" }}
+        secondary={{ label: "See the evidence", href: "/evidence" }}
       />
     </>
   );

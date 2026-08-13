@@ -6,20 +6,28 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "verify:authorial-corpus": "node scripts/verify-site-system.mjs",
+    "verify:article-visuals": "node scripts/verify-site-system.mjs",
+    "verify:article-design": "node scripts/verify-site-system.mjs",
+    "verify:release-readiness": "node scripts/verify-site-system.mjs",
+    "verify:public-content": "node scripts/verify-site-system.mjs",
+    "seo:audit": "node scripts/verify-site-system.mjs",
+    "seo:ai-audit": "node scripts/verify-site-system.mjs"
   },
   "dependencies": {
-    "next": "16.2.4",
-    "react": "19.2.4",
-    "react-dom": "19.2.4"
+    "@vercel/speed-insights": "^2.0.0",
+    "next": "16.3.0",
+    "react": "19.2.8",
+    "react-dom": "19.2.8"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.4",
     "eslint": "^9",
-    "eslint-config-next": "16.2.4",
+    "eslint-config-next": "16.3.0",
     "tailwindcss": "^4",
     "typescript": "^5"
   }

@@ -1,5 +1,6 @@
 ﻿import type { Metadata } from "next";
 import Button from "@/components/ui/Button";
+import OrganizationsNavigation from "@/components/layout/OrganizationsNavigation";
 
 export const metadata: Metadata = {
   title: "For Organizations",
@@ -12,7 +13,7 @@ const workplaceUseCases = [
     title: "Burnout-risk employees in high-pressure roles",
     situation: "Still functioning — but already losing capacity. Sleep deteriorates, emotional control weakens, concentration drops.",
     relevantFor: "IT, trading, finance, consulting, sales, customer support, logistics, healthcare administration.",
-    format: "HR-referred 1:1 work, small recovery cohorts, or a burnout-prevention program.",
+    format: "HR-referred 1:1 work, small recovery cohorts, or a burnout-prevention programme.",
     closing: "The last point before burnout becomes absence, resignation, or breakdown.",
   },
   {
@@ -26,7 +27,7 @@ const workplaceUseCases = [
     title: "Post-crisis organizational recovery",
     situation: "The crisis is over externally — but still active internally.",
     relevantFor: "Organizations after layoffs, restructuring, workplace incidents, scandal, leadership crisis, merger pressure, or another major operational shock.",
-    format: "Leadership recovery work, team cohorts, or an organization-specific recovery program.",
+    format: "Leadership recovery work, team cohorts, or an organization-specific recovery programme.",
     closing: "Stop the crisis from continuing inside the organization after it has ended externally.",
   },
 ];
@@ -36,18 +37,18 @@ const exposureUseCases = [
     title: "Frontline, medical, and emergency-response teams",
     situation: "Exposure is not occasional. It is built into the job.",
     relevantFor: "Hospitals, emergency medicine, ambulance, firefighters, police, prison staff, social workers, child protection, crisis-line and victim-support workers.",
-    format: "Small cohorts, structured decompression programs, or practitioner-supported internal delivery.",
+    format: "Small cohorts, structured decompression programmes, or practitioner-supported internal delivery.",
     closing: "Recovery support for repeated exposure load before it becomes shutdown or attrition.",
   },
   {
-    title: "Humanitarian, refugee, and war-related programs",
+    title: "Humanitarian, refugee, and war-related programmes",
     situation: "Large-scale crisis creates emotional load at population level. War, displacement, and prolonged insecurity require more than ad hoc support.",
-    relevantFor: "NGOs, foundations, cities, diaspora organizations, refugee-support programs, humanitarian institutions, and donor-funded initiatives.",
+    relevantFor: "NGOs, foundations, cities, diaspora organizations, refugee-support programmes, humanitarian institutions, and donor-funded initiatives.",
     format: "Online cohort delivery, large-scale field deployment, local practitioner training, or train-the-trainer.",
-    closing: "The Ukraine 2022 program is the closest existing model for structured delivery at scale.",
+    closing: "The Ukraine 2022 programme is the closest existing model for structured delivery at scale.",
   },
   {
-    title: "Defense, security, and confidential trauma roles",
+    title: "Defence, security, and confidential trauma roles",
     situation: "People may carry events they cannot fully disclose, describe, or discuss publicly.",
     relevantFor: "Military personnel, veterans, intelligence and security services, police tactical units, border guards, private security, diplomatic security staff.",
     format: "Confidential individual work, closed cohorts, or trained internal practitioners.",
@@ -58,6 +59,7 @@ const exposureUseCases = [
 export default function ForOrganizations() {
   return (
     <>
+      <OrganizationsNavigation />
       {/* HERO */}
       <section className="pt-20 pb-14 lg:pt-28 lg:pb-20 grain">
         <div className="max-w-[1120px] mx-auto px-6 lg:px-12">
@@ -85,28 +87,33 @@ export default function ForOrganizations() {
             </p>
           </div>
 
-          {/* Route cards */}
-          <div className="max-w-3xl grid grid-cols-1 md:grid-cols-3 gap-3 mb-6">
+          <p className="text-xs text-deep-muted/50 leading-relaxed max-w-2xl">
+            Not a replacement for medical, psychiatric, emergency, or crisis care.
+          </p>
+        </div>
+      </section>
+
+      {/* ORGANIZATIONAL ROUTES */}
+      <section className="bg-ground py-14 sm:py-16 lg:py-20">
+        <div className="mx-auto w-full max-w-[1180px] px-5 sm:px-7 lg:px-10">
+          <h2 className="type-section-title mb-8 text-ink">Three levels of work</h2>
+          <div className="grid max-w-5xl grid-cols-1 gap-3 lg:grid-cols-3">
             {[
               { route: "Individual work", who: "Catch capacity loss before it becomes visible.", what: "Confidential 1:1 engagement." },
-              { route: "Group cohorts", who: "Contain overload before it spreads across teams.", what: "Structured finite program." },
+              { route: "Group cohorts", who: "Contain overload before it spreads across teams.", what: "Structured finite programme." },
               { route: "Internal training", who: "Build internal capability to handle ongoing load.", what: "Train practitioners or support teams." },
             ].map((card) => (
               <div
                 key={card.route}
-                className="border border-deep-border bg-deep-surface p-5"
+                className="border border-border bg-surface p-6"
               >
-                <div className="h-0.5 bg-transparent mb-4 -mx-5 -mt-5" />
-                <p className="text-xs uppercase tracking-widest text-muted-light mb-2">{card.route}</p>
-                <p className="text-sm text-deep-text font-semibold leading-snug mb-1">{card.who}</p>
-                <p className="text-xs text-deep-muted">{card.what}</p>
+                <p className="mb-3 text-xs uppercase tracking-[0.12em] text-accent">{card.route}</p>
+                <p className="mb-2 text-base font-semibold leading-snug text-ink">{card.who}</p>
+                <p className="text-sm leading-relaxed text-muted">{card.what}</p>
               </div>
             ))}
           </div>
 
-          <p className="text-xs text-deep-muted/50 leading-relaxed max-w-2xl">
-            Not a replacement for medical, psychiatric, emergency, or crisis care.
-          </p>
         </div>
       </section>
 
@@ -306,7 +313,7 @@ export default function ForOrganizations() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-4xl mb-5">
             {[
               { format: "Individual commissioned work", bestFor: "Executives, key personnel, or employees at risk", structure: "Confidential 1:1 engagement." },
-              { format: "Small cohort programs", bestFor: "Teams with shared stress, burnout, or exposure patterns", structure: "Finite structured program." },
+              { format: "Small cohort programmes", bestFor: "Teams with shared stress, burnout, or exposure patterns", structure: "Finite structured programme." },
               { format: "Large-scale field deployment", bestFor: "Humanitarian, refugee, or population-level contexts", structure: "Cohort delivery adapted to scale." },
               { format: "Practitioner or internal-team training", bestFor: "Organizations needing internal delivery capacity", structure: "Train internal delivery capacity." },
             ].map((row) => (
@@ -356,7 +363,7 @@ export default function ForOrganizations() {
             </h2>
             <p className="text-base text-deep-muted leading-relaxed mb-8">
               In 2022, the Off-Switch Method was delivered online as a free six-month
-              program for Ukrainians experiencing war-related trauma symptoms.
+              programme for Ukrainians experiencing war-related trauma symptoms.
             </p>
 
             <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 mb-8 pb-8 border-b border-deep-border">
@@ -376,7 +383,7 @@ export default function ForOrganizations() {
             <div className="space-y-3 mb-6 max-w-2xl">
               <p className="text-base text-deep-muted leading-relaxed">
                 7,000+ participants across six cohorts. 80% inside Ukraine during active
-                hostilities. PTSD symptom scores reduced by 42–60% by program completion,
+                hostilities. PTSD symptom scores reduced by 42–60% by programme completion,
                 measured on a 105-point scale. Reductions held at one-month follow-up.
               </p>
               <p className="text-base text-deep-muted leading-relaxed">
@@ -411,7 +418,7 @@ export default function ForOrganizations() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 max-w-4xl">
             {[
               { label: "Before performance loss turns into absence", body: "A route before stress becomes sick leave, resignation, or collapse.", strong: true },
-              { label: "When key people are still performing — but already degrading", body: "Private work for roles where capacity matters to the organization.", strong: false },
+              { label: "When key people are still performing — but already degrading", body: "Private 1:1 work for roles where capacity matters to the organization.", strong: false },
               { label: "When exposure is built into the role", body: "Recovery support for repeated crisis exposure.", strong: false },
               { label: "When this is no longer an individual problem", body: "Cohort delivery adapted to teams or larger populations.", strong: false },
               { label: "When people cannot say what actually happened", body: "Useful where sensitive traumatic content should not be narrated in detail.", strong: false },
@@ -446,10 +453,10 @@ export default function ForOrganizations() {
                 "Occupational health teams",
                 "L&D directors",
                 "Executive teams",
-                "Humanitarian program directors",
+                "Humanitarian programme directors",
                 "NGO and foundation leaders",
                 "Medical institution leaders",
-                "Defense or security wellbeing officers",
+                "Defence or security wellbeing officers",
                 "Clinical or practitioner teams interested in referral or collaboration",
               ].map((role) => (
                 <p key={role} className="text-base text-ink-light">{role}</p>
@@ -489,7 +496,7 @@ export default function ForOrganizations() {
                 "Recover employees before burnout becomes absence or loss",
                 "Restore executive capacity under sustained pressure",
                 "Support frontline or high-exposure teams",
-                "Structure humanitarian or refugee program delivery",
+                "Structure humanitarian or refugee programme delivery",
                 "Work within confidential trauma contexts",
                 "Train practitioners or internal support teams",
                 "Discuss a specific organizational case",

@@ -20,6 +20,12 @@ interface CTAs {
   closing?: string;
 }
 
+interface ReadingGuide {
+  title: string;
+  description: string;
+  href: string;
+}
+
 interface IssuePageLayoutProps {
   h1: string;
   intro: string[];
@@ -29,6 +35,7 @@ interface IssuePageLayoutProps {
   methodSection: Section;
   proof: Proof;
   proofLabel?: string;
+  readingGuides?: ReadingGuide[];
   ctas: CTAs;
 }
 
@@ -41,6 +48,7 @@ export default function IssuePageLayout({
   methodSection,
   proof,
   proofLabel,
+  readingGuides,
   ctas,
 }: IssuePageLayoutProps) {
   return (
@@ -164,6 +172,40 @@ export default function IssuePageLayout({
           </div>
         </div>
       </section>
+
+      {/* RELEVANT GUIDES */}
+      {readingGuides?.length ? (
+        <section className="border-b border-border bg-ground py-14 lg:py-16" aria-labelledby="relevant-guides-heading">
+          <div className="mx-auto max-w-[1120px] px-6 lg:px-12">
+            <div className="max-w-3xl">
+              <p className="mb-4 text-xs uppercase tracking-widest text-accent">Continue with the Library</p>
+              <h2 id="relevant-guides-heading" className="font-serif text-2xl font-light tracking-display text-ink lg:text-3xl">
+                Read the relevant guides
+              </h2>
+              <p className="mt-4 max-w-2xl text-base leading-relaxed text-ink-light">
+                These guides explain the narrower questions behind this pattern and help distinguish related situations that may need a different starting point.
+              </p>
+            </div>
+            <div className={`mt-8 grid grid-cols-1 gap-4 sm:grid-cols-2 ${readingGuides.length === 3 ? "lg:grid-cols-3" : ""}`}>
+              {readingGuides.map((guide) => (
+                <Link
+                  key={guide.href}
+                  href={guide.href}
+                  className="card-hover group flex min-h-44 flex-col justify-between border border-border bg-white p-5 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent sm:p-6"
+                >
+                  <span>
+                    <span className="block font-serif text-xl font-normal leading-snug text-ink">{guide.title}</span>
+                    <span className="mt-3 block text-sm leading-6 text-muted">{guide.description}</span>
+                  </span>
+                  <span className="mt-5 inline-flex min-h-11 items-center text-sm font-semibold text-accent transition-colors group-hover:text-accent-dim motion-reduce:transition-none">
+                    Read the guide <span aria-hidden="true" className="ml-2">→</span>
+                  </span>
+                </Link>
+              ))}
+            </div>
+          </div>
+        </section>
+      ) : null}
 
       {/* CTA */}
       <section className="py-14 lg:py-16 bg-surface">

@@ -375,7 +375,7 @@ export default function Evidence() {
             </p>
           </div>
 
-          <Button href="/ukraine-project" variant="ghost" size="md">
+          <Button href="/evidence/ukraine-2022" variant="ghost" size="md">
             Full project documentation → Ukraine Project
           </Button>
         </div>

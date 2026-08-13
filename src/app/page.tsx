@@ -3,55 +3,38 @@ import Link from "next/link";
 import Button from "@/components/ui/Button";
 import { TestimonialCard } from "@/components/blocks/TestimonialCard";
 import EvidenceCallout from "@/components/blocks/EvidenceCallout";
+import { buildPageMetadata } from "@/lib/page-metadata";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildPageMetadata({
   title: "Ugis Strauss — The Off-Switch Method",
   description:
     "For anxiety, overload, and reactions that do not switch off. A structured approach when understanding alone is not enough.",
-};
+  path: "/",
+});
 
 export default function Home() {
   return (
     <>
       {/* HERO */}
-      <section className="grain pt-20 pb-20 lg:pt-28 lg:pb-28">
-        <div className="max-w-screen-xl mx-auto px-6 lg:px-10">
-          <div className="max-w-3xl">
-            <p className="font-serif text-xl lg:text-2xl font-normal text-accent-dim tracking-display mb-5">
+      <section className="grain py-16 sm:py-20 lg:py-24">
+        <div className="mx-auto w-full max-w-[1180px] px-5 sm:px-7 lg:px-10">
+          <div className="max-w-4xl">
+            <p className="font-serif text-xl font-normal tracking-display text-accent-dim sm:text-2xl">
               The Off-Switch Method
             </p>
-            <h1 className="font-serif text-5xl lg:text-6xl xl:text-6xl font-bold text-deep-text leading-[1.05] tracking-display mb-6">
-              When reactions<br />
-              don&rsquo;t switch off
+            <h1 className="type-page-title mt-5 max-w-4xl text-deep-text">
+              When a reaction does not switch off by itself
             </h1>
-            <p className="text-xl lg:text-2xl font-normal text-deep-text leading-snug mb-5 max-w-2xl">
-              For anxiety, overload, panic, trauma load, and emotional triggers &mdash; even when you understand what is happening.
+            <p className="mt-6 max-w-3xl text-xl font-normal leading-snug text-deep-text sm:text-2xl">
+              When anxiety, overload or an old response keeps starting — even though you already understand what is happening.
             </p>
-            <p className="text-base lg:text-lg text-deep-muted leading-relaxed mb-8 max-w-2xl">
-              You may understand what is happening — and still find yourself inside the
-              same reaction again. In the moment, the body often reacts faster than the
-              mind can intervene. The method is not there to explain the problem one more
-              time. It is for the moment when the reaction itself needs to lose force.
-            </p>
-            <div className="border-t border-deep-border pt-5 mb-12 max-w-xl">
-              <p className="text-sm text-deep-muted leading-relaxed">
-                Developed over 30 years. Applied in individual and institutional work,
-                including a documented Ukraine field application with 7,000+ participants.
-              </p>
-            </div>
-            <div className="flex flex-col sm:flex-row items-start sm:items-center gap-5">
-              <Button href="https://calendly.com/ugisstrauss/private-1to1-fit-conversation" variant="primary" size="lg">
-                Book a first conversation
+            <div className="mt-9 flex flex-col items-start gap-4 sm:flex-row sm:items-center">
+              <Button href="/formats" variant="primary" size="lg">
+                See ways to work
               </Button>
-              <Button href="/the-method" variant="primary" size="lg">
+              <Button href="/the-method" variant="ghost-light" size="lg">
                 How the method works
               </Button>
-              <Link
-                href="/evidence"
-                className="text-sm text-deep-muted hover:text-deep-text transition-colors"
-              >
-                See the evidence →
-              </Link>
             </div>
           </div>
         </div>

@@ -2,16 +2,19 @@
 import Button from "@/components/ui/Button";
 import { TestimonialGrid } from "@/components/blocks/TestimonialCard";
 import CTABand from "@/components/blocks/CTABand";
+import OrganizationsNavigation from "@/components/layout/OrganizationsNavigation";
 
 export const metadata: Metadata = {
   title: "Ukraine Project",
   description:
     "In 2022, the Off-Switch Method was deployed as a free crisis-response program for 7,000 Ukrainians experiencing active war trauma. Documented outcomes across six cohorts.",
+  alternates: { canonical: "https://method.yourbalancerestored.com/evidence/ukraine-2022" },
 };
 
 export default function UkraineProject() {
   return (
     <>
+      <OrganizationsNavigation />
       {/* HERO */}
       <section className="pt-20 pb-16 lg:pt-28 lg:pb-24 grain">
         <div className="max-w-[1120px] mx-auto px-6 lg:px-12">

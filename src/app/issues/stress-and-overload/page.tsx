@@ -1,18 +1,20 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import IssuePageLayout from "@/components/blocks/IssuePageLayout";
+import { buildPageMetadata } from "@/lib/page-metadata";
 
-export const metadata: Metadata = {
-  title: "Stress and Overload | The Off-Switch Method",
+export const metadata: Metadata = buildPageMetadata({
+  title: "Stress and Overload That Does Not Switch Off",
   description:
-    "For people carrying accumulated pressure, responsibility, and mental load that does not switch off. A structured Off-Switch Method page on stress, overload, and persistent activation.",
-};
+    "For accumulated pressure, responsibility and mental load that remains active after the immediate demand or working day has ended.",
+  path: "/issues/stress-and-overload",
+});
 
 export default function StressAndOverload() {
   return (
     <>
     <IssuePageLayout
-      h1="Stress and Overload"
+      h1="Stress and Overload That Does Not Switch Off"
       intro={[
         "The day is over. The pressure has not left with it.",
         "This is for people who are still functioning, but carrying more pressure than their system can keep absorbing. The workload may be understood. The responsibilities may be real. But even when the immediate demand is over, the system does not fully return to neutral.",
@@ -54,6 +56,12 @@ export default function StressAndOverload() {
         cta: { label: "Full documentation on the Evidence page", href: "/evidence" },
       }}
       proofLabel="Reported individual outcome"
+      readingGuides={[
+        { title: "Work, burnout and difficulty acting", description: "Browse the complete Library topic on sustained workload, burnout, work reactions and blocked action.", href: "/library/work-burnout-action" },
+        { title: "Why a panic attack can begin after prolonged overload", description: "Why the most visible reaction can appear after the system has carried pressure for a long time.", href: "/articles/panic-attack-after-stress-and-overload" },
+        { title: "Why you cannot relax even when there is time", description: "Why stopping the external demand does not automatically bring the internal baseline down.", href: "/articles/why-you-cannot-relax" },
+        { title: "Why one holiday does not fix burnout", description: "The difference between temporary distance from pressure and actual recovery of capacity.", href: "/articles/why-a-holiday-does-not-fix-burnout" },
+      ]}
       ctas={{
         closing:
           "If this is familiar — pressure continues, rest does not restore capacity, and the baseline does not change — start with the mechanism explanation or book a first conversation.",

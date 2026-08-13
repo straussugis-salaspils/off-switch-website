@@ -11,8 +11,8 @@
   --color-surface-raised: #ece8e1;
   --color-border: #ddd8d0;
   --color-border-light: #eae6df;
-  --color-muted: #7d7570;
-  --color-muted-light: #a39d98;
+  --color-muted: #79716c;
+  --color-muted-light: #6f6863;
   --color-accent: #1b6e4a;
   --color-accent-dim: #2d9966;
   --color-accent-surface: #daeee4;
@@ -37,6 +37,19 @@ html {
   scroll-behavior: smooth;
 }
 
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .card-hover,
+  .card-hover::before,
+  .card-hover-dark,
+  .card-hover-dark::before {
+    transition: none;
+  }
+}
+
 body {
   background-color: var(--color-ground);
   color: var(--color-ink);
@@ -52,6 +65,28 @@ body {
 
 h1, h2 {
   text-wrap: balance;
+}
+
+/* Method page rhythm: regular sections use a stable 4rem edge; opening
+   screens receive a little more room without changing article layouts. */
+body > main > section[class] {
+  padding-block: 4rem;
+}
+
+body > main > section[class]:first-of-type {
+  padding-block: 4.75rem;
+}
+
+.type-page-title {
+  @apply font-serif text-4xl font-normal leading-[1.08] tracking-display sm:text-5xl lg:text-6xl;
+}
+
+.type-editorial-index-title {
+  @apply font-serif text-[2.5rem] font-normal leading-[1.03] tracking-display sm:text-[clamp(3.25rem,6vw,4.5rem)];
+}
+
+.type-article-title {
+  @apply font-serif text-[2.5rem] font-normal leading-[1.06] tracking-display sm:text-[clamp(3rem,5vw,3.5rem)];
 }
 
 .cluster-heading {
@@ -152,8 +187,112 @@ h1, h2 {
    - section / section-dark: green, reserved for recurring pattern sections
      (Recognition / Mechanism / Method / Case summary / Field summary / proof)
    - micro / micro-tight: card and table field labels, always neutral, never green */
-.eyebrow-context      { @apply text-xs uppercase tracking-widest mb-4; }
-.eyebrow-section      { @apply text-xs uppercase tracking-widest mb-4 text-accent; }
-.eyebrow-section-dark { @apply text-xs uppercase tracking-widest mb-6 text-accent-dim; }
-.eyebrow-micro        { @apply text-xs uppercase tracking-widest mb-2 text-muted-light; }
-.eyebrow-micro-tight  { @apply text-[10px] uppercase tracking-widest mb-1.5 text-muted-light; }
+.eyebrow-page         { @apply mb-4 text-xs font-semibold uppercase tracking-widest text-accent; }
+.eyebrow-page-dark    { @apply mb-4 text-xs font-semibold uppercase tracking-widest text-accent-dim; }
+.eyebrow-context      { @apply mb-4 text-xs font-semibold uppercase tracking-widest; }
+.eyebrow-section      { @apply mb-4 text-xs font-semibold uppercase tracking-widest text-accent; }
+.eyebrow-section-dark { @apply mb-6 text-xs font-semibold uppercase tracking-widest text-accent-dim; }
+.eyebrow-micro        { @apply mb-2 text-xs font-semibold uppercase tracking-widest text-muted-light; }
+.eyebrow-micro-tight  { @apply mb-1.5 text-[10px] font-semibold uppercase tracking-widest text-muted-light; }
+
+.publication-system {
+  min-height: 100%;
+  background: var(--color-ground);
+  color: var(--color-ink);
+}
+
+.publication-container {
+  width: 100%;
+  max-width: 1180px;
+  margin-inline: auto;
+  padding-inline: 1.25rem;
+}
+
+.article-prose {
+  display: grid;
+  gap: 1.35rem;
+  max-width: 72ch;
+}
+
+.article-prose > h2:not(:first-child) {
+  margin-top: 2.6rem;
+}
+
+.article-section-heading::before {
+  content: "";
+  display: block;
+  width: 3.5rem;
+  height: 3px;
+  margin-bottom: 1.15rem;
+  background: var(--color-accent);
+}
+
+.article-pull-quote {
+  box-shadow: inset 0 1px 0 color-mix(in srgb, var(--color-accent) 14%, transparent);
+}
+
+.context-navigation-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-border) transparent;
+}
+
+.article-toc-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-border) transparent;
+}
+
+.article-toc-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+
+.article-toc-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.article-toc-scrollbar::-webkit-scrollbar-thumb {
+  border-radius: 999px;
+  background: var(--color-border);
+}
+
+.article-design-standard .article-pull-quote {
+  position: relative;
+  box-shadow: inset 0 1px 0 color-mix(in srgb, var(--color-accent) 14%, transparent);
+}
+
+.publication-system .article-prose > h2:not(:first-child) {
+  margin-top: 3.5rem;
+}
+
+.publication-system .article-prose > h3:not(:first-child) {
+  margin-top: 2rem;
+}
+
+@media (min-width: 640px) {
+  .publication-container {
+    padding-inline: 1.75rem;
+  }
+
+  .article-design-standard .article-pull-quote {
+    margin-inline: -1rem;
+    padding-inline: 2rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .publication-container {
+    padding-inline: 2.5rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+  }
+}
