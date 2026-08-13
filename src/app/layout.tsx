@@ -50,9 +50,10 @@ export const metadata: Metadata = {
     description: "A structured method for changing automatic emotional reactions.",
     images: ["/opengraph-image"],
   },
-  verification: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION
-    ? { google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION }
-    : undefined,
+  verification: {
+    google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION?.trim()
+      || "C410ttQePM64i3OKAMchGKmFLYecC9IinuBJpd2R06Y",
+  },
 };
 
 export default function RootLayout({

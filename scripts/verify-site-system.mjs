@@ -15,6 +15,7 @@ const pilotPageSource = read("src/components/library/PilotArticlePage.tsx");
 const footerSource = read("src/components/layout/Footer.tsx");
 const issuePageLayoutSource = read("src/components/blocks/IssuePageLayout.tsx");
 const groupPageSource = read("src/app/group/page.tsx");
+const layoutSource = read("src/app/layout.tsx");
 const conversionLinksSource = read("src/lib/conversion-links.ts");
 const nextConfigSource = read("next.config.ts");
 const sitemapSource = read("src/app/sitemap.ts");
@@ -121,6 +122,7 @@ expect(footerLibraryRoutes.length === 10, `Expected 10 Library subjects in the f
 expect(new Set(footerLibraryRoutes).size === 10, "Footer contains a duplicate Library subject");
 for (const marker of ["Resulta Consulting FZ-LLC", "CookieSettingsButton", "/privacy-policy", "/terms", "https://t.me/ugisstrauss"])
   expect(footerSource.includes(marker), `Footer is missing ${marker}`);
+expect(layoutSource.includes("C410ttQePM64i3OKAMchGKmFLYecC9IinuBJpd2R06Y"), "English Search Console verification token is missing");
 
 expect(issuePageLayoutSource.includes("Read the relevant guides"), "Legacy issue template is missing its Library guide block");
 const retainedIssueRoutes = ["anxiety", "burnout", "emotional-triggers", "overthinking", "sleep", "stress-and-overload", "when-emotions-take-over"];
