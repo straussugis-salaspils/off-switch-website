@@ -21,9 +21,11 @@ import { headingId, readTranslatedArticle, type MarkdownBlock } from "@/lib/tran
 import { siteOrigin } from "@/lib/page-metadata";
 
 function renderInline(text: string, prefix: string): ReactNode[] {
-  return text.split(/(\*\*[^*]+\*\*|\[[^\]]+\]\([^)]+\))/g).filter(Boolean).map((part, index) => {
+  return text.split(/(\*\*[^*]+\*\*|\[[^\]]+\]\([^)]+\)|(?<!\*)\*[^*\n]+\*(?!\*))/g).filter(Boolean).map((part, index) => {
     const boldMatch = part.match(/^\*\*(.+)\*\*$/);
     if (boldMatch) return <strong key={`${prefix}-${index}`} className="font-semibold text-ink">{boldMatch[1]}</strong>;
+    const emphasisMatch = part.match(/^\*([^*]+)\*$/);
+    if (emphasisMatch) return <em key={`${prefix}-${index}`}>{emphasisMatch[1]}</em>;
     const linkMatch = part.match(/^\[([^\]]+)\]\(([^)]+)\)$/);
     if (linkMatch) return <a key={`${prefix}-${index}`} href={linkMatch[2]} className="font-medium text-accent underline decoration-accent/30 underline-offset-4 hover:decoration-accent" target={linkMatch[2].startsWith("http") ? "_blank" : undefined} rel={linkMatch[2].startsWith("http") ? "noreferrer" : undefined}>{linkMatch[1]}</a>;
     return part;
@@ -55,7 +57,12 @@ function SeriesNavigation({ article }: { article: TranslatedArticle }) {
   const series = getTranslatedArticlesByCluster(article.cluster);
   if (series.length < 2) return null;
   return (
-    <nav aria-label={`${article.seriesName ?? article.category} series`}>
+    <details className="group mt-6 border-t border-deep-text/20">
+      <summary className="flex min-h-11 cursor-pointer list-none items-center justify-between gap-4 py-3 text-sm font-medium text-deep-text/80 hover:text-deep-text focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent-dim [&::-webkit-details-marker]:hidden">
+        <span>In this series · {series.length} articles</span>
+        <span aria-hidden="true" className="text-xl leading-none text-accent-dim transition-transform group-open:rotate-45">+</span>
+      </summary>
+      <nav aria-label={`${article.seriesName ?? article.category} series`} className="pb-3 pt-2">
       <div className="flex flex-wrap items-center justify-between gap-x-5 gap-y-2">
         <p className="text-[11px] font-semibold uppercase tracking-widest text-accent-dim">Series: {article.seriesName}</p>
         <Link href={`/library/${article.categorySlug}`} className="inline-flex min-h-11 items-center text-xs font-semibold text-deep-text/70 hover:text-accent-dim">View the full topic →</Link>
@@ -67,7 +74,8 @@ function SeriesNavigation({ article }: { article: TranslatedArticle }) {
           return <li key={item.id} className="w-[min(82vw,18rem)] shrink-0 snap-start sm:w-auto sm:min-w-0">{active ? <div aria-current="page" className="flex min-h-[5.25rem] flex-col justify-center gap-1.5 border border-ground bg-ground px-3 py-3 sm:min-h-24 sm:flex-row sm:items-center sm:justify-between sm:gap-4 sm:px-5">{content}</div> : <Link href={translatedArticlePath(item)} className="card-hover-dark flex min-h-[5.25rem] flex-col justify-center gap-1.5 border border-deep-text/20 bg-deep-surface px-3 py-3 sm:min-h-24 sm:flex-row sm:items-center sm:justify-between sm:gap-4 sm:px-5">{content}</Link>}</li>;
         })}
       </ol>
-    </nav>
+      </nav>
+    </details>
   );
 }
 
@@ -167,13 +175,13 @@ export default function TranslatedArticlePage({ article }: { article: Translated
       <ContextNavigation items={[{ label: "Home", href: "/" }, { label: "Library", href: "/library" }, { label: article.category, href: `/library/${article.categorySlug}` }, { label: article.breadcrumb }]} />
       <header className="grain border-b border-deep-border py-6 sm:py-8 lg:py-10">
         <div className="publication-container">
-          <SeriesNavigation article={article} />
-          <div className={`max-w-[900px] ${getTranslatedArticlesByCluster(article.cluster).length > 1 ? "pt-8 sm:pt-10" : "py-2 sm:py-4"}`}>
+          <div className="max-w-[900px] py-2 sm:py-4">
             {getTranslatedArticlesByCluster(article.cluster).length === 1 ? <p className="text-xs font-semibold uppercase tracking-widest text-deep-muted">{article.category}</p> : null}
             <h1 data-frozen-article-title className={`type-article-title text-deep-text ${getTranslatedArticlesByCluster(article.cluster).length === 1 ? "mt-4" : ""}`}>{article.title}</h1>
             <p data-ai-summary itemProp="description" className="mt-5 max-w-[780px] text-lg leading-8 text-deep-text/75">{article.description}</p>
             <div className="mt-5 flex flex-wrap items-center gap-x-5 gap-y-2 text-sm text-deep-muted"><span>By Ugis Strauss</span><span aria-hidden="true">•</span><span>{readingMinutes} min read</span></div>
           </div>
+          <SeriesNavigation article={article} />
         </div>
       </header>
       <section className="border-b border-border bg-ground" aria-label="Article text">
@@ -183,7 +191,7 @@ export default function TranslatedArticlePage({ article }: { article: Translated
         </div></div>
       </section>
       <ContinueReading article={article} />
-      <section className="bg-ground py-10" aria-label="About the author"><div className="publication-container"><div className="flex max-w-2xl items-center gap-5 border border-border bg-white p-5"><Image src="/ugis-strauss.jpg" alt="Ugis Strauss" width={96} height={96} className="h-16 w-16 rounded-full object-cover" /><div><p className="font-semibold text-ink">Ugis Strauss</p><p className="mt-1 text-sm text-muted">Creator of the Off-Switch Method</p><Link href="/about" className="mt-2 inline-flex min-h-11 items-center text-sm font-medium text-accent hover:text-accent-dim">More about the author →</Link></div></div></div></section>
+      <section className="bg-ground py-10" aria-label="About the author"><div className="publication-container"><div className="flex max-w-2xl items-center gap-5 border border-border bg-white p-5"><Image src="/images/ugis/ugis-strauss-portrait-2026-v1.webp" alt="Ugis Strauss" width={96} height={96} sizes="96px" className="h-16 w-16 rounded-full object-cover object-[center_20%]" /><div><p className="font-semibold text-ink">Ugis Strauss</p><p className="mt-1 text-sm text-muted">Creator of the Off-Switch Method</p><Link href="/about" className="mt-2 inline-flex min-h-11 items-center text-sm font-medium text-accent hover:text-accent-dim">More about the author →</Link></div></div></div></section>
     </div>
   );
 }

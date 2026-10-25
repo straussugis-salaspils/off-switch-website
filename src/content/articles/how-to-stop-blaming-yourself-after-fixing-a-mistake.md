@@ -72,16 +72,6 @@ Logic has completed its work. The reaction has not.
 
 “Forgive yourself” may be a sensible sentence that leaves the old response unchanged.
 
-## I work with remaining guilt as a specific response
-
-We take one scene rather than “I am guilty of everything,” examine the present response and work with connected material.
-
-Then the same episode is deliberately tested again. If guilt remains, perhaps another scene, accusation or unfinished action remains.
-
-If the memory becomes neutral, we test a future error. Can the person admit, repair and learn without collapsing into punishment?
-
-Life supplies the final test. A new mistake or apology reveals whether responsibility is available without self-destruction.
-
 ## Removing guilt does not justify the action
 
 The person may still say, “I did that; it was wrong; I repaired what I could and know what to do differently.”

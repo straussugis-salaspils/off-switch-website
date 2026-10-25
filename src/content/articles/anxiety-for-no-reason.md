@@ -8,9 +8,7 @@ source: adaptive rewrite of approved Russian article
 
 Someone says, “I feel anxious for no reason.”
 
-I would not hurry to agree with the last three words.
-
-That is not because the person is hiding something or has failed to investigate their childhood with sufficient enthusiasm. They may genuinely have no idea why they feel anxious. They open their eyes in the morning and the tension is already there. Nothing has happened. Nobody has called. Their manager has not written. The day has barely had time to put its shoes on.
+They may genuinely have no idea why. They open their eyes in the morning and the tension is already there. Nothing has happened. Nobody has called. Their manager has not written. The day has barely had time to put its shoes on.
 
 Then the search for an explanation begins. Perhaps it is work. Money. The relationship. A child. The report that should have been finished yesterday. Perhaps it is simply their personality. Perhaps something is wrong with them.
 
@@ -96,14 +94,6 @@ What looked like an endless fog can begin to separate into specific elements.
 
 Naming them does not change them by itself. It does something more modest and useful: it makes precise work possible. You cannot work with “everything is terrible” as one object. You can work with a particular future image, a particular memory, a physical response or a real task that requires action.
 
-## Individual reactions can then be addressed
-
-If several responses are active, I do not immediately choose the most frightening memory in the person’s life.
-
-First, they learn Off-Switch and stabilization: how to notice and reduce the current response when it arrives. Then they work gradually with accessible memories and reactions. Later, we check which specific patterns remain active.
-
-The order matters. A person needs a way to regain control before the heaviest material is allowed to set the pace.
-
 ## Understanding the parts is not the result
 
 There is another easy mistake. The person maps the whole background: manager, money, past relationship, future fear. Excellent diagram. Very organised anxiety.
@@ -111,8 +101,6 @@ There is another easy mistake. The person maps the whole background: manager, mo
 But if the next email from the manager still tightens the body, the response is active. If picturing a financial problem removes the ability to think today, the response is active. If an old memory still produces the same emotion, giving it a good label has not placed it in the past.
 
 Separation is the beginning of accurate work, not the end.
-
-First, individual elements emerge from the general anxious state. Then the person learns to manage them, works with what continues to start them, and tests the change against the past, imagined future and real life.
 
 ## “No reason” can mean “everything at once”
 

@@ -80,20 +80,6 @@ An emotional technique is not a human-resources department. It cannot create bud
 
 This external layer needs change—but first it should be separated from the old response and missing skill.
 
-## I separate response, skill and the structure of work
-
-Suppose fear of the manager makes someone accept everything. That old response needs attention.
-
-After it changes, the person may discover they do not know how to discuss workload. That is a skill.
-
-They may then have a calm, competent conversation and hear, “No staff. No delegation. Do all of it.” That is information about the job.
-
-The three situations begin alike and require different moves:
-
-- change the response;
-- build skill and structure;
-- change external reality if it remains unacceptable.
-
 ## New energy can rebuild the same system
 
 After emotional relief, energy returns. The person sleeps and thinks more clearly.

@@ -26,13 +26,15 @@ export default function Ukraine2022() {
               Ukraine Field Application — 2022
             </h1>
             <p className="text-base text-deep-muted leading-relaxed max-w-2xl mb-4">
-              In March 2022, the Off-Switch Method was delivered online to Ukrainians
-              experiencing war-related trauma, at scale, with structured symptom tracking
-              across multiple cohorts.
+              Two weeks after the full-scale invasion, a free online programme began
+              for Ukrainians experiencing war-related trauma. Over six months,
+              approximately 7,000 people enrolled. Most were still inside Ukraine.
             </p>
             <p className="text-base text-deep-muted leading-relaxed max-w-2xl mb-4">
-              Twenty Ukrainian clinicians joined the delivery team after experiencing
-              the program themselves.
+              The work could not change the war or the displacement. It addressed the
+              emotional reactions those events were producing. This record shows how
+              the programme was delivered, which participants were measured and what
+              changed in their reported symptoms.
             </p>
             <p className="text-sm text-deep-muted/70 leading-relaxed max-w-2xl">
               Field application data. Not a controlled clinical trial. Not peer-reviewed.
@@ -132,7 +134,7 @@ export default function Ukraine2022() {
       <section className="py-14 lg:py-16 bg-surface">
         <div className="max-w-[1120px] mx-auto px-6 lg:px-12">
           <h2 className="font-serif text-2xl lg:text-3xl font-light text-ink mb-5">
-            Measurement summary
+            What the scores show
           </h2>
           <p className="text-sm text-muted leading-relaxed mb-6 max-w-2xl">
             21-item PTSD symptom scale, maximum score 105. Completing participants only,
@@ -183,7 +185,7 @@ export default function Ukraine2022() {
               {[
                 { cohort: "Group 3", pre: "53.1", end: "21.5", reduction: "60%", followUp: "—" },
                 { cohort: "Group 4", pre: "62.7", end: "36.4", reduction: "42%", followUp: "34.9 (44%)" },
-                { cohort: "Group 5", pre: "69.2", end: "39.8", reduction: "43%", followUp: "37.2 (48%)" },
+                { cohort: "Group 5", pre: "69.2", end: "39.8", reduction: "43%", followUp: "37.2 (46.2%)" },
               ].map((row) => (
                 <div key={row.cohort} className="border border-border bg-white p-6 lg:p-8">
                   <p className="text-xs uppercase tracking-widest text-muted-light mb-1.5">Cohort</p>
@@ -230,8 +232,9 @@ export default function Ukraine2022() {
                 Total enrollment was approximately 7,000 participants. Around 80% were
                 inside Ukraine during active hostilities; around 20% were refugees abroad.
                 The primary self-applied technique was taught in the first session and
-                owned by participants from that point — the program was structured so that
-                outcomes did not depend on ongoing access to a practitioner.
+                available for participants to use independently from that point. The
+                programme was structured so that outcomes did not depend on ongoing
+                access to a practitioner.
               </p>
               <p className="text-base text-ink-light leading-relaxed">
                 Approximately 30% of each cohort completed all six sessions. The publicly
@@ -254,19 +257,17 @@ export default function Ukraine2022() {
             </h2>
             <div className="space-y-4">
               <p className="text-base text-ink-light leading-relaxed">
-                The measured change was a reduction in reported PTSD symptom scores among
-                completing participants. Across the three publicly shown cohorts,
-                end-of-program reductions ranged from 42% to 60%. Pre-program scores were
-                high — 62.7 and 69.2 in the two cohorts where follow-up was available —
-                and reductions brought scores to 36.4 and 39.8, indicating meaningful
-                symptom reduction while acknowledging these were not zero.
+                Among the measured completers, reported PTSD symptoms reduced; they
+                did not disappear entirely. The reductions in the three published
+                cohorts were 42–60%. The figures above show both the change and the
+                symptoms that remained at the end of the programme.
               </p>
               <p className="text-base text-ink-light leading-relaxed">
-                The strongest signal in the data is what happened afterward. In Groups 4
-                and 5, one-month follow-up scores were lower than end-of-program scores —
-                34.9 against 36.4, and 37.2 against 39.8. The reduction was not immediately
-                reversed when the structured program ended. External conditions — active
-                war, bombardment, displacement — had not improved. The symptom scores had.
+                In Groups 4 and 5, scores were lower again at the one-month follow-up:
+                34.9 against 36.4, and 37.2 against 39.8. The reduction had not
+                immediately reversed when the structured programme ended. External
+                conditions — active war, bombardment and displacement — had not
+                improved. The symptom scores had.
               </p>
             </div>
           </div>
@@ -278,7 +279,7 @@ export default function Ukraine2022() {
         <div className="max-w-[1120px] mx-auto px-6 lg:px-12">
           <div className="max-w-3xl">
             <h2 className="font-serif text-2xl lg:text-3xl font-light text-deep-text mb-5 tracking-display">
-              Practitioner uptake
+              Participants who went on to deliver the work
             </h2>
             <div className="space-y-4 mb-8">
               <p className="text-base text-deep-muted leading-relaxed">
@@ -287,12 +288,10 @@ export default function Ukraine2022() {
                 in the Off-Switch Method and joined the delivery team.
               </p>
               <p className="text-base text-deep-muted leading-relaxed">
-                They did not arrive through recruitment. They had experienced the method
-                themselves during active hostilities, observed the effect, and concluded
-                they needed to learn it for their own clients. The signal here is not
-                endorsement — it is that clinicians under wartime conditions chose to
-                become practitioners of it. This is professional behaviour, not a
-                testimonial.
+                They had not been recruited. They had experienced the method during
+                active hostilities and wanted to use it with their own clients. Their
+                decision to train and deliver the work is a different kind of evidence
+                from a testimonial or an endorsement: it records what they went on to do.
               </p>
             </div>
             <div className="border-l-2 border-accent-dim pl-6 py-1">
@@ -314,20 +313,18 @@ export default function Ukraine2022() {
         <div className="max-w-[1120px] mx-auto px-6 lg:px-12">
           <div className="max-w-3xl">
             <h2 className="font-serif text-2xl lg:text-3xl font-light text-ink mb-5">
-              What this field application suggests
+              What can be taken from this field record
             </h2>
             <div className="space-y-4">
               <p className="text-base text-ink-light leading-relaxed">
-                The application suggests that the method can be delivered at scale,
-                online, under severe real-world conditions, and produce measurable symptom
-                reduction among completing participants. It also suggests that reductions
-                were not immediately reversed when structured program support ended.
+                This programme shows online delivery at scale under severe real-world
+                conditions, with measured symptom reductions among completing
+                participants. Where follow-up was conducted, those reductions held
+                after the structured support ended.
               </p>
               <p className="text-base text-ink-light leading-relaxed">
-                It suggests that practitioners who experienced the work firsthand — under
-                the same conditions as the participants — saw enough operational value to
-                train in it and begin delivering it to their own clients. That is a
-                different category of signal from participant self-report.
+                It also records a practical response from clinicians: after using the
+                method themselves, twenty trained and joined the delivery team.
               </p>
               <p className="text-base text-ink-light leading-relaxed">
                 It does not prove the method is universally effective. It does not prove
@@ -344,7 +341,7 @@ export default function Ukraine2022() {
         <div className="max-w-[1120px] mx-auto px-6 lg:px-12">
           <div className="max-w-3xl">
             <h2 className="font-serif text-2xl lg:text-3xl font-light text-ink mb-6">
-              Limits and honesty
+              What this record can and cannot establish
             </h2>
             <div className="space-y-3">
               {[

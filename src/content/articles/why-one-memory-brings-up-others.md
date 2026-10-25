@@ -62,16 +62,6 @@ I do not announce, “Excellent, the police officer is your mother.” We have p
 
 The connection may be useful for this response without being objective historical causality or the correct explanation of the person's life. We follow and test what appears; we do not decorate it prematurely.
 
-## I record the next scene without abandoning the current target
-
-When one episode produces three more, jumping immediately from one to the next soon creates many stories and no clear result.
-
-Write the new scene down, then return to the target you started with.
-
-Bring that episode to a new test. Imagine it again and check whether the former response remains. Only then take the recorded material.
-
-This is not a religious prohibition against changing direction. If a target is stuck, a different point of entry may be useful. But a new scene should not turn the process into a sprint through the entire past.
-
 ## No next scene is not a failure
 
 Sometimes nothing else appears. Good. There is no need to shake the person until a hidden trauma falls out.
@@ -89,10 +79,6 @@ One entrance not working is information, not a verdict.
 Someone begins with a manager, remembers a teacher and then a parent. It is tempting to announce that every problem is caused by the parent.
 
 But I do not know in advance what maintains the response, and the person does not owe allegiance to a theory merely because it sounds psychological.
-
-The useful sequence is simpler: record the scene, take it as a target, check the response, work, then test the same scene again.
-
-If it is neutral, we have a specific result. If the response remains, we look further.
 
 **The beauty of an explanation proves nothing.**
 

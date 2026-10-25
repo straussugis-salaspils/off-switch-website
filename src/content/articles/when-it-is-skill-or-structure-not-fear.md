@@ -26,7 +26,7 @@ But calm does not automatically install knowledge, competence, a plan, time, res
 
 Removing what obstructed is not the same as building what never existed.
 
-Sometimes both were missing. The response prevented the person using their skill; once it changed, the skill gap became visible. That makes the earlier work diagnostically useful, not pointless.
+Sometimes fear and a skill gap were both involved. Once the response changes, it becomes easier to see what the person still needs to learn. The earlier work was useful; it revealed the next task.
 
 ## After the old response, zero may remain
 
@@ -92,7 +92,7 @@ Freedom from fear and clarity about desire are different tasks. A person may no 
 
 A conscious refusal or changed goal can be a valid result.
 
-## Diagnosis is followed by construction
+## Build the plan, skills or structure needed for the next action
 
 Build one missing element:
 

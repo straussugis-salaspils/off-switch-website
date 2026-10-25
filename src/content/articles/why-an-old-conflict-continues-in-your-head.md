@@ -45,15 +45,11 @@ Expression is not a compulsory ritual. Someone can say everything and continue r
 
 The central question is whether the event still reproduces the state automatically—not whether the other person received a polished speech.
 
-## “Erase” does not mean deleting memory
-
-In conversational shorthand I may say, “Erase it and the resentment goes.”
-
-Erase does not mean amnesia.
+## The memory can remain without the old response
 
 The event, fact, judgement, right to say no and right to set a boundary remain. What can leave is resentment as continuing emotional charge.
 
-Remembering without being eaten internally is not loss of memory. It is the useful distinction between history and response.
+Remembering without being pulled back into the argument is not loss of memory. It is the distinction between history and the response it starts today.
 
 ## Releasing resentment does not require forgiveness
 
@@ -89,7 +85,7 @@ My working goal is to test whether the memory still produces the old resentment 
 
 After the work, the person remembers the event and need not approve it. They can still identify what is unacceptable.
 
-What changes is the state that began eating from the inside each time the scene returned.
+What changes is the anger or resentment that started again each time the scene returned.
 
 Then we test the present: is a conversation needed, does a violation continue, and which boundary will actually be taken into life?
 

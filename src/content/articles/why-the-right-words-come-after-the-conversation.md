@@ -70,19 +70,9 @@ Conversation can work the same way. Someone reads the books, prepares phrases an
 
 Negotiation skills are not useless. The difficulty is that the skill may exist and become unavailable precisely when needed.
 
-## I do not begin with “be more confident”
-
-The person has usually tried preparing, rehearsing and promising not to freeze.
-
-First, they need to manage the present state. Then we take accessible material supporting this particular response, rate it and test the same conversation again.
-
-I deliberately try to produce the former reaction. If it remains, another memory, tone, look or part of the situation may still be active.
-
-There is no need to invent a perfect causal history in advance. Testing reveals what remains.
-
 ## When freezing leaves, the conversation still needs building
 
-No old response does not equal a complete conversation.
+Removing the old response does not supply the whole conversation.
 
 What does the person want to say? Which position matters? What if the other person disagrees? Where is compromise possible, and where not?
 

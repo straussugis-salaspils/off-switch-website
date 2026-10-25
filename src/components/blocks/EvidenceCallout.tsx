@@ -17,7 +17,7 @@ export default function EvidenceCallout({ stats, note, dark = false }: EvidenceC
 
   return (
     <div className={`border ${bg} p-8 lg:p-10`}>
-      <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
+      <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-8">
         {stats.map((stat, i) => (
           <div key={i}>
             <p className={`font-serif text-4xl lg:text-5xl font-light ${valueColor} mb-2 tracking-display`}>

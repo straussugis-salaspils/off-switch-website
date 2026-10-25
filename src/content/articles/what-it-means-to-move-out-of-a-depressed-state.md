@@ -10,7 +10,7 @@ A person joins a session and says, “I feel lighter.”
 
 Good. That matters.
 
-Then I ask an irritatingly technical question: what, exactly, became lighter?
+Then I ask what that means in their day.
 
 Did one thought stop circling? Did one memory lose its grip? Was getting out of bed possible today? Has the state changed consistently for months? Is the person acting again—or was Tuesday simply a better day?
 
@@ -75,13 +75,13 @@ Can the person rest and return to action? See a problem and make a plan? Ask for
 
 Ordinary life tests the result more accurately than a good mood immediately after a session.
 
-## First remove the drama around having no meaning
+## Separate the lack of direction from the self-criticism it triggers
 
 Lack of meaning can be a real problem. Repeating “I have no meaning, this is terrible and it will always be terrible” does not create meaning. It adds another heavy response.
 
 I may suggest separating two tasks. First, stop driving the state down each day with the demand to discover a complete purpose immediately. Second, genuinely explore what is worth building.
 
-This is not surrender to an empty life. It is making the construction task possible.
+This is not surrender to an empty life. It gives the person room to look for a direction without having to solve their entire future today.
 
 ## Meaning has to be built, not cleared
 
@@ -97,9 +97,9 @@ I do not create meaning for somebody. I help them notice, test and build their o
 
 ## My format requires independent work
 
-Most of the practice happens between meetings. I provide the architecture, teach the tool, identify sticking points and help correct the next step. I cannot notice the response and take the real-life action on somebody’s behalf seven days a week.
+Most of the practice happens between meetings. I guide the work, teach the tool, identify sticking points and help adjust the next step. I cannot notice the response and take the real-life action on somebody’s behalf seven days a week.
 
-That is why my private 1:1 programme is for functional adults who can complete independent work.
+That is why my private 1:1 programme is for adults who can manage everyday life and practise independently between meetings.
 
 If a state is so severe that even minimal independent practice remains impossible, that is not laziness or deficient motivation. It means my usual format is not appropriate at that time; a different level, intensity or combination of care may be needed.
 

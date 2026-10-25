@@ -32,8 +32,7 @@ export default function WhenEmotionsTakeOver() {
       mechanism={{
         heading: "What drives the intensity",
         paragraphs: [
-          "The present situation is not the only thing the reaction is to.",
-          "When something in the current moment resembles older material — a particular tone, a specific kind of dismissal, a moment that matches earlier experiences — the charge attached to that older material fires alongside the present response. The intensity is not created only by what is happening now. It is what is happening now, plus what the moment matches from history.",
+          "You may be reacting to more than the present situation. A familiar tone or a particular kind of dismissal can bring an older response into the moment. What happens now and what it reminds you of arrive together.",
           "Often there is a second layer: the reaction itself becomes charged. The speed of it, the loss of control, the aftermath — these carry their own weight, often of shame or self-judgment. The original trigger, and then the reaction to having reacted. Both add to what is already present.",
           "Understanding this — the pattern, the origin, the logic of the trigger — may explain the meaning of it. But understanding alone does not always reduce the activation that fires when the trigger connects.",
         ],
@@ -43,7 +42,7 @@ export default function WhenEmotionsTakeOver() {
         paragraphs: [
           "The method works on what the trigger is connected to — the specific past experiences it has been drawing from, and the body's response to them.",
           "As the activation on that underlying material reduces, the trigger loses the weight that was making the reaction disproportionate. This does not depend on better self-control at the moment the reaction starts. It works on what the trigger is pulling from, so the reaction no longer has the same fuel.",
-          "Where insight exists but reaction speed still outruns it — where the pattern is understood but the response fires before the understanding arrives — that is the gap this addresses.",
+          "The point is to change what happens when the familiar situation returns, not to give you another explanation to remember afterwards.",
           "If reactions involve danger to self or others, immediate crisis, psychiatric, or medical support is the correct starting point.",
         ],
       }}

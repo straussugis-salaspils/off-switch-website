@@ -60,7 +60,7 @@ There may have been an earlier background. Later episodes may have developed: fe
 
 One loud scene and the entire pattern are not necessarily identical. We can complete the response to one memory and then check what remains nearby.
 
-## Layered memories require precision, not an axe
+## Layered memories need to be worked with separately
 
 The most complex situation is one in which many difficult memories overlap.
 
@@ -68,9 +68,7 @@ There may be one episode, then another, then a third—or months and years in wh
 
 Someone may say one word—*war, crash, violence*—but the word stands for a sequence rather than one recording.
 
-I call this precision work.
-
-Not because the problem should be admired under a magnifying glass for ten years, but because all the material cannot be thrown into one pile and processed in one heroic attempt.
+One attempt cannot be expected to address every episode at once.
 
 We need to distinguish episodes and reactions, identify what is accessible now, check the person's state and avoid confusing speed with pressure.
 
@@ -122,9 +120,9 @@ That distinction matters.
 
 You can ask someone how strong a particular reaction is, measure it again later and observe that it became weaker or stopped starting.
 
-That does not turn an authorial questionnaire into a medical diagnostic instrument. Changes in a large group do not prove a single cause of PTSD or establish that one technique is superior to every alternative.
+That does not make the questionnaire we use a medical diagnostic instrument. Changes in a large group do not prove a single cause of PTSD or establish that one technique is superior to every alternative.
 
-I can state honestly what we measured, explain my working model and describe what I observe. The result does not improve when dressed in somebody else's uniform.
+I can describe what we measured and what changed. A diagnosis or a claim of superiority would go beyond that record.
 
 ## Completing one response does not complete every layer
 

@@ -30,11 +30,11 @@ A panic attack can bring intense fear and physical sensations very quickly. Comm
 - a sense that the surroundings are unreal;
 - fear of losing control or dying.
 
-A list cannot diagnose you. Similar physical symptoms can have other causes. If an episode is your first, the symptoms are new or unusual for you, or you are uncertain what is happening, do not appoint yourself head of emergency diagnostics. Seek medical assessment.
+A list cannot diagnose you. Similar physical symptoms can have other causes. If this is your first episode, the symptoms are new or unusual for you, or you are unsure what is happening, seek medical assessment rather than assuming it is panic.
 
 Severe or persistent chest pain, significant difficulty breathing, loss of consciousness or any other apparently urgent condition requires emergency medical help.
 
-If attacks recur and begin changing how you live, discuss them with a doctor or qualified mental-health professional. Evidence-based clinical options for panic disorder include psychological therapy, medication and guided self-help. What follows is my own authorial working model; it is not a substitute for medical diagnosis or treatment.
+If attacks recur and begin changing how you live, discuss them with a doctor or qualified mental-health professional. Evidence-based clinical options for panic disorder include psychological therapy, medication and guided self-help. What follows is the working model I use; it is not a substitute for medical diagnosis or treatment.
 
 ## Why does a panic attack begin?
 

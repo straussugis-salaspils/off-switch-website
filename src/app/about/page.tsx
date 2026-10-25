@@ -22,37 +22,83 @@ export default function About() {
               Founder of The Off-Switch Method
             </p>
             <p className="text-base text-deep-text leading-relaxed max-w-2xl mb-4">
-              A background in behavior under pressure, private 1:1 client work, structured
-              method development, and field application under real emotional load.
-            </p>
-            <p className="text-base text-deep-muted leading-relaxed max-w-2xl mb-4">
-              Ugis Strauss developed The Off-Switch Method from nearly three decades of
-              applied work with individuals, teams, and organizations under pressure.
-            </p>
-            <p className="text-base text-deep-muted leading-relaxed max-w-2xl mb-4">
               I came to this method because I kept seeing the same gap: people could
               understand their reactions very well, and still be carried by the same
               reaction in the moment.
             </p>
             <p className="text-base text-deep-muted leading-relaxed max-w-2xl mb-4">
-              Private 1:1 work spans 15+ years and hundreds of clients, beginning in
-              coaching and developing into the structured Off-Switch Method work.
+              Knowing what you ought to do and being able to do it under pressure are
+              different things. I had seen that in management simulations, in teams,
+              and in private work with people who knew themselves well — but still
+              found themselves back in the same reaction.
             </p>
             <p className="text-base text-deep-muted leading-relaxed max-w-2xl">
-              The method addresses patterns that keep firing even after people understand
-              them: stress, overload, trauma load, emotional triggers, and reactions that
-              do not yield to insight.
+              The Off-Switch Method grew out of that problem: how to change the reaction,
+              not just become better at explaining it.
             </p>
           </div>
         </div>
       </section>
 
-      {/* BUSINESS TRAINING BACKGROUND */}
+      {/* WHY THE METHOD IS STRUCTURED AS IT IS */}
+      <section className="py-16 lg:py-24 bg-surface">
+        <div className="max-w-[1120px] mx-auto px-6 lg:px-12">
+          <div className="grid gap-10 lg:grid-cols-[260px_minmax(0,1fr)] lg:gap-16 lg:items-start">
+            <div className="min-w-0">
+              <div className="relative w-[220px] lg:w-[260px] aspect-[3/4] overflow-hidden">
+                <Image
+                  src="/images/ugis/ugis-strauss-portrait-2026-v1.webp"
+                  alt="Ugis Strauss"
+                  fill
+                  sizes="(min-width: 1024px) 520px, 440px"
+                  className="object-cover object-[center_20%]"
+                />
+              </div>
+              <div className="mt-4 w-[220px] lg:w-[260px]">
+                <p className="text-[14px] text-ink leading-snug">Ugis Strauss</p>
+                <p className="text-[12px] text-muted leading-snug mt-1">
+                  Founder of The Off-Switch Method
+                </p>
+              </div>
+            </div>
+            <div className="min-w-0">
+              <h2 className="font-serif text-3xl leading-tight font-light text-ink mb-8 lg:text-[46px] lg:leading-[1.05]">
+                Why the method is structured as it is
+              </h2>
+              <div className="border-t border-border">
+                {[
+                  {
+                    title: "Sequence",
+                    body: "We reduce emotional load before approaching deeper material. Being willing to work on something is not the same as being ready for it.",
+                  },
+                  {
+                    title: "Measurement",
+                    body: "We look at what happens when you meet the memory, trigger or situation again. Feeling better in the meeting is not the only test.",
+                  },
+                  {
+                    title: "Endpoint",
+                    body: "The aim is for the original reaction to stop driving you in the same way, without needing ongoing help to keep it that way. The private programme includes 12 sessions. If more work is needed afterwards, you continue independently or under a separate arrangement.",
+                  },
+                ].map((block) => (
+                  <div key={block.title} className="grid gap-3 border-b border-border py-6 sm:grid-cols-[10rem_minmax(0,1fr)] sm:gap-5">
+                    <h3 className="font-serif text-xl font-light text-ink leading-snug">
+                      {block.title}
+                    </h3>
+                    <p className="text-base text-ink-light leading-relaxed">{block.body}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ONE BIOGRAPHICAL THREAD */}
       <section className="pt-[96px] pb-[96px]">
         <div className="max-w-[1120px] mx-auto px-6 lg:px-12">
           <div className="max-w-[760px]">
             <h2 className="font-serif text-[46px] leading-[1.05] font-light text-ink mb-8">
-              Training, business games, and behavior under pressure
+              How training, coaching and work under pressure led to the Off-Switch Method
             </h2>
             <div className="space-y-5">
               <p className="text-base text-ink-light leading-[1.65]">
@@ -60,50 +106,63 @@ export default function About() {
                 was built around corporate training, business games, and simulations.
               </p>
               <p className="text-base text-ink-light leading-[1.65]">
-                For many years, I created and delivered programs where leaders and teams
-                did not simply listen to theory. They entered a live management
-                environment: making decisions, negotiating, meeting uncertainty,
-                competition, responsibility, conflicting interests, and time pressure.
+                I put leaders and teams into situations where they had to decide,
+                negotiate and act with incomplete information. There were competing
+                interests, responsibility, and a clock that did not stop while they
+                worked out the ideal answer.
               </p>
               <p className="text-base text-ink-light leading-[1.65]">
-                For me, this was always more than skills training. In a well-designed
-                business game, it quickly becomes visible how a person behaves not in a
-                calm conversation, but in the moment when there is risk, responsibility,
-                limited information, and a need to act.
+                In a well-designed business game, you can see what a person actually
+                does under pressure: takes responsibility, avoids a decision, rescues
+                someone else, enters a conflict, or retreats from one.
               </p>
               <p className="text-base text-ink-light leading-[1.65]">
-                That is where I kept seeing the same important gap: a person may
-                understand the right answer, know the model, and agree with the logic —
-                but under pressure still return to the old reaction.
+                That experience still informs my work. An explanation can sound
+                convincing in a quiet room. What matters is whether something changes
+                when the person meets the situation again.
               </p>
               <p className="text-base text-ink-light leading-[1.65]">
-                This experience became one of the professional foundations of my
-                approach. The Off-Switch Method grew not only from individual work with
-                anxiety, stress, and emotional triggers, but also from years of observing
-                how people, teams, and leaders act inside complex systems.
+                My private work began in coaching more than 15 years ago. Alongside it,
+                I built training organizations, developed simulations and trained other
+                trainers. The Method brought those strands together: a process someone
+                can learn, use, and eventually continue without me.
+              </p>
+              <p className="text-base text-ink-light leading-[1.65]">
+                I wanted a way to work on the moment when the reaction takes over —
+                not another explanation to remember after it has happened. Insight is
+                real and useful; on its own, it does not always change the pattern
+                that fires under pressure.
+              </p>
+              <p className="text-base text-ink-light leading-[1.65]">
+                The method became a structured process with defined phases and clear
+                completion criteria: reduce accumulated emotional load first, then
+                address deeper material without destabilizing the person. We track
+                what changes and work towards an endpoint, rather than ongoing support.
+              </p>
+              <p className="text-sm text-muted leading-relaxed">
+                It is not an open-ended support model. Not a substitute for medical,
+                psychiatric, emergency, or crisis care.
               </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* CREDIBILITY SNAPSHOT */}
+      {/* EXPERIENCE — THE FACTS ONCE, WITH OPTIONAL PROFESSIONAL REFERENCES */}
       <section className="pt-[96px] pb-[96px] bg-surface">
         <div className="max-w-[1120px] mx-auto px-6 lg:px-12">
           <div className="max-w-4xl">
             <h2 className="font-serif text-[46px] leading-[1.05] font-light text-ink mb-6">
-              Professional credibility at a glance
+              Experience in brief
             </h2>
             <p className="text-base text-ink-light leading-[1.65] mb-10">
-              Before The Off-Switch Method, this work lived in executive training,
-              business simulations, leadership programs, crisis decision games,
-              institutional education, training organizations, and private 1:1 client work.
-              Programs were delivered across 15+ countries.
+              Nearly three decades of work with people, teams and organizations under
+              pressure, with training and simulation programs delivered across 15+ countries.
             </p>
             <div className="border border-border bg-white p-6 lg:p-8">
               <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-6 lg:gap-8">
                 {[
-                  { value: "28+ years", label: "Applied behavior-under-pressure work" },
+                  { value: "28+ years", label: "Working with behavior under pressure" },
                   { value: "15+ years", label: "Private 1:1 work" },
                   { value: "Hundreds", label: "Private 1:1 clients" },
                   { value: "120+", label: "Trainers certified" },
@@ -118,170 +177,62 @@ export default function About() {
                 ))}
               </div>
             </div>
-          </div>
-        </div>
-      </section>
-
-      {/* BACKGROUND / TIMELINE */}
-      <section className="pt-[96px] pb-[110px]">
-        <div className="max-w-[1120px] mx-auto px-6 lg:px-12">
-          <div className="grid grid-cols-1 lg:grid-cols-[280px_minmax(0,720px)] gap-12 lg:gap-[88px] lg:items-start">
-
-            {/* Left: founder credential */}
-            <div className="min-w-0">
-              <div className="relative w-[220px] lg:w-[260px] aspect-[3/4] overflow-hidden">
-                <Image
-                  src="/ugis-strauss.jpg"
-                  alt="Ugis Strauss"
-                  fill
-                  sizes="(max-width: 1024px) 220px, 260px"
-                  className="object-cover object-[center_20%] saturate-[.65] brightness-[.85]"
-                />
+            <p className="mt-8 max-w-3xl text-base text-ink-light leading-relaxed">
+              That sustained practice across individual and group settings shaped
+              what became the Off-Switch Method.
+            </p>
+            <div className="mt-6 border-t border-border">
+              <div className="grid gap-3 border-b border-border py-7 sm:grid-cols-[13rem_minmax(0,1fr)] sm:gap-8">
+                <h3 className="font-serif text-xl text-ink leading-snug">Management training</h3>
+                <div className="space-y-4 text-base text-ink-light leading-relaxed">
+                  <p>
+                    For more than 20 years, I have built and led simulation-based
+                    management programs, training organizations, trainer networks and
+                    repeatable delivery systems across 15+ countries. My active portfolio
+                    includes more than 20 proprietary simulations that make decisions,
+                    conflict, avoidance and responsibility visible through what people do.
+                  </p>
+                  <p>
+                    I designed a one-year internal trainer certification program, from
+                    curriculum to delivery. More than 120 management trainers have been
+                    certified for institutional and corporate clients, so a structured
+                    method can be taught and delivered by more than one person.
+                  </p>
+                  <p>
+                    Programs have covered leadership under pressure, negotiation,
+                    governance, transformation, delegation, crisis decisions, trust
+                    and cross-cultural collaboration.
+                  </p>
+                </div>
               </div>
-              <div className="mt-4 w-[220px] lg:w-[260px]">
-                <p className="text-[14px] text-ink leading-snug">Ugis Strauss</p>
-                <p className="text-[12px] text-muted leading-snug mt-1">
-                  Founder of The Off-Switch Method
+              <div className="grid gap-3 border-b border-border py-7 sm:grid-cols-[13rem_minmax(0,1fr)] sm:gap-8">
+                <h3 className="font-serif text-xl text-ink leading-snug">Teaching entrepreneurship</h3>
+                <p className="text-base text-ink-light leading-relaxed">
+                  I have lectured and designed programs at BA School of Business and
+                  Finance since 2008, including entrepreneurship and business simulations
+                  for EU students through Riga Business Week / Erasmus.
+                </p>
+              </div>
+              <div className="grid gap-3 border-b border-border py-7 sm:grid-cols-[13rem_minmax(0,1fr)] sm:gap-8">
+                <h3 className="font-serif text-xl text-ink leading-snug">Private 1:1 work</h3>
+                <p className="text-base text-ink-light leading-relaxed">
+                  From coaching, my work developed into structured private 1:1 work with
+                  hundreds of clients dealing with anxiety, pressure, emotional triggers,
+                  burnout and recurring reaction patterns.
                 </p>
               </div>
             </div>
-
-            {/* Right: H2 + intro + timeline */}
-            <div className="min-w-0">
-              <h2 className="font-serif text-[46px] leading-[1.05] font-light text-ink mb-6">
-                A background in behavior under pressure
-              </h2>
-              <p className="text-[17px] text-ink-light leading-[1.65] max-w-[680px] mb-6">
-                The Off-Switch Method did not emerge from theory alone. It developed through
-                decades of applied work with people and groups under stress, consequence,
-                uncertainty, and emotional load.
-              </p>
-              <p className="text-[17px] text-ink-light leading-[1.65] max-w-[680px] mb-6">
-                For years, Ugis designed simulations where people could not hide behind
-                explanations — their real patterns appeared under pressure: decision
-                ownership, avoidance, rescue behavior, conflict, governance failure,
-                negotiation habits. The same principle informs the method: do not argue
-                with the explanation; observe the reaction pattern, intervene, and test
-                whether the system changes.
-              </p>
-              <p className="text-[17px] text-ink-light leading-[1.65] max-w-[680px] mb-[72px]">
-                Beyond delivering programs, the work has involved building and managing
-                training organizations, developing trainer networks, certifying trainers,
-                and designing repeatable delivery systems across countries. This matters
-                because the Off-Switch Method is not only a personal technique. It is a
-                structured delivery system: observable target, repeatable process,
-                measurable change, and defined endpoint.
-              </p>
-
-              <div className="max-w-[760px]">
-                {[
-                  {
-                    period: "28+ years",
-                    label:
-                      "Applied work with individuals and organizations under pressure",
-                    body: "Sustained practice across individual and group settings — developing and refining what became the Off-Switch Method.",
-                  },
-                  {
-                    period: "20+ years",
-                    label: "Management simulations and training organization building",
-                    body: "Built and led simulation-based management programs across 15+ countries. Designed and managed training organizations, trainer certification networks, and repeatable delivery systems, with 120+ management trainers certified.",
-                  },
-                  {
-                    period: "15+ years",
-                    label: "Private 1:1 work with hundreds of clients",
-                    body: "Started in coaching and developed into structured private 1:1 work with anxiety, pressure, emotional triggers, burnout, and recurring reaction patterns.",
-                  },
-                  {
-                    period: "Development",
-                    label: "The Off-Switch Method",
-                    body: "The method became a structured process with defined phases, clear completion criteria, and a practical endpoint: the work is designed to reduce dependence on ongoing sessions, not create it.",
-                  },
-                  {
-                    period: "2022",
-                    label: "Ukraine field application",
-                    body: "Free online program for Ukrainians experiencing active war trauma. Six cohorts, six months, approximately 7,000 participants, around 80% of them inside Ukraine during active hostilities. Documented symptom reduction in completed cohorts.",
-                  },
-                ].map((item, i, arr) => (
-                  <div
-                    key={i}
-                    className={`flex gap-8 pb-16 relative ${
-                      i < arr.length - 1 ? "border-l border-border ml-3" : "ml-3"
-                    }`}
-                  >
-                    <div className="absolute -left-1.5 top-1.5 w-3 h-3 rounded-full bg-accent shrink-0" />
-                    <div className="ml-8">
-                      <p className="text-xs uppercase tracking-widest text-muted mb-2">
-                        {item.period}
-                      </p>
-                      <p className="font-serif text-[22px] text-ink mb-3">{item.label}</p>
-                      <p className="text-base text-ink-light leading-[1.6]">{item.body}</p>
-                    </div>
-                  </div>
-                ))}
-              </div>
-            </div>
-
-          </div>
-        </div>
-      </section>
-
-      {/* PROFESSIONAL GROUND */}
-      <section className="pt-[96px] pb-[96px] bg-surface">
-        <div className="max-w-[1120px] mx-auto px-6 lg:px-12">
-          <h2 className="font-serif text-[46px] leading-[1.05] font-light text-ink mb-12 max-w-[720px]">
-            Professional ground
-          </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-            {[
-              {
-                title: "Simulation architect",
-                body: "28+ years designing environments where decisions, conflict, avoidance, ownership, and pressure responses become visible. Programs delivered across 15+ countries, with 20+ proprietary simulations in active portfolio.",
-              },
-              {
-                title: "Training organization builder",
-                body: "Built and managed training organizations and trainer networks across countries. Designed repeatable delivery systems where structured methods could be taught, certified, and reproduced beyond a single practitioner.",
-              },
-              {
-                title: "Train-the-trainer systems",
-                body: "Designed a one-year internal trainer certification concept, curriculum, and delivery system. Over 120 management trainers certified for institutional and corporate clients.",
-              },
-              {
-                title: "Institutional educator",
-                body: "Lecturer and program architect at BA School of Business and Finance since 2008. Built and delivered entrepreneurship and business simulation programs for EU students, including Riga Business Week / Erasmus entrepreneurship simulations.",
-              },
-              {
-                title: "Organizational behavior under pressure",
-                body: "Programs designed for leadership under pressure, negotiation, governance, transformation, delegation, crisis decision-making, trust, and cross-cultural collaboration.",
-              },
-              {
-                title: "Field application",
-                body: "The Ukraine 2022 program applied the method at scale — approximately 7,000 participants, around 80% inside Ukraine during active hostilities, with structured measurement and practitioner uptake.",
-              },
-            ].map((block) => (
-              <div key={block.title} className="border border-border bg-white p-6 lg:p-8">
-                <h3 className="font-serif text-xl font-light text-ink leading-snug mb-4">
-                  {block.title}
-                </h3>
-                <p className="text-base text-ink-light leading-relaxed">{block.body}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* SELECTED EARLIER PROFESSIONAL CONTEXTS */}
-      <section className="pt-[96px] pb-[96px]">
-        <div className="max-w-[1120px] mx-auto px-6 lg:px-12">
-          <div className="max-w-3xl">
-            <h2 className="font-serif text-[46px] leading-[1.05] font-light text-ink mb-6">
-              Selected earlier professional contexts
-            </h2>
-            <p className="text-base text-ink-light leading-[1.65] mb-10">
+            <p className="mt-8 max-w-3xl text-base text-ink-light leading-relaxed">
               Earlier simulation, training, and organizational design work — not
               Off-Switch Method delivery — across corporate, institutional, and
               educational contexts.
             </p>
-            <div className="border border-border bg-white p-6 lg:p-8">
+            <details className="group mt-3 border-b border-border">
+              <summary className="flex min-h-14 cursor-pointer list-none items-center justify-between gap-4 py-4 font-serif text-xl leading-snug text-ink marker:content-none focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-accent">
+                Earlier training and simulation work: organisations and institutions
+                <span aria-hidden="true" className="shrink-0 text-accent transition-transform group-open:rotate-45">+</span>
+              </summary>
+              <div className="mt-4 border border-border bg-white px-6 lg:px-8">
               {[
                 {
                   group: "Consumer & retail",
@@ -325,44 +276,13 @@ export default function About() {
                   </p>
                 </div>
               ))}
-            </div>
-            <p className="text-xs text-muted leading-relaxed mt-6 max-w-[680px]">
-              These references describe Ugis&rsquo;s earlier simulation, training, and
-              organizational design work. They do not represent Off-Switch Method
-              clients, endorsements, evaluations, or outcomes.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* HOW THE METHOD DEVELOPED */}
-      <section className="pt-[96px] pb-[96px] bg-surface">
-        <div className="max-w-[1120px] mx-auto px-6 lg:px-12">
-          <div className="max-w-[720px]">
-            <h2 className="font-serif text-[46px] leading-[1.05] font-light text-ink mb-10">
-              How the method developed
-            </h2>
-            <p className="text-base text-ink-light leading-[1.65] mb-5">
-              The method developed from a repeated observation: people could understand
-              the reason for their reaction and still keep reacting.
-            </p>
-            <p className="text-base text-ink-light leading-[1.65] mb-5">
-              The work became focused on the reaction itself, not the
-              explanation. Insight is real and useful — on its own, it does not always
-              change the pattern that fires under pressure.
-            </p>
-            <p className="text-base text-ink-light leading-[1.65] mb-5">
-              From that observation, the method became a structured sequence: reduce
-              accumulated emotional load first, address deeper material without
-              destabilizing the client, and end when the reaction no longer drives the
-              same response. Sequence, clear measurement, and a defined endpoint are
-              shaped by the prior simulation, training, organizational work, and private
-              1:1 client work.
-            </p>
-            <p className="text-base text-ink-light leading-[1.65]">
-              It is not an open-ended support model. Not a substitute for medical,
-              psychiatric, emergency, or crisis care.
-            </p>
+              </div>
+              <p className="mb-6 mt-5 max-w-3xl text-sm text-muted leading-relaxed">
+                These references describe my earlier simulation, training, and
+                organizational design work. They do not represent Off-Switch Method
+                clients, endorsements, evaluations, or outcomes.
+              </p>
+            </details>
           </div>
         </div>
       </section>
@@ -396,38 +316,6 @@ export default function About() {
             <Button href="/evidence/ukraine-2022" variant="ghost" size="sm">
               Read the documented Ukraine field application →
             </Button>
-          </div>
-        </div>
-      </section>
-
-      {/* WHY THE METHOD IS STRUCTURED AS IT IS */}
-      <section className="pt-[96px] pb-[96px] bg-surface">
-        <div className="max-w-[1120px] mx-auto px-6 lg:px-12">
-          <h2 className="font-serif text-[46px] leading-[1.05] font-light text-ink mb-12 max-w-[600px]">
-            Why the method is structured as it is
-          </h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 max-w-4xl">
-            {[
-              {
-                title: "Sequence",
-                body: "Emotional load is reduced before deeper material is addressed. The order is part of the mechanism.",
-              },
-              {
-                title: "Measurement",
-                body: "Progress is tracked through observable response change, not general impression.",
-              },
-              {
-                title: "Endpoint",
-                body: "The work ends when the original reaction no longer drives the person in the same way.",
-              },
-            ].map((block) => (
-              <div key={block.title} className="border border-border bg-white p-6 lg:p-8">
-                <h3 className="font-serif text-xl font-light text-ink leading-snug mb-4">
-                  {block.title}
-                </h3>
-                <p className="text-base text-ink-light leading-relaxed">{block.body}</p>
-              </div>
-            ))}
           </div>
         </div>
       </section>

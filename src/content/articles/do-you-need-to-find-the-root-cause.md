@@ -90,17 +90,11 @@ If the reaction remains, the explanation did not complete the work. If it does n
 
 I do not need a flawless causal version. I need a result that can be examined.
 
-## Bulldozer first, scalpel second
+## Start with what is accessible. Then look closely at what remains
 
-I sometimes describe the sequence this way:
-
-> Bulldozer first, scalpel second.
-
-Begin with the visible, accessible material. Then test what remains.
+We begin with the visible, accessible material, then test what still needs attention.
 
 If the general intensity falls but one intonation, phrase or neighbouring scene still starts the response, more precise work begins. We did not need to predict that final element; testing revealed it.
-
-No former response means a result for that target. A remaining response means another accessible element to examine.
 
 ## One neutral scene is not the entire chain
 

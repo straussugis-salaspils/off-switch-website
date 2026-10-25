@@ -1,60 +1,66 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
+import UgisWorkingPhoto from "@/components/blocks/UgisWorkingPhoto";
 
 import FormatsNavigation from "@/components/layout/FormatsNavigation";
 import Button from "@/components/ui/Button";
 import { buildPageMetadata } from "@/lib/page-metadata";
 
 const recognitionPoints = [
-  "You understand the pattern, but the reaction still starts in the real situation.",
-  "One problem changes and the next connected one becomes visible.",
-  "One situation is now calm while a similar response is still active somewhere else.",
-  "The problem looks singular from the outside but separates into several working targets.",
-  "The old response is lower — and the remaining task is now a real problem, a skill or a life decision.",
+  "You know you want to say no. In the conversation, you hear yourself agreeing.",
+  "You finish work, but your mind keeps going. The day is over only on the calendar.",
+  "You feel calm about a situation until you actually have to face it.",
+  "One part of life becomes easier. The same reaction still turns up somewhere else.",
+  "The fear is quieter, but there is still a decision to make, a boundary to set or a skill to learn.",
 ] as const;
 
 const routeSteps = [
   {
     number: "01",
     title: "Learn the tool",
-    body: "In the first meeting you learn the regulation practice and begin using it between sessions.",
+    body: "In the first meeting, I teach you the hand position and slow bilateral movement you will use with a memory, worry or physical reaction. You then have a tool to practise yourself.",
   },
   {
     number: "02",
-    title: "Choose a specific response",
-    body: "Each step uses a precise situation, memory or physical reaction that is active now.",
+    title: "Choose what to work on",
+    body: "We choose a particular situation, memory or worry and check how strongly you react to it before and after using the technique. That gives us something specific to work with.",
   },
   {
     number: "03",
     title: "Test the change",
-    body: "A conversation, drive, night of sleep, decision or action shows what changed beyond the meeting.",
+    body: "Between meetings, you practise and test what happens in a real conversation, drive, night of sleep or decision. Can you do what the reaction used to prevent? A job, relationship or practical problem may still need attention; reducing the reaction does not make those decisions for you.",
   },
   {
     number: "04",
-    title: "Set the next step",
-    body: "Ugis adjusts the subject, depth and order according to the facts of the previous week.",
+    title: "Review what has not changed and adjust the next step",
+    body: "At the next meeting, we look at where the work got stuck. Was the target too much to begin with? Is a different part of the situation setting off the response? My job is to work out where the process failed and adjust the next step—not simply tell you to keep trying.",
   },
 ] as const;
 
 const faq = [
   [
     "Can I start now?",
-    "Yes. The first step is a conversation about your situation and whether private 1:1 work is the appropriate format.",
+    "Yes. Start with a conversation about what keeps happening, what you have tried and whether private work makes sense for you.",
   ],
   [
-    "How long does the route take?",
-    "Three months: 12 private 1:1 Zoom meetings and independent practice between them.",
+    "How long is the programme?",
+    "12 private 1:1 Zoom sessions over three to four months. Each session lasts 60–90 minutes, with independent practice between sessions.",
   ],
   [
     "What happens between meetings?",
-    "You apply the tool to the agreed material and test the change in real situations. Those facts determine the next meeting.",
+    "Allow 30–60 minutes a day for independent practice. You work with the situations and memories agreed in the meeting, then notice what happens when you encounter them again. What changes, and what still needs work, helps Ugis plan your next session.",
+  ],
+  [
+    "What if I need more work after the 12 sessions?",
+    "The programme includes 12 private sessions. If there is more to work on after those sessions, you can continue independently with the method you have learned, or continue working with Ugis under a separate arrangement.",
   ],
 ] as const;
 
 export const metadata: Metadata = buildPageMetadata({
   title: "Private 1:1 Off-Switch Work with Ugis Strauss",
   description:
-    "A three-month private 1:1 Off-Switch route: 12 meetings with Ugis Strauss, independent practice and change tested in ordinary life.",
+    "12 private 1:1 Off-Switch sessions over three to four months with Ugis Strauss, independent practice and change tested in ordinary life.",
   path: "/one-to-one",
 });
 
@@ -63,16 +69,16 @@ export default function OneToOnePage() {
     <>
       <FormatsNavigation />
 
-      <section className="grain bg-deep py-16 sm:py-20 lg:py-24">
+      <section data-editorial-section className="grain bg-deep py-14 sm:py-20 lg:py-24">
         <div className="mx-auto w-full max-w-[1180px] px-5 sm:px-7 lg:px-10">
           <div className="grid gap-12 lg:grid-cols-[minmax(0,1fr)_19rem] lg:items-end lg:gap-20">
             <div>
-              <p className="eyebrow-page-dark">Private 1:1 Off-Switch format</p>
+              <p className="eyebrow-page-dark">Private 1:1 Off-Switch programme · Ugis Strauss</p>
               <h1 className="type-page-title max-w-4xl text-deep-text">
                 Private 1:1 work with Ugis
               </h1>
               <p className="mt-7 max-w-2xl text-base leading-7 text-deep-muted sm:text-lg">
-                For situations that do not fit one shared route — where the next step has to be chosen from what actually changed during your previous week.
+                You can explain the pattern. Then the conversation starts, the journey begins or the working day refuses to end. Work directly with me on the reaction, with each next step chosen from what actually happens between our meetings.
               </p>
               <div className="mt-9">
                 <Button
@@ -83,15 +89,16 @@ export default function OneToOnePage() {
                   Book a first conversation
                 </Button>
                 <p className="mt-4 max-w-xl text-sm leading-6 text-deep-muted">
-                  Forty-five minutes to describe the situation, what you have tried and whether this route fits.
+                  A complimentary 45-minute conversation about your situation, what you have tried and whether working together makes sense. The conversation does not commit you to the work.
                 </p>
               </div>
             </div>
 
             <dl className="border-t border-deep-border">
               {[
-                ["Length", "3 months"],
-                ["Meetings", "12 private 1:1 Zoom meetings"],
+                ["Length", "3–4 months"],
+                ["Sessions", "12 private 1:1 Zoom sessions, 60–90 minutes each"],
+                ["Daily practice", "30–60 minutes"],
                 ["Fee", "€6,000"],
                 ["Start", "available now"],
               ].map(([term, value]) => (
@@ -105,15 +112,34 @@ export default function OneToOnePage() {
         </div>
       </section>
 
-      <section className="py-16 sm:py-20 lg:py-24">
+      <section data-editorial-section className="py-14 sm:py-16 lg:py-20">
         <div className="mx-auto grid w-full max-w-[1180px] gap-10 px-5 sm:px-7 lg:grid-cols-[minmax(16rem,0.62fr)_minmax(0,1.38fr)] lg:gap-20 lg:px-10">
+          <div className="grid min-w-0 grid-cols-[6rem_minmax(0,1fr)] items-center gap-x-5 gap-y-5 sm:grid-cols-[8rem_minmax(0,1fr)] lg:block">
+            <div className="relative aspect-[3/4] w-full overflow-hidden lg:w-48">
+              <Image
+                src="/images/ugis/ugis-strauss-portrait-2026-v1.webp"
+                alt="Ugis Strauss"
+                fill
+                sizes="(min-width: 1024px) 384px, (min-width: 640px) 256px, 192px"
+                className="object-cover object-[center_20%]"
+              />
+            </div>
+            <h2 className="font-serif text-3xl leading-tight tracking-display text-ink lg:mt-6 lg:text-4xl">
+              Your private sessions with Ugis Strauss
+            </h2>
+            <p className="col-span-2 max-w-md text-base leading-7 text-ink-light lg:mt-4">
+              My private work began more than 15 years ago. Here, you work directly with me: I teach you the method, choose the next step with you and check what changes in your life.
+            </p>
+            <Link href="/about" className="col-span-2 inline-flex min-h-11 items-center text-sm font-medium text-accent hover:text-ink lg:mt-4">
+              More about my work →
+            </Link>
+          </div>
           <div>
             <p className="eyebrow-section">What brings people here</p>
-            <h2 className="font-serif text-3xl leading-tight tracking-display text-ink lg:text-4xl">
-              The problem no longer fits one ready-made answer
-            </h2>
-          </div>
-          <ul className="border-t border-border">
+            <h3 className="mb-7 font-serif text-2xl leading-tight tracking-display text-ink sm:text-3xl">
+              Situations you can work on in private sessions
+            </h3>
+            <ul className="border-t border-border">
             {recognitionPoints.map((point, index) => (
               <li
                 key={point}
@@ -123,19 +149,20 @@ export default function OneToOnePage() {
                 <p className="max-w-3xl text-base leading-7 text-ink-light sm:text-lg">{point}</p>
               </li>
             ))}
-          </ul>
+            </ul>
+          </div>
         </div>
       </section>
 
-      <section className="bg-deep py-16 sm:py-20 lg:py-24">
+      <section data-editorial-section className="bg-deep py-14 sm:py-16 lg:py-20">
         <div className="mx-auto grid w-full max-w-[1180px] gap-12 px-5 sm:px-7 lg:grid-cols-[minmax(0,1fr)_21rem] lg:gap-20 lg:px-10">
           <div>
-            <p className="eyebrow-section-dark">Published case</p>
+            <p className="eyebrow-section-dark">Individual case · client-maintained tracker</p>
             <h2 className="max-w-3xl font-serif text-3xl leading-tight tracking-display text-deep-text lg:text-4xl">
               The road became part of ordinary life again
             </h2>
             <p className="mt-7 max-w-2xl text-base leading-7 text-deep-muted sm:text-lg">
-              After a panic episode, a client could drive only a few miles from the city. The work moved from background load to the road incident itself. Change was tested first in imagination, then through real journeys.
+              After a panic episode, this client could drive only roughly five miles beyond the city. The work first addressed the wider pressure he was carrying, then the road incident itself. He tested the change in imagination and through real journeys of 15, 100 and 200 miles over 90 days.
             </p>
             <Link
               href="/evidence/driving-panic"
@@ -146,9 +173,9 @@ export default function OneToOnePage() {
           </div>
           <dl className="border-t border-deep-border">
             {[
-              ["Limit", "a few miles from the city"],
+              ["Starting limit", "roughly five miles beyond the city"],
               ["How it was tested", "in imagination, then on the road"],
-              ["What returned", "the ability to drive again"],
+              ["During 90 days", "15-, 100- and 200-mile journeys"],
             ].map(([term, value]) => (
               <div key={term} className="border-b border-deep-border py-5">
                 <dt className="text-xs uppercase tracking-widest text-deep-muted">{term}</dt>
@@ -159,74 +186,53 @@ export default function OneToOnePage() {
         </div>
       </section>
 
-      <section className="bg-surface py-16 sm:py-20 lg:py-24">
-        <div className="mx-auto w-full max-w-[1180px] px-5 sm:px-7 lg:px-10">
-          <p className="eyebrow-section">What counts as change</p>
-          <h2 className="max-w-4xl font-serif text-3xl leading-tight tracking-display text-ink lg:text-4xl">
-            Not a good conversation about the result — a different response in the same life
-          </h2>
-          <div className="mt-12 grid border-y border-border md:grid-cols-3">
-            {[
-              ["01", "Response", "The same trigger can be checked again without producing the previous automatic answer."],
-              ["02", "Action", "Choice is available again in the conversation, journey, decision or boundary."],
-              ["03", "Reality", "If the external problem remains, it can be addressed without the old response taking control."],
-            ].map(([number, title, body], index) => (
-              <div
-                key={number}
-                className={`py-8 md:px-8 ${index < 2 ? "border-b border-border md:border-b-0 md:border-r" : ""}`}
-              >
-                <p className="text-xs tracking-widest text-accent">{number}</p>
-                <h3 className="mt-6 font-serif text-2xl text-ink lg:text-3xl">{title}</h3>
-                <p className="mt-4 text-sm leading-6 text-muted sm:text-base sm:leading-7">{body}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      <section className="py-16 sm:py-20 lg:py-24">
+      <section data-editorial-section className="bg-surface py-16 sm:py-20 lg:py-24">
         <div className="mx-auto grid w-full max-w-[1180px] gap-10 px-5 sm:px-7 lg:grid-cols-[18rem_minmax(0,1fr)] lg:gap-20 lg:px-10">
           <div>
-            <p className="eyebrow-section">How the three months work</p>
+            <p className="eyebrow-section">Your practice. My direction.</p>
             <h2 className="font-serif text-3xl leading-tight tracking-display text-ink lg:text-4xl">
-              One cycle, repeated with new material
+              How private sessions and independent practice work together
             </h2>
             <p className="mt-6 text-sm leading-6 text-muted sm:text-base sm:leading-7">
-              Ugis holds the structure. The evidence appears between meetings, where you apply the tool independently.
+              You do not have to work out the sequence on your own. I teach the technique, help choose what to work on and adjust the next step from what happens between our meetings. The programme includes structured work through your emotional history, not only the first problem you bring.
             </p>
+            <Link href="/the-method" className="mt-4 inline-flex min-h-11 items-center text-sm font-medium text-accent hover:text-ink">
+              More about the technique →
+            </Link>
+            <UgisWorkingPhoto className="mt-6" />
           </div>
           <ol className="border-t border-border">
             {routeSteps.map((step) => (
               <li
                 key={step.number}
-                className="grid gap-3 border-b border-border py-6 sm:grid-cols-[3.5rem_14rem_minmax(0,1fr)] sm:gap-6 sm:py-7"
+                className="grid gap-3 border-b border-border py-6 sm:grid-cols-[2.5rem_minmax(0,1fr)] sm:gap-x-5 sm:py-7"
               >
                 <span className="font-serif text-xl text-accent">{step.number}</span>
                 <h3 className="font-serif text-xl leading-snug text-ink sm:text-2xl">{step.title}</h3>
-                <p className="text-sm leading-6 text-muted sm:text-base sm:leading-7">{step.body}</p>
+                <p className="text-base leading-7 text-muted sm:col-start-2">{step.body}</p>
               </li>
             ))}
           </ol>
         </div>
       </section>
 
-      <section className="bg-deep py-16 sm:py-20 lg:py-24">
+      <section data-editorial-section className="bg-deep py-14 sm:py-16 lg:py-20">
         <div className="mx-auto w-full max-w-[1180px] px-5 sm:px-7 lg:px-10">
           <p className="eyebrow-section-dark">1:1 or group</p>
           <h2 className="max-w-4xl font-serif text-3xl leading-tight tracking-display text-deep-text lg:text-4xl">
-            Private 1:1 work fits when the shared order is no longer enough
+            Do you want private meetings or a group programme?
           </h2>
           <div className="mt-10 grid border-y border-deep-border md:grid-cols-2">
             <div className="py-8 md:border-r md:border-deep-border md:pr-10">
               <p className="text-xs uppercase tracking-widest text-accent-dim">Private 1:1 work</p>
               <p className="mt-5 font-serif text-xl leading-snug text-deep-text sm:text-2xl">
-                Subject, depth and next move are reset after each step according to your situation.
+                Your meetings and next steps are built around your situation. Ugis chooses and adjusts what you work on, in what order, from what happens between your sessions.
               </p>
             </div>
             <div className="border-t border-deep-border py-8 md:border-t-0 md:pl-10">
               <p className="text-xs uppercase tracking-widest text-deep-muted">Group</p>
               <p className="mt-5 font-serif text-xl leading-snug text-deep-text sm:text-2xl">
-                Fits when you can follow a shared sequence and practise independently between meetings.
+                Ugis leads the group through a shared sequence. You apply the method to your own memories, worries and reactions, with independent practice between meetings.
               </p>
               <Link
                 href="/group"
@@ -239,7 +245,7 @@ export default function OneToOnePage() {
         </div>
       </section>
 
-      <section className="py-16 sm:py-20 lg:py-24">
+      <section data-editorial-section className="py-14 sm:py-16 lg:py-20">
         <div className="mx-auto grid w-full max-w-[1180px] gap-10 px-5 sm:px-7 lg:grid-cols-[18rem_minmax(0,1fr)] lg:gap-20 lg:px-10">
           <div>
             <p className="eyebrow-section">Before deciding</p>
@@ -261,7 +267,7 @@ export default function OneToOnePage() {
         </div>
       </section>
 
-      <section className="bg-surface py-16 sm:py-20 lg:py-24">
+      <section data-editorial-section className="bg-surface py-16 sm:py-20 lg:py-24">
         <div className="mx-auto grid w-full max-w-[1180px] gap-10 px-5 sm:px-7 lg:grid-cols-[minmax(0,1fr)_20rem] lg:items-end lg:gap-20 lg:px-10">
           <div>
             <p className="eyebrow-section">Next step</p>
@@ -269,7 +275,7 @@ export default function OneToOnePage() {
               First determine whether 1:1 fits
             </h2>
             <p className="mt-6 max-w-2xl text-base leading-7 text-ink-light sm:text-lg">
-              Describe the situation and what you have already tried. The first conversation establishes whether this is the right route.
+              You do not need a perfectly organised explanation. Tell Ugis what keeps happening and what you have already tried. Together, you can consider whether this is the right way to work on it.
             </p>
             <div className="mt-8 flex flex-col items-start gap-4 sm:flex-row sm:items-center">
               <Button
@@ -288,7 +294,7 @@ export default function OneToOnePage() {
             </div>
           </div>
           <dl className="border-t-2 border-accent pt-6 lg:text-right">
-            <dt className="text-xs uppercase tracking-widest text-muted">3 months · 12 meetings</dt>
+            <dt className="text-xs uppercase tracking-widest text-muted">12 sessions · 3–4 months</dt>
             <dd className="mt-2 font-serif text-4xl tracking-display text-ink sm:text-5xl">€6,000</dd>
             <dd className="mt-3 text-sm text-muted">Available now</dd>
           </dl>

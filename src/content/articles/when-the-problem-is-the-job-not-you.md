@@ -114,10 +114,12 @@ Externally, both resign. Internally, one is driven by the old response; the othe
 
 Emotional work should not become an endless search for why someone is still insufficiently adapted to a bad environment.
 
-If the old response has changed, the necessary skill exists, the real action was taken and the system did not change, accept the test result.
+We work with what the person brings to the job: old authority fear, compulsory over-responsibility, difficulty stopping or a response shaped by previous managers.
 
-The problem is external.
+Then comes arithmetic: hours, staff, deadlines, role clarity, compensation, values and the organisation's response to reasonable boundaries. Calm does not make an impossible system possible; it merely improves the measurement.
 
-The manager may be destructive. The workload may be impossible. There may be no staff, budget or meaning.
+If the old response has changed, the necessary skill exists, the real action was taken and the system did not change, accept the test result. The problem is external: a destructive manager, an impossible workload, or a lack of staff, budget or meaning.
 
-In that situation, change the work—not your capacity to suffer it.
+The next action is structural: renegotiate, escalate, redesign the role or leave without confusing departure with escape. Change the work—not your capacity to suffer it.
+
+> The Method should not become a programme for adapting elegant nervous systems to bad management.

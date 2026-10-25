@@ -55,8 +55,6 @@ So the question “What happened immediately before the attack?” is useful, bu
 
 Often, a story begins to appear. It may not contain one dramatic scene. Different people have different backgrounds: work, family demands, illness, sleep loss or several large events that genuinely occurred together.
 
-One plus one plus one somehow equalled eighty-five. Poor mathematics; real state.
-
 ## “Suddenly” describes the moment, not necessarily the whole history
 
 The attack may genuinely have felt sudden. The person is not inventing this, concealing an obvious cause or failing a test they did not know they were taking.
@@ -69,7 +67,7 @@ We often call something normal when what we really mean is familiar.
 
 If a person has lived at four out of five for a long time, they may say, “I am not particularly tense. I am always like this.”
 
-Excellent. Four has acquired a job title and permanent building access. It is still not zero.
+Being used to that level of tension does not mean it has gone.
 
 ## Overload is not my universal explanation
 
@@ -103,7 +101,7 @@ I need the material that remains active and helps maintain the pattern.
 
 I do not begin with the most difficult scene surrounding the attack.
 
-First, the person learns to regulate what starts now: as soon as the reaction appears, use the hands.
+First, I teach the [physical Off-Switch technique](/the-method), so the person has something they can use when the reaction begins.
 
 When a reaction can be noticed and stopped, it becomes possible to work with more difficult material without being swallowed by it. This is not completion of the panic pattern. It is necessary preparation.
 
@@ -125,7 +123,7 @@ One scene may be central. A chain may emerge. Or the final incident may become n
 
 Then we continue.
 
-Bulldozer first, scalpel second: begin with the obvious heavy material, then examine what specifically remains.
+We begin with accessible material from that period, then examine the specific reactions that remain.
 
 ## Reducing current stress helps, but it is not the whole result
 
@@ -150,8 +148,6 @@ They imagine a situation in which another attack once seemed likely. Does antici
 Then, with real safety taken into account, they return to life and observe whether the old sequence begins where it did before.
 
 Stopping a reaction sooner is a result of regulation. A memory no longer producing its former charge is a result for that target. Returning to the real action without having to fight the same attack every time is a result in life.
-
-One quiet week proves very little. Perhaps nobody pressed the relevant button.
 
 ## The first attack opens the next question
 

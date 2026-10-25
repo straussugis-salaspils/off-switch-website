@@ -8,9 +8,7 @@ source: adaptive rewrite of approved Russian article
 
 A person joins a session and says, “I have depression.”
 
-I hear that life is heavy. But for the work I do, the word is still too large.
-
-It is like telling a mechanic, “The car will not move.” Important information; the screwdriver does not yet know where to go. The engine may have failed, the fuel may be gone, a wheel may be elsewhere, or somebody has parked a concrete wall in front and proposed treating it together with the motor.
+I hear that life is heavy. To work with the person, I also need to understand what that means in their day: what feels impossible, what keeps returning and what they can no longer look forward to.
 
 Depression may be a real medical diagnosis. I do not make or remove that diagnosis in an article. My narrower point is that one large word does not provide one ready-made target for my work.
 
@@ -20,7 +18,7 @@ Beneath the word may sit several things at once: painful memories, bodily heavin
 
 The label does not make the state unreal. Nor does renaming it “an exciting growth opportunity” improve matters.
 
-The practical problem is that a mixed package cannot be changed through one vague operation. We need to see what is firing.
+For the work I do, we need to distinguish those experiences rather than treat the whole state as one response.
 
 What looks like one grey wall may be several different lines working in parallel, each adding its own weight.
 
@@ -56,7 +54,7 @@ The work can then become systematic.
 
 ## One accessible element, then the next
 
-I approach this technically. What is at the surface? We take it, rate its intensity from zero to five, work, and test again.
+We begin with what is accessible now, rate the response from zero to five, work with it and test it again.
 
 What remains? What appears next?
 
@@ -64,7 +62,7 @@ One episode may reveal a neighbour. Beneath a bodily sensation may sit an image 
 
 We do not need to guess the ideal order in advance. We work with available targets and test the change.
 
-I sometimes describe the early stage as a bulldozer: clear the main heavy material. Then comes the scalpel: identify and test what remains. This is not a medical model of depression. It is a way to avoid pretending that one operation can be performed on a whole label.
+We begin with the broader, accessible material, then look more precisely at what remains. This is my working sequence, not a medical model of depression or a claim that the whole state can be changed in one step.
 
 ## Removing uncertainty does not create confidence
 
@@ -100,11 +98,9 @@ That stage is construction:
 - What gives energy or a sense of movement?
 - Which relationship, personal or professional direction deserves a real experiment?
 
-I do not supply somebody with meaning in an elegant box. Convenient, perhaps, but it would amount to selling other people’s lives.
+I do not supply somebody with meaning. We look for interest, energy and a direction worth testing. A six-month experiment may become possible before the person can name the final job or role.
 
-Meaning can begin like a closed box. You do not yet know exactly what is inside, but you can test its weight and notice that it is not empty. Interest, energy, a direction and a six-month experiment may arrive before the final job title does.
-
-Life reveals the contents through action.
+You find out whether a direction fits by trying something in it.
 
 ## The result does not fit back into one word
 

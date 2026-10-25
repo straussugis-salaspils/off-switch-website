@@ -87,7 +87,9 @@ for (const [id, fileName] of articleFiles) {
 }
 
 const applications = [...applicationSource.matchAll(/"([A-Z]+-\d+)":\s*\{\s*insertBeforeHeading:\s*"([^"]+)"/g)];
-expect(applications.length === 18, `Expected 18 Method applications, found ${applications.length}`);
+// REL-03, BO-03 and ACT-02 now carry their complete closing argument in the
+// article body; a second injected ending would duplicate the approved copy.
+expect(applications.length === 15, `Expected 15 Method applications, found ${applications.length}`);
 for (const [, id, anchor] of applications) {
   expect(articleFiles.has(id), `Method application ${id} has no translated article`);
   expect(headingSets.get(id)?.has(anchor), `Method application ${id} anchor is missing: ${anchor}`);

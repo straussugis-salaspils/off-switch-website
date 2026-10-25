@@ -72,15 +72,13 @@ If something genuinely catches, there is another target. If it does not, absence
 
 I do not search the past for the sake of the past. I search for what still governs the present.
 
-## Bulldozer first, scalpel second
-
-My metaphor is: bulldozer first, scalpel second.
+## Work with accessible memories, then test the reactions that remain
 
 Begin with the main accessible material—known difficult memories and themes. Much of the pattern may leave with the broader background.
 
 Then become precise. What remains? Which look, phrase, situation or imagined future still starts a response?
 
-If a specific remainder exists, use the scalpel. But the sequence does not require us to find something for the scalpel merely so the process looks serious and long.
+If a specific reaction remains, we work with it. But we do not need to find another problem merely so the process looks serious and long.
 
 Sometimes careful testing shows that nothing remains.
 
@@ -91,8 +89,6 @@ Near completion, I do not ask once, “Everything fine?” and accept a quick ye
 I keep looking. What still brings fear, anger, resentment, guilt or another specific response? What happens when the person imagines an important future situation?
 
 Sometimes a target appears. Good—the work continues. Sometimes a broad label conceals one scene. We take the scene.
-
-And sometimes, after systematic work, half an hour of questions produces nothing that genuinely starts the old state.
 
 The person does not owe the professional a new problem so the meeting feels worthwhile.
 

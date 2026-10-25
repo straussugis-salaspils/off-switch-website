@@ -56,7 +56,7 @@ export const translatedArticles: readonly TranslatedArticle[] = [
     cta: {
       eyebrow: "If anxiety has become a constant background with no clear cause",
       heading: "Reduce the anxious background and recover a calmer state",
-      body: "In the three-month private 1:1 programme, I help you separate the general noise into specific responses connected with the past, present and imagined future, then work through them in a deliberate order. The aim is for anxiety to stop occupying the whole day, so you can distinguish real tasks from automatic danger signals again.",
+      body: "You do not need one perfect explanation before we can begin. In three to four months of private 1:1 work, I help you separate the memories, current pressures and feared futures that have become one anxious day, then work through the responses in order. You can also explore the group, where you learn the method through a shared sequence and practise between meetings.",
       primaryHref: "/one-to-one",
       primaryLabel: "Explore private 1:1",
       secondaryHref: "/group",
@@ -85,7 +85,7 @@ export const translatedArticles: readonly TranslatedArticle[] = [
     cta: {
       eyebrow: "If one problem is solved but the anxious background remains",
       heading: "Address the remaining anxiety instead of learning to live around it",
-      body: "I personally lead the three-month private 1:1 Off-Switch programme for changing automatic reactions. We check which connected responses, memories or new events continue to produce the background after the loudest problem has ended. The aim is for relief to become more than a brief interval between active lines of anxiety.",
+      body: "One problem is over, but you are still anxious. In the three-to-four-month private programme, we check what actually ended, what was there all along and whether something new has happened. That gives us specific reactions to work on, instead of asking you to calm the whole background again every morning.",
       primaryHref: "/one-to-one",
       primaryLabel: "Explore private 1:1",
     },
@@ -112,7 +112,7 @@ export const translatedArticles: readonly TranslatedArticle[] = [
     cta: {
       eyebrow: "If you still have to stop the same anxiety manually every time",
       heading: "Take the change to the point where the familiar anxiety no longer starts",
-      body: "There are two ways to work with this. In the 12-week group, you follow a shared sequence and practise between meetings. In the three-month private 1:1 programme, I organise the work around your particular set of responses. The aim is to stop having to switch off the same familiar anxiety again and again.",
+      body: "We keep checking what happens when you meet the same situation again—not just whether you felt better after a meeting. The 12-week group gives you a shared sequence to learn and practise between sessions. In three to four months of private 1:1 work, I choose the next step around your particular responses and what the tests reveal. Both go beyond calming the same anxiety each time it starts.",
       primaryHref: "/group",
       primaryLabel: "Explore the group programme",
       secondaryHref: "/one-to-one",
@@ -140,7 +140,7 @@ export const translatedArticles: readonly TranslatedArticle[] = [
     cta: {
       eyebrow: "If one fright has turned into fear of every similar situation",
       heading: "Recover freedom of movement without losing sensible caution",
-      body: "I personally lead the three-month private 1:1 Off-Switch programme for changing automatic reactions. We begin with the specific fright, then check the related images, places and situations to which the response has spread. The aim is for dogs, lifts, roads or other signals to stop meaning danger automatically, while reasonable caution remains available.",
+      body: "You may know perfectly well that this dog, lift or road is different. In the three-to-four-month private programme, we work with the original fright and the later encounters that have joined it, then check what happens in genuinely safe situations. The question is whether you can judge what is in front of you, without the whole category making the decision first.",
       primaryHref: "/one-to-one",
       primaryLabel: "Explore private 1:1",
     },
@@ -165,8 +165,8 @@ export const translatedArticles: readonly TranslatedArticle[] = [
     primaryNextId: "AN-04",
     cta: {
       eyebrow: "If the plan exists but anxiety keeps circling",
-      heading: "Do what the situation requires without continuing to pay for the decision in anxiety",
-      body: "I personally lead two Off-Switch programmes for changing automatic reactions. In the 12-week group, you learn to separate the useful signal from the residual fear and return to the plan you have made. In private 1:1, I help you work through the personal risks and reactions involved. The aim is to take necessary action without maintaining anxiety after the decision is already clear.",
+      heading: "Work on the anxiety that continues after you have dealt with the risk",
+      body: "Checking the road is useful. Spending the next half-hour frightened does not improve the crossing. In the 12-week group, you learn to separate the action you need from the response that continues after it. Private 1:1 work lets me examine the risks and reactions specific to your situation. Neither asks you to ignore a real problem.",
       primaryHref: "/group",
       primaryLabel: "Explore the group programme",
       secondaryHref: "/one-to-one",
@@ -195,7 +195,7 @@ export const translatedArticles: readonly TranslatedArticle[] = [
     cta: {
       eyebrow: "If you have to calm the same anxiety again every day",
       heading: "Change the recurring anxiety instead of organising your life around it",
-      body: "I personally lead two Off-Switch programmes for changing automatic reactions. In the 12-week group, we follow the full sequence: regain control of the current state, work through specific responses and test the result in life. In the three-month private 1:1 programme, I adapt the order to your personal set of reactions. The aim is to stop having to soothe the same familiar anxiety every day.",
+      body: "Knowing how to calm yourself is useful. Having to do it about the same thing every day is exhausting. I teach the full Off-Switch sequence in the 12-week group: reduce the current response, work with what keeps starting it and test the change in life. In the three-to-four-month private programme, I adapt that work to your particular reactions and circumstances.",
       primaryHref: "/group",
       primaryLabel: "Explore the group programme",
       secondaryHref: "/one-to-one",
@@ -227,7 +227,7 @@ export const translatedArticles: readonly TranslatedArticle[] = [
     cta: {
       eyebrow: "If panic attacks are recurring and already restricting your life",
       heading: "Stop the panic pattern and recover freedom of action",
-      body: "In the 12-week Off-Switch group, you work through the whole pattern in sequence: the attack itself, fear of the next one, anticipation of danger, avoidance, and the body's readiness to move into panic again. I, Ugis Strauss, created the Method and personally lead every Zoom meeting. For a private 1:1 start, I personally review your situation and determine whether I can help. The intended result is for panic attacks to stop, so your body, routes and plans belong to you again.",
+      body: "You want more than a better way to get through the next attack. The work is directed towards stopping the pattern: the attacks, waiting for another one and avoiding more of your life. I lead every Zoom meeting in the 12-week group, teaching the sequence you practise between meetings. If you are considering private work, we first discuss your situation and whether I can help.",
       primaryHref: "/group",
       primaryLabel: "Explore the group programme",
       secondaryHref: "/one-to-one",
@@ -256,7 +256,7 @@ export const translatedArticles: readonly TranslatedArticle[] = [
     cta: {
       eyebrow: "If your first panic attack appeared after a long period of overload",
       heading: "Stop the panic pattern and trust your body again",
-      body: "I personally lead the 12-week Off-Switch group. We work not only with the last attack, but with the whole pattern: accumulated strain, the bodily signal, fear of recurrence and avoidance. The intended result is for panic attacks to stop, so you can trust your body again and make plans without remaining on standby for the next episode.",
+      body: "The last attack may be only one part of what needs attention. In the 12-week group I lead, you work through accumulated strain, the signals that start panic, fear of recurrence and avoidance. The intended result is for attacks to stop—not just for you to get quicker at managing them. Explore the group below, or consider private work around your individual situation.",
       primaryHref: "/group",
       primaryLabel: "Explore the group programme",
       secondaryHref: "/one-to-one",
@@ -285,7 +285,7 @@ export const translatedArticles: readonly TranslatedArticle[] = [
     cta: {
       eyebrow: "If you recognise your own panic cycle here",
       heading: "Stop the panic pattern and recover freedom of action",
-      body: "I personally lead the 12-week Off-Switch group. We work through the pattern in sequence: the attack itself, fear of another one, constant anticipation of danger and avoidance of places and routes. The intended result is for panic attacks to stop, so you can trust your body, travel, fly, spend time alone and make plans without consulting the next possible attack first.",
+      body: "Being able to stop an attack matters. Being able to think about a journey without setting off another attack matters too. In the 12-week group, I teach the sequence for working with attacks, anticipation and avoidance, with the goal of ending the recurring pattern. Private 1:1 is also available if you need the work organised around your own history and situations.",
       primaryHref: "/group",
       primaryLabel: "Explore the group programme",
       secondaryHref: "/one-to-one",
@@ -315,7 +315,7 @@ export const translatedArticles: readonly TranslatedArticle[] = [
     cta: {
       eyebrow: "If an attack has taken places and routes out of your life",
       heading: "Recover the freedom to travel, fly and be on your own",
-      body: "I personally lead two Off-Switch programmes for changing automatic reactions. In the 12-week group, we work through the link between the attack, the place and anticipation of another episode in a shared sequence. In private 1:1, I tailor the work and real-life tests to your particular places, routes and signals. The aim is for panic to stop deciding where you can drive, fly or go—and whether you can be alone.",
+      body: "Which journey have you stopped considering? The work connects the attack, the place and the fear of another episode, then tests whether a safe return has become possible. The 12-week group follows a shared sequence. In private 1:1, I adapt the work and tests to your particular routes and signals. You are working towards using that part of life again, not simply enduring it once.",
       primaryHref: "/group",
       primaryLabel: "Explore the group programme",
       secondaryHref: "/one-to-one",
@@ -347,7 +347,7 @@ export const translatedArticles: readonly TranslatedArticle[] = [
     cta: {
       eyebrow: "If the past continues to switch on in present-day life",
       heading: "Let the past become a memory, not an automatic script for today",
-      body: "In the three-month private 1:1 Off-Switch programme, I first help you bring the current state back within a manageable range, then select accessible memories and an appropriate pace. After each step, we test not only how you can describe the past, but what happens with today's signal, the imagined future and real life. The aim is for the event to remain part of your history without automatically writing your response now.",
+      body: "You do not have to tell the story more convincingly, or begin with its hardest moment. In three to four months of private 1:1 work, you first learn to manage the response happening now. We then choose accessible memories, work at an appropriate pace and check what changes in today's situations. The memory and your judgement of it can remain without deciding every similar encounter for you.",
       primaryHref: "/one-to-one",
       primaryLabel: "Explore private 1:1",
     },
@@ -375,7 +375,7 @@ export const translatedArticles: readonly TranslatedArticle[] = [
     cta: {
       eyebrow: "If you understand the trauma but the reaction has not ended",
       heading: "Complete the response to the past and recover choice in real life",
-      body: "In private 1:1, I teach Off-Switch as a way to return to a manageable state, select an accessible memory and guide the work at a pace that does not create another overload. We then test the past scene, a possible future and the concrete action that was previously unavailable. The aim is not merely to tell your story better, but for the past to stop taking choice away in the present.",
+      body: "If the same voice, place or image still takes choice away, that is where we check for change. In private 1:1, I teach you to manage the current response before we approach accessible memories at a pace you can work with. We test the remembered scene, a similar future and what you can actually do differently—not how well you can explain what happened.",
       primaryHref: "/one-to-one",
       primaryLabel: "Explore private 1:1",
     },
@@ -394,7 +394,7 @@ export const translatedArticles: readonly TranslatedArticle[] = [
     category: "Trauma and PTSD",
     categorySlug: "trauma-ptsd",
     categoryOrder: 3,
-    cardDescription: "A clinical orientation to PTSD symptoms, the limits of self-identification, and my authorial approach to specific memories and reactions.",
+    cardDescription: "An overview of PTSD symptoms, why a symptom list cannot diagnose you, and how I work with specific memories and reactions.",
     fileName: "ptsd-symptoms-in-adults.md",
     cluster: "ptsd-recognition-guide-v1",
     seriesPosition: 1,
@@ -404,7 +404,7 @@ export const translatedArticles: readonly TranslatedArticle[] = [
     cta: {
       eyebrow: "If the danger has ended but its symptoms still govern your life",
       heading: "Free the present from reactions to an event that is over",
-      body: "In the three-month private 1:1 programme, I work not with a diagnosis as one object, but with specific memories and reactions that continue after the event. First, you learn Off-Switch as a way to return to a manageable state; then we choose an accessible episode and a safe pace. The aim is for the past to remain a fact without becoming the present again whenever a similar signal appears.",
+      body: "A sound, a place or an image can make an ended event feel present again. In the three-to-four-month private programme, we work with those specific memories and reactions, not with a diagnosis as one object. First you learn to manage the current response; then we select an accessible episode and a safe pace. The work is towards remembering what happened without repeatedly being pulled back into it.",
       primaryHref: "/one-to-one",
       primaryLabel: "Explore private 1:1",
     },
@@ -414,7 +414,7 @@ export const translatedArticles: readonly TranslatedArticle[] = [
     slug: "why-the-danger-is-over-but-the-reaction-remains",
     title: "Why the danger can end while you keep preparing for its return",
     seoTitle: "Why the Reaction Remains After the Danger Has Ended",
-    description: "An authorial model of rehearsing a past danger: one major event, layered episodes, an earlier background and the boundary between an old response and a current threat.",
+    description: "My working model of rehearsing a past danger: one major event, layered episodes, an earlier background and the difference between an old response and a current threat.",
     breadcrumb: "Why the danger ended but the reaction remained",
     primaryQuery: "why fear remains after danger has passed",
     secondaryQueries: ["effects of a traumatic event", "always preparing for danger to return"],
@@ -430,8 +430,8 @@ export const translatedArticles: readonly TranslatedArticle[] = [
     secondaryNextId: "END-01",
     cta: {
       eyebrow: "If the danger has ended but its rehearsal continues inside",
-      heading: "Return to a present that is no longer that danger",
-      body: "I personally lead the three-month private 1:1 Off-Switch programme. At an appropriate pace, we work with specific difficult episodes and the reactions that continue after them. The aim is for the past to remain a fact without automatically taking over the present or keeping you in permanent preparation for a threat that has ended.",
+      heading: "Work on reactions that continue after the danger has ended",
+      body: "When the danger has genuinely ended, continuing to prepare for it can still occupy the day. In the three-to-four-month private programme, I help you work with the specific episodes and reactions involved, at an appropriate pace. We check what still happens when you remember, anticipate and meet similar situations. The past remains a fact; it need not keep setting today's agenda.",
       primaryHref: "/one-to-one",
       primaryLabel: "Explore private 1:1",
     },
@@ -458,7 +458,7 @@ export const translatedArticles: readonly TranslatedArticle[] = [
     cta: {
       eyebrow: "If one look, tone or gesture changes your state instantly",
       heading: "Stop letting a brief signal take control of your response",
-      body: "I personally lead two Off-Switch programmes for changing automatic reactions. In the 12-week group, you interrupt the automatic start and test change across similar signals in a shared sequence. In private 1:1, I help identify and work through a severe or layered source. The aim is for the look, tone or place to remain a fact of the present without commanding your feelings and actions before you have a choice.",
+      body: "It may be one look or one word. You would like a moment to decide what it means before your whole response takes over. In the 12-week group, you learn to interrupt the reaction and test what changes across similar situations. In private 1:1 work, I choose and adjust the next step around your history and what happens between our meetings. Real boundaries and necessary action still matter.",
       primaryHref: "/group",
       primaryLabel: "Explore the group programme",
       secondaryHref: "/one-to-one",
@@ -487,8 +487,8 @@ export const translatedArticles: readonly TranslatedArticle[] = [
     secondaryNextId: "FEAR-01",
     cta: {
       eyebrow: "If your reaction is much stronger than today's situation",
-      heading: "Bring the response back to the scale of the present—and recover choice",
-      body: "I am Ugis Strauss, creator of the Off-Switch Method, and I personally lead the three-month private 1:1 programme. I separate the current fact from older emotional charge that has joined it. We work with specific scenes and test the change in similar situations. The aim is for today's conversation, mistake or comment to stop becoming an automatic repetition of the past.",
+      heading: "Separate the current problem from the older reactions intensifying it",
+      body: "The mess may need clearing. The agreement may need keeping. In the three-to-four-month private programme, I help you separate those present facts from the older reactions adding force to them. We work with specific scenes, then check similar situations. You are not learning to approve of everything; you are working towards choosing your response before the explosion chooses it for you.",
       primaryHref: "/one-to-one",
       primaryLabel: "Explore private 1:1",
     },
@@ -515,7 +515,7 @@ export const translatedArticles: readonly TranslatedArticle[] = [
     cta: {
       eyebrow: "If one memory brings up an entire chain",
       heading: "Free the present from a chain of difficult memories",
-      body: "I personally lead the three-month private 1:1 Off-Switch programme for changing automatic reactions. We work in sequence with memories that are connected and repeatedly reactivate emotional charge, without trying to solve the entire chain through one explanation. The aim is for one scene to stop pulling the others into the present with it.",
+      body: "You do not need to arrive with the whole chain mapped. In the three-to-four-month private programme, we start with an accessible memory, keep track of what follows and test each response before moving on. I help keep that work in order, so another memory is something to work with—not an invitation to explain your entire life all over again.",
       primaryHref: "/one-to-one",
       primaryLabel: "Explore private 1:1",
     },
@@ -541,8 +541,8 @@ export const translatedArticles: readonly TranslatedArticle[] = [
     primaryNextId: "END-01",
     cta: {
       eyebrow: "If you have spent years searching for one perfect cause",
-      heading: "Get a result without searching endlessly for the root",
-      body: "I personally lead two Off-Switch programmes for changing automatic reactions. In the 12-week group, you work with what is genuinely active now. In private 1:1, I help organise the personal sequence. The aim is to complete specific responses and end the search for causes when the past has stopped governing your life.",
+      heading: "Work on the reaction without first finding its original cause",
+      body: "A memory does not have to be the first or most dramatic to be worth working with. In the 12-week group, you learn the sequence and apply it to reactions you can actually identify. In private 1:1, I organise the steps around your history and what remains active. Progress is checked against the response, not the elegance of the explanation.",
       primaryHref: "/group",
       primaryLabel: "Explore the group programme",
       secondaryHref: "/one-to-one",
@@ -571,7 +571,7 @@ export const translatedArticles: readonly TranslatedArticle[] = [
     cta: {
       eyebrow: "If a familiar feeling has returned and seems like a complete relapse",
       heading: "Do not mistake a familiar feeling for losing all your progress",
-      body: "I personally lead two Off-Switch programmes for changing automatic reactions. In the 12-week group, you learn to distinguish a completed response, a neighbouring signal and a new event. In private 1:1, we test your specific situation. The aim is for a familiar feeling to stop cancelling the whole path behind you or forcing the work to begin endlessly from zero.",
+      body: "Before deciding that everything is back, we check what happened this time. Was it the same scene, a different signal or a new event? The 12-week group teaches you to make those distinctions in your practice. In private 1:1, I examine your particular situation with you. Neither dismissing the new difficulty nor writing off all earlier progress helps us choose the next step.",
       primaryHref: "/group",
       primaryLabel: "Explore the group programme",
       secondaryHref: "/one-to-one",
@@ -600,7 +600,7 @@ export const translatedArticles: readonly TranslatedArticle[] = [
     cta: {
       eyebrow: "If the past is calm but the search for causes continues",
       heading: "End the endless excavation and return to your life",
-      body: "I personally lead two Off-Switch programmes for changing automatic reactions. In the 12-week group, you learn to recognise the point of completion and direct the attention released into new actions. In private 1:1, I help test whether the response has genuinely ended. The aim is to stop looking for one more hidden cause after the past has stopped governing the present.",
+      body: "The work needs an ending, not a permanent search for one more explanation. In the 12-week group, you learn how to check a response and recognise when attention can move to new actions. In private 1:1, I help test what still catches and what no longer does. If the response is gone and life confirms it, we do not invent another problem to keep the process going.",
       primaryHref: "/group",
       primaryLabel: "Explore the group programme",
       secondaryHref: "/one-to-one",
@@ -629,8 +629,8 @@ export const translatedArticles: readonly TranslatedArticle[] = [
     secondaryNextId: "ACT-01",
     cta: {
       eyebrow: "If yes escapes before you have decided",
-      heading: "Say no without fear or an internal surrender",
-      body: "I personally lead two Off-Switch programmes for changing automatic reactions. In the 12-week group, we work with fear of the consequences of refusal, the automatic smile and compulsory agreement. In private 1:1, I connect this pattern with your history and specific relationships. The aim is to agree or refuse calmly and remain connected with your decision during a difficult conversation.",
+      heading: "Work on the fear that makes you agree when you want to say no",
+      body: "If you know what you want to say but hear yourself agreeing instead, we can work on the reaction that gets there first. I lead both Off-Switch programmes: in the 12-week group, you follow a shared sequence and practise the method on your own reactions between meetings; in private 1:1 work, I choose the next step with your history and specific relationships in view. Explore the format that fits the way you want to work.",
       primaryHref: "/group",
       primaryLabel: "Explore the group programme",
       secondaryHref: "/one-to-one",
@@ -659,7 +659,7 @@ export const translatedArticles: readonly TranslatedArticle[] = [
     cta: {
       eyebrow: "If silence from someone close immediately feels like rejection or departure",
       heading: "Stop completing the break-up in your mind and wait calmly for facts",
-      body: "I personally lead the three-month private 1:1 Off-Switch programme for changing automatic reactions. I help dismantle the chain in which a pause instantly becomes catastrophe, bodily anxiety and action driven by fear. The aim is to tolerate silence, ask a direct question and respond to the person's real behaviour rather than to a separation that has already taken place only in imagination.",
+      body: "If the whole break-up has already happened in your mind, waiting for an answer can feel unbearable. In the three-to-four-month private programme, we work with the earlier experiences and feared future that turn a pause into catastrophe. The practical change we look for is being able to wait, ask directly and judge the actual behaviour—including when a real boundary is needed.",
       primaryHref: "/one-to-one",
       primaryLabel: "Explore private 1:1",
     },
@@ -687,7 +687,7 @@ export const translatedArticles: readonly TranslatedArticle[] = [
     cta: {
       eyebrow: "If you cannot tell whether the problem is in you or in the relationship",
       heading: "See the relationship clearly and make your own decision",
-      body: "I personally lead the three-month private 1:1 Off-Switch programme. First, we work with the old response that distorts what is happening; then we test the facts, conversations, boundaries and your partner's response. The aim is to see today's relationship clearly and choose consciously to stay, set a boundary, create distance or leave—without the old fear and resentment deciding first.",
+      body: "You do not have to become calmer about behaviour that remains unacceptable. In the three-to-four-month private programme, I help separate old hurt and fear from what is happening now. We work with the response and examine the real conversations, boundaries and what your partner does. Staying, creating distance or leaving remains your decision—not the programme's preferred ending.",
       primaryHref: "/one-to-one",
       primaryLabel: "Explore private 1:1",
     },
@@ -713,8 +713,8 @@ export const translatedArticles: readonly TranslatedArticle[] = [
     secondaryNextId: "REL-03",
     cta: {
       eyebrow: "If you pull away precisely when closeness becomes real",
-      heading: "Remain present with closeness and choose the relationship without old fear",
-      body: "I personally lead the three-month private 1:1 Off-Switch programme. I work with the response that begins at the threshold of real closeness and produces coldness, distance or departure. The aim is to remain near enough to see the facts and decide whether the relationship suits you—without destroying the possibility of closeness in advance.",
+      heading: "Separate the fear of closeness from the reasons for staying or leaving",
+      body: "You may want to understand that change before deciding what to do about the relationship. In the three-to-four-month private programme, we work with the specific moment when closeness turns into coldness, fault-finding or the need to leave. Then you look at the relationship again. The purpose is not to persuade you to stay; it is to make staying or leaving a choice you can actually make.",
       primaryHref: "/one-to-one",
       primaryLabel: "Explore private 1:1",
     },
@@ -741,7 +741,7 @@ export const translatedArticles: readonly TranslatedArticle[] = [
     cta: {
       eyebrow: "If you do not want to return to the same way of working",
       heading: "Recover from burnout without reconstructing the old system",
-      body: "In the Off-Switch Method, we separate the internal command to overwork from skills and the real structure of the job. The 12-week group provides the shared sequence; in private 1:1, I connect reactions, boundaries, role and meaning within your history. If the organization remains objectively impossible, the organization needs to change. The aim is not to recover your old tolerance, but to return to work and life that can withstand reality.",
+      body: "Getting enough energy to overwork again would take you back to the beginning. We separate the fear that drives you to continue, the skills you need and the job's actual demands. The 12-week group gives you a shared sequence; private 1:1 connects the work with your own history, boundaries, role and direction. If the organisation remains impossible, that needs changing too.",
       primaryHref: "/formats",
       primaryLabel: "Compare ways of working",
       secondaryHref: "/for-organizations",
@@ -771,7 +771,7 @@ export const translatedArticles: readonly TranslatedArticle[] = [
     cta: {
       eyebrow: "If the holiday helped but the first working day brought everything back",
       heading: "Restore energy and rebuild the way you work",
-      body: "There are two routes. In the 12-week group, you change automatic responses and daily patterns. In private 1:1, I connect that work with your workload, boundaries and decisions. The aim is for recovery to survive your return to work instead of ending when the holiday does.",
+      body: "If rest helped until work resumed, time off may not be the whole answer. The 12-week group follows a shared sequence for working with automatic reactions and daily patterns. In private 1:1, I connect those responses with your workload, boundaries and decisions. The work is towards recovery that survives the return to ordinary life—not blaming yourself or the holiday when it does not.",
       primaryHref: "/group",
       primaryLabel: "Explore the group programme",
       secondaryHref: "/one-to-one",
@@ -799,10 +799,12 @@ export const translatedArticles: readonly TranslatedArticle[] = [
     primaryNextId: "BO-03",
     cta: {
       eyebrow: "If you have no energy left but still cannot stop",
-      heading: "Stop without fearing the loss of work, money or status",
-      body: "I personally lead the three-month private 1:1 Off-Switch programme. We work with the automatic command to continue at any cost, then turn the new state into actual boundaries, conversations and decisions. The aim is to stop in time without experiencing the stop itself as a threat to your safety.",
+      heading: "Work on the fear that makes it hard to stop working",
+      body: "When stopping feels more dangerous than exhaustion, another reminder to rest is unlikely to help. We work with that response without pretending real job or income risks have disappeared. In the three-to-four-month private programme, I connect the work with your boundaries, conversations and decisions. The 12-week group offers a shared sequence, with practice on your own reactions between meetings.",
       primaryHref: "/one-to-one",
       primaryLabel: "Explore private 1:1",
+      secondaryHref: "/group",
+      secondaryLabel: "Explore the group programme",
     },
   },
   {
@@ -827,7 +829,7 @@ export const translatedArticles: readonly TranslatedArticle[] = [
     cta: {
       eyebrow: "If you changed but the work remained unbearable",
       heading: "Change what is genuinely making the work unbearable",
-      body: "I help separate what still starts internally from an objectively impossible workload, poor working structure or lost meaning. The 12-week group suits shared work with responses and action; private 1:1 suits a personal decision about load, role or environment. The aim is not to tolerate the intolerable, but to change the response, conditions, role or workplace calmly.",
+      body: "We do not keep searching for something wrong with you because the job is still impossible. I help distinguish a remaining reaction from missing skills, unworkable conditions or lost meaning. The 12-week group follows a shared sequence of emotional work and new action. Private 1:1 allows us to examine your particular workload, role and decisions—including whether the environment needs to change.",
       primaryHref: "/group",
       primaryLabel: "Explore the group programme",
       secondaryHref: "/one-to-one",
@@ -855,8 +857,8 @@ export const translatedArticles: readonly TranslatedArticle[] = [
     secondaryNextId: "MEM-01",
     cta: {
       eyebrow: "If you feel small again around your boss",
-      heading: "Recover your adult voice in a conversation with authority",
-      body: "I personally lead the three-month private 1:1 Off-Switch programme. I work with the old response through which a title, tone or criticism turns an adult into a frightened child automatically. The aim is to keep your voice, speak to the facts and assess your boss's real behaviour separately—without submitting to older fear.",
+      heading: "Keep your voice when the manager joins the conversation",
+      body: "You had a reasonable point before the call. It still deserves to be heard during it. In the three-to-four-month private programme, we work with the tone, look or criticism that makes your position disappear, and with the earlier experiences connected to it. We also keep today's manager in view: a changed response does not make unreasonable behaviour acceptable.",
       primaryHref: "/one-to-one",
       primaryLabel: "Explore private 1:1",
     },
@@ -884,7 +886,7 @@ export const translatedArticles: readonly TranslatedArticle[] = [
     cta: {
       eyebrow: "If the right words arrive only after the conversation",
       heading: "Keep your voice during the difficult conversation itself",
-      body: "I personally lead the three-month private 1:1 Off-Switch programme. We work with the response through which words, position and the ability to answer disappear under pressure, then test the new action in imagined and real conversations. The aim is to say what matters in time instead of continuing the discussion internally after the door has closed.",
+      body: "If the words exist before and after the meeting, we can examine what makes them disappear inside it. In the three-to-four-month private programme, I work with that response, distinguish it from a missing conversation skill and test what happens when you speak. The useful result is access to your own position while the other person is still there to hear it.",
       primaryHref: "/one-to-one",
       primaryLabel: "Explore private 1:1",
     },
@@ -911,7 +913,7 @@ export const translatedArticles: readonly TranslatedArticle[] = [
     cta: {
       eyebrow: "If the important task keeps losing to smaller ones",
       heading: "Begin the important work without the long detour",
-      body: "I personally lead two Off-Switch programmes. In the 12-week group, we work with the tension before the first step and test new action on a real task between meetings. In private 1:1, I connect the response with your specific task and history. The aim is to begin while the work is still manageable rather than calming yourself with minor tasks as the consequences grow.",
+      body: "Choose the task you keep circling. We look at what happens just before you begin, work with the response and test an actual first step. In the 12-week group, you apply the shared sequence to your own tasks between meetings. Private 1:1 lets me work more closely with the task and history involved. A cleaner kitchen is welcome; it is not the result we are checking.",
       primaryHref: "/group",
       primaryLabel: "Explore the group programme",
       secondaryHref: "/one-to-one",
@@ -939,8 +941,8 @@ export const translatedArticles: readonly TranslatedArticle[] = [
     primaryNextId: "BUILD-01",
     cta: {
       eyebrow: "If the fear has gone but the necessary action is still absent",
-      heading: "Build a way of acting that works in real life",
-      body: "I personally lead two Off-Switch programmes. In the 12-week group, you practise new actions in a shared sequence. In private 1:1, I help identify what is actually missing: skill, structure, resource or decision. The aim is to stop searching for a fear that has already gone and build a workable way to act.",
+      heading: "Identify the skills, structure or resources you still need to act",
+      body: "A plan, a skill, time, resources or a decision may still be needed. We identify that gap instead of inventing another hidden fear. In the 12-week group, new actions are practised within the shared sequence. In private 1:1, I help you work out what your particular situation requires and test the next step in life.",
       primaryHref: "/group",
       primaryLabel: "Explore the group programme",
       secondaryHref: "/one-to-one",
@@ -969,8 +971,8 @@ export const translatedArticles: readonly TranslatedArticle[] = [
     secondaryNextId: "ANG-01",
     cta: {
       eyebrow: "If irritation has become a constant background",
-      heading: "Recover calm in which every small thing is no longer the final drop",
-      body: "I personally lead two Off-Switch programmes. In the 12-week group, you reduce the accumulated background and work through responses in a shared sequence. In private 1:1, I help with severe conflicts and personal chains of events. The aim is to answer today's situation rather than the entire accumulated load at once.",
+      heading: "Work through the accumulated tension behind repeated irritation",
+      body: "If every small interruption gets the same large response, we look beyond the last one. The 12-week group teaches a sequence for reducing the accumulated tension and working through the reactions behind it. In private 1:1, I help with more severe conflicts and connected events. The goal is to answer today's request or problem—not everything you have been carrying at once.",
       primaryHref: "/group",
       primaryLabel: "Explore the group programme",
       secondaryHref: "/one-to-one",
@@ -999,8 +1001,8 @@ export const translatedArticles: readonly TranslatedArticle[] = [
     secondaryNextId: "REL-03",
     cta: {
       eyebrow: "If you keep becoming angry about the same conversation or person",
-      heading: "End the old anger and resolve today's situation without an internal war",
-      body: "I personally lead two Off-Switch programmes. In the 12-week group, we work with the charge of specific episodes and build a new way of acting in a shared sequence. In private 1:1, I help examine severe personal chains and choose the conversation, boundary, distance or direct solution. The aim is for old anger to stop governing choice while the real situation receives a clear answer today.",
+      heading: "Work through the old anger and decide what the current situation needs",
+      body: "You do not have to approve of what happened to stop carrying the argument all day. In the 12-week group, you work with specific episodes and practise new actions through the shared sequence. In private 1:1 work, I choose the sequence around your history and help you decide what the current situation requires: a conversation, a boundary, distance or another practical action.",
       primaryHref: "/group",
       primaryLabel: "Explore the group programme",
       secondaryHref: "/one-to-one",
@@ -1028,7 +1030,7 @@ export const translatedArticles: readonly TranslatedArticle[] = [
     cta: {
       eyebrow: "If one type of person irritates you especially strongly",
       heading: "Stop seeing different people as one old threat",
-      body: "I personally lead the 12-week Off-Switch group. We identify the shared signal that automatically places different people into one irritating type and work with the older response to it. The aim is to see the actual person again and choose calm engagement, a boundary or distance without automatic anger.",
+      body: "A different person arrives and the same anger is already waiting. In the 12-week group I lead, you work with the signal that links those people in your reaction and the earlier experiences connected to it. We are not trying to make you like everyone. We are working towards being able to engage, object or step away without the automatic explosion deciding first.",
       primaryHref: "/group",
       primaryLabel: "Explore the group programme",
     },
@@ -1054,7 +1056,7 @@ export const translatedArticles: readonly TranslatedArticle[] = [
     cta: {
       eyebrow: "If the event ended but the internal argument continues",
       heading: "Release the resentment and resolve what genuinely remains",
-      body: "I personally lead the three-month private 1:1 Off-Switch programme. I help work through resentment, anger and the internal argument, then separately test whether a real question remains between the people involved. The aim is to stop carrying the punishment inside while retaining the memory, your judgement of the action and the ability to have the necessary conversation or set a boundary.",
+      body: "The other person may never deliver the apology you want. That does not have to make the internal argument a permanent arrangement. In the three-to-four-month private programme, we work with the resentment and anger, then check what still requires action between you. The memory, your judgement and your right to a boundary remain; continuing to suffer is not what keeps them valid.",
       primaryHref: "/one-to-one",
       primaryLabel: "Explore private 1:1",
     },
@@ -1081,8 +1083,8 @@ export const translatedArticles: readonly TranslatedArticle[] = [
     secondaryNextId: "RES-01",
     cta: {
       eyebrow: "If the mistake is repaired but you continue punishing yourself",
-      heading: "Complete the guilt and move forward calmly",
-      body: "I personally lead two Off-Switch programmes. In the 12-week group, we work with automatic self-blame and punishment in a shared sequence. In private 1:1, I connect that response with the specific episode and your history. Neither route denies real responsibility. The aim is to repair what can still be repaired, complete what is over and stop living as though continued suffering remains an obligation.",
+      heading: "Work on the guilt that continues after you have repaired what you can",
+      body: "We check real responsibility first, including anything still needing repair. Then we work with the guilt that continues to replay the event. The 12-week group teaches a shared sequence for addressing automatic self-blame; private 1:1 connects the work with your particular episode and history. You can keep the lesson without treating feeling bad as a lifelong obligation.",
       primaryHref: "/group",
       primaryLabel: "Explore the group programme",
       secondaryHref: "/one-to-one",
@@ -1111,7 +1113,7 @@ export const translatedArticles: readonly TranslatedArticle[] = [
     cta: {
       eyebrow: "If one mistake instantly becomes “I am bad”",
       heading: "Repair mistakes without condemning your whole identity",
-      body: "I personally lead the 12-week Off-Switch group. We separate the specific action, real responsibility and automatic self-destruction that joins them. The aim is to recognise a mistake, repair what is possible and learn without turning one episode into evidence that you are fundamentally bad.",
+      body: "The error may need ten minutes of repair. It does not need a verdict on your whole life. In the 12-week group, I teach you to separate the action and real responsibility from the self-attack that follows. You work with that response, then test whether you can recognise a mistake, put right what you can and learn without condemning yourself as a person.",
       primaryHref: "/group",
       primaryLabel: "Explore the group programme",
     },
@@ -1138,7 +1140,7 @@ export const translatedArticles: readonly TranslatedArticle[] = [
     cta: {
       eyebrow: "If a new achievement is enough only briefly",
       heading: "Stop proving endlessly that you are good enough",
-      body: "I personally lead two Off-Switch programmes. In the 12-week group, you change the recurring pattern of conditional self-worth in a shared sequence. In private 1:1, I connect it with your history and life decisions. The aim is for each achievement to remain yours while the internal standard stops running further away every time.",
+      body: "You can want the next promotion without needing it to prove that you count. The work addresses the response that makes every achievement expire as evidence of your worth. In the 12-week group, you follow a shared sequence and practise between meetings. In private 1:1, I connect the pattern with your history and decisions. Your ambitions can stay; living need not remain postponed until you meet them.",
       primaryHref: "/group",
       primaryLabel: "Explore the group programme",
       secondaryHref: "/one-to-one",
@@ -1167,7 +1169,7 @@ export const translatedArticles: readonly TranslatedArticle[] = [
     cta: {
       eyebrow: "If the decision is made but your thoughts keep circling",
       heading: "End the endless ‘what if’ and return to action",
-      body: "I personally lead the 12-week Off-Switch group programme. We work with the automatic response around repetitive thoughts, record the decision and use a clear rule: reopen it only when new information appears. The aim is for thinking to support action again instead of rehearsing possibilities that produce no new conclusion.",
+      body: "If the decision is unchanged after the twentieth review, more thinking may not be the missing ingredient. In the 12-week group I lead, you learn to work with the response that keeps reopening it. The decision is recorded; new information can change it. When nothing has changed, you practise returning your attention to the action—or rest—you actually chose.",
       primaryHref: "/group",
       primaryLabel: "Explore the group programme",
     },
@@ -1194,7 +1196,7 @@ export const translatedArticles: readonly TranslatedArticle[] = [
     cta: {
       eyebrow: "If your mind keeps reliving the day—or tomorrow’s tasks—at night",
       heading: "End the night-time thought loop and stop working the second shift",
-      body: "I personally lead two Off-Switch programmes. In the 12-week group, you practise working with repetitive thoughts and accumulated tension each day. In private 1:1, I help distinguish replaying the evening, thoughts after an early waking and your individual load of difficult experiences. The aim is for the finished day to stop repeating, tomorrow’s work to remain until morning and the body to leave daytime speed.",
+      body: "Yesterday's conversation and tomorrow's email need not share your bed all night. The 12-week group teaches daily practice with repetitive thoughts and accumulated tension. In private 1:1, I help distinguish what happens at night: replaying the day, waking early with tomorrow's tasks, or carrying older strain. We work with those responses, with the aim of letting the day end inside as well as on the clock.",
       primaryHref: "/group",
       primaryLabel: "Explore the group programme",
       secondaryHref: "/one-to-one",
@@ -1223,7 +1225,7 @@ export const translatedArticles: readonly TranslatedArticle[] = [
     cta: {
       eyebrow: "If rest has begun but your body still has not switched off",
       heading: "Recover a state in which you can genuinely relax",
-      body: "I personally lead two Off-Switch programmes. In the 12-week group, you learn the shared sequence for reducing current tension. In private 1:1, I help separate accumulated strain from difficult events and from a life organised around constant availability. The aim is for calm to become accessible again, so an ordinary evening or weekend can end work internally as well as on the calendar.",
+      body: "If you have stopped working but still feel on duty, we look at what keeps the tension going. The 12-week group teaches you the shared sequence for reducing current responses. Private 1:1 lets me examine accumulated strain, particular events and the demands built into your day. The practical aim is simple: being able to rest more, without making relaxation another deadline.",
       primaryHref: "/group",
       primaryLabel: "Explore the group programme",
       secondaryHref: "/one-to-one",
@@ -1251,8 +1253,8 @@ export const translatedArticles: readonly TranslatedArticle[] = [
     primaryNextId: "DEP-02",
     cta: {
       eyebrow: "If you recognise your own heavy state in this article",
-      heading: "Work with its parts and recover the ability to direct your life",
-      body: "I personally lead the three-month private 1:1 Off-Switch programme for functional adults who can practise independently between sessions. We separate the responses maintaining the heavy state, work with them in sequence and then rebuild action and access to a meaningful future. This is not diagnosis or treatment for depression; it is a structured programme for changing specific automatic responses and testing the result in daily life.",
+      heading: "Work separately with painful memories, feared outcomes and loss of direction",
+      body: "A memory, a feared future and the thought that nothing will change may need different work. In the three-to-four-month private programme, I help you separate those responses, work through them and begin rebuilding action and direction. It is for adults who can manage everyday life and practise independently between meetings. This is not diagnosis or treatment for depression; we assess change in specific responses and daily life.",
       primaryHref: "/one-to-one",
       primaryLabel: "Explore private 1:1",
     },
@@ -1280,7 +1282,7 @@ export const translatedArticles: readonly TranslatedArticle[] = [
     cta: {
       eyebrow: "If you feel lighter but your life has not yet returned",
       heading: "Restore action, direction and a durable interest in life",
-      body: "I personally lead the three-month private 1:1 Off-Switch programme for functional adults who can do independent work between sessions. We test remaining responses, the return of ordinary action and what may restore direction and meaning. This is not treatment or a claim of medical remission; the result I assess is sustained change in specific responses, functioning and real-life movement.",
+      body: "We look for changes in daily life, not only how you feel after a meeting. In the three-to-four-month private programme, we test remaining responses, ordinary actions and steps towards a direction that matters to you. The format is for adults who can manage everyday life and practise independently between meetings. This is not treatment or a claim of medical remission; I assess sustained change in specific responses and what becomes possible in daily life.",
       primaryHref: "/one-to-one",
       primaryLabel: "Explore private 1:1",
     },
@@ -1306,8 +1308,8 @@ export const translatedArticles: readonly TranslatedArticle[] = [
     primaryNextId: "BUILD-02",
     cta: {
       eyebrow: "If the old response has gone but life has not changed by itself",
-      heading: "Turn the space you recovered into a new life",
-      body: "I work with this in two formats. In the 12-week group, you translate greater freedom into new actions through a shared programme. In private 1:1, I help you build the personal calendar, relationships and direction that need to exist in its place. The aim is not to assume that removing the old creates the new, but to construct and test what was previously unavailable.",
+      heading: "Build new actions, boundaries and direction after the old reactions change",
+      body: "You may need a new boundary, a different week or a direction you have not yet chosen. That is work to build, not evidence that the past needs endless rechecking. The 12-week group includes new actions within its shared programme. In private 1:1, I help you turn your own choices into a calendar, relationships and practical next steps that can be tested.",
       primaryHref: "/formats",
       primaryLabel: "Compare ways of working",
     },
@@ -1334,7 +1336,7 @@ export const translatedArticles: readonly TranslatedArticle[] = [
     cta: {
       eyebrow: "If freedom has appeared but your own direction has not",
       heading: "Choose a direction and begin moving in real life",
-      body: "In the 12-week group, you build and test new actions through a shared programme. In private 1:1, I help you define a personal direction and correct each next step against what actually happens. The aim is not to select one supposedly perfect purpose for you, but to replace empty possibility with your own choice, a clear experiment and movement that survives contact with life.",
+      body: "You do not need to decide the next ten years before trying the next useful step. In the 12-week group, you build and test new actions through the shared programme. In private 1:1, I help clarify your direction and adjust the next step to what actually happens. I do not choose a purpose for you; the choice and the experiment need to belong to your life.",
       primaryHref: "/group",
       primaryLabel: "Explore the group programme",
       secondaryHref: "/one-to-one",
@@ -1363,7 +1365,7 @@ export const translatedArticles: readonly TranslatedArticle[] = [
     cta: {
       eyebrow: "If the new life still exists mainly in your head",
       heading: "Turn a good plan into change that survives real situations",
-      body: "In the 12-week group, you test new actions between meetings and bring the results back for correction. In private 1:1, I help adapt a personal route after each real-life test. The aim is for a new action to remain available across repeated situations and become part of ordinary life, rather than being declared complete after one encouraging attempt.",
+      body: "The boundary sounded clear in the meeting. What happened when you needed it on Tuesday? In the 12-week group, you test new actions between meetings and bring back what happened. In private 1:1, I use each real-life test to adjust your next step. We check whether the new action is available beyond one encouraging attempt—and without me beside you each time.",
       primaryHref: "/formats",
       primaryLabel: "Compare ways of working",
     },
@@ -1389,7 +1391,7 @@ export const translatedArticles: readonly TranslatedArticle[] = [
     cta: {
       eyebrow: "If you are postponing life until the past is completely finished",
       heading: "Work with the past while beginning to build a different life",
-      body: "I personally lead two Off-Switch programmes. In the 12-week group, you combine work with automatic responses and small real-life steps. In private 1:1, I help set the pace and direction for your situation. The aim is for the present to stop waiting on mythical perfect readiness while the already identified work with the past is still completed properly.",
+      body: "You can begin a different conversation or working week while continuing the work already identified in your past. The question is whether enough has changed to make that step possible. In the 12-week group, emotional work and small real-life actions follow a shared programme. In private 1:1, I help choose the pace and next step for your situation, without abandoning unfinished work or waiting for a perfectly cleared life.",
       primaryHref: "/group",
       primaryLabel: "Explore the group programme",
       secondaryHref: "/one-to-one",

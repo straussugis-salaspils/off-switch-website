@@ -16,8 +16,7 @@ export default function Anxiety() {
         "The anxiety is already there when you wake up. Before the day has given it a reason.",
         "Most people who find this page have worked on it. Sometimes for years. Therapy that was real and useful. Insights that are genuinely theirs — where it came from, what shaped it, why it makes sense in context. The pattern can be described with more precision than most people who haven't lived inside it.",
         "It is still there in the morning.",
-        "That is not a failure of understanding. Understanding the anxiety and switching off the anxiety are two different kinds of work. This is relevant to the gap between them.",
-        "For people whose anxiety has been understood, worked on, explained — and still keeps activating.",
+        "That is not a failure of understanding. Knowing why you are anxious and changing the response are different kinds of work. This page is about the gap between them.",
       ]}
       safetyNote="If anxiety symptoms are new, severe, medically unexplained, or connected to medication, substances, or health changes, those causes should be assessed first. This page is about recurring anxiety patterns that continue after the person already understands the situation."
       whatItLooksLike={[
@@ -32,7 +31,7 @@ export default function Anxiety() {
         heading: "Why it persists",
         paragraphs: [
           "Persistent anxiety is often not primarily a response to current threats. The response is older than the current situation.",
-          "Past experiences that generated fear, overwhelm, or loss — and never fully resolved — are still registering as active. When present situations resemble those original experiences closely enough, the old response fires. It does not need a current reason. It activates because the original material is still carrying activation.",
+          "Past experiences of fear, overwhelm or loss can still bring up a physical response. When something now resembles them closely enough, that response returns — even when the present situation does not explain its strength.",
           "Understanding where the anxiety came from addresses its meaning. It does not address the activation attached to it. Both layers are real. They respond to different kinds of work.",
         ],
       }}
@@ -40,9 +39,8 @@ export default function Anxiety() {
         heading: "What the method addresses",
         paragraphs: [
           "The Off-Switch Method works at the level where the activation lives — not in the narrative about the anxiety, but in the body's stored response to specific memories, triggers, and patterns.",
-          "A physical technique is applied to specific targets: a memory, a recurring trigger, a body sensation, an anticipatory concern. The activation on that target is worked down until it no longer registers. What held the anxiety in place is not the story. When the activation reduces, the body's response to that material changes.",
-          "This is not insight-based work. It does not require understanding the source of the anxiety more clearly than you already do. It addresses a different layer — the one where the response is held, not where the explanation lives.",
-          "It is relevant specifically where the understanding is already present and the response is still active.",
+          "You learn a physical technique and apply it while attending to a specific memory, trigger, body sensation or anticipated event. We work on that response until it no longer registers, checking what happens when you return to the same material.",
+          "You do not have to produce a better explanation of your anxiety first. The work is with the response that remains despite what you already understand.",
         ],
       }}
       proof={{
@@ -59,7 +57,7 @@ export default function Anxiety() {
         { title: "How to tell whether an anxiety response has changed", description: "A practical way to test whether the old signal still produces the same automatic reaction.", href: "/articles/how-to-know-anxiety-response-has-changed" },
       ]}
       ctas={{
-        closing: "If this is familiar — understanding solid, response still active — the next step is understanding how the method works.",
+        closing: "If you know your anxiety well but still wake up with it, we can talk about what you have tried and whether this work fits. Or read how the Method works before deciding to speak.",
         primary: { label: "Book a first conversation", href: "https://calendly.com/ugisstrauss/private-1to1-fit-conversation" },
         secondary: { label: "How the method works", href: "/the-method" },
       }}

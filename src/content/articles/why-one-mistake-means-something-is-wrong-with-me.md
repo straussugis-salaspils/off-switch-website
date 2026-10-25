@@ -56,14 +56,6 @@ Then the next error occurs and the same verdict appears.
 
 The history is understood; the response remains. I test the same situation that previously started the judgement.
 
-## I begin with one scene, not all self-esteem
-
-“Low self-esteem” is too broad to test.
-
-Take the precise moment when the person realised they made an error and the thought *I am bad* appeared. Work with the connected scenes that emerge, then return to the same event and deliberately test for the verdict.
-
-One neutral scene is not every part of self-worth. Continue only where a reproducible response remains.
-
 ## Remove the past, then create the future
 
 My short formula is:

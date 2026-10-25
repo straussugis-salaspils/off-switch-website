@@ -126,9 +126,7 @@ Someone may say, “I understand now. It is only fear of the next attack.”
 
 Good. Understanding helps.
 
-Now imagine the future situation.
-
-Do not give me an elegant explanation of why it should no longer be frightening. Actually picture it.
+Then we return to the future situation itself. Explaining why it should be less frightening is different from picturing it and noticing the response.
 
 What happens? Does the old anticipation appear? Does the panic response begin? Is there an immediate need to escape it?
 
@@ -153,6 +151,8 @@ I do not look only at whether they endured it once. I ask what happened internal
 Those are three different results.
 
 Stopping the reaction shows regulation. No automatic start during an honest test shows change in that target. Acting freely in life shows that the result exists beyond the conversation.
+
+See the individual private-work case: [Driving panic: beyond the five-mile limit](/evidence/driving-panic).
 
 ## Fear may already have become a rule for living
 

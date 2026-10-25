@@ -16,7 +16,7 @@ export default function Overthinking() {
       h1="Overthinking That Continues After It Stops Helping"
       intro={[
         "The thinking has kept going past the point where it was useful.",
-        "Overthinking can look like analysis, planning, reviewing, preparing, or trying to prevent something from going wrong. But when the loop keeps running after it has stopped helping, the issue is often not lack of clarity. The system is activated, and the mind is trying to solve what the body has not released.",
+        "Overthinking can look like analysis, planning, reviewing, preparing, or trying to prevent something from going wrong. But when the loop keeps running after it has stopped helping, the issue is often not lack of clarity. You have thought it through. You are still tense, and your mind goes looking for another answer.",
         "This is not about intelligence or its absence. People who overthink are often very good at thinking. The problem is not the quality of the analysis. The problem is that the mind cannot disengage — and the reason it cannot disengage is usually not that the thinking is unfinished. It is that something underneath has not resolved, and the mind is still trying.",
         "Stopping the loop can feel irresponsible. Like switching off the monitoring when the threat hasn't actually passed. That feeling is worth paying attention to, because it is pointing at something real.",
       ]}
@@ -33,9 +33,8 @@ export default function Overthinking() {
       mechanism={{
         heading: "Why the loop continues",
         paragraphs: [
-          "The mind keeps returning to certain material because that material is still carrying activation.",
-          "The thinking is not the root problem. It is the system's attempt to manage an activated state — to think its way to safety, or resolution, or certainty. The conversation that keeps replaying, the decision that keeps circling, the anticipation that won't settle — these return not because there is more to think about, but because the underlying state hasn't changed. As long as that activation remains live, the mind keeps producing loops around it. Thought alone cannot settle a state that is not a thinking problem.",
-          "The analysis feels necessary because the threat feels ongoing. And the threat feels ongoing because the activation that originally connected to it has not resolved. The mind is working on the right problem. It is using the wrong tool.",
+          "The conversation is over, but the feeling it brought up has not settled. The mind returns to it, trying to think its way to safety, resolution or certainty.",
+          "Another review may produce no new information and no better decision. Yet stopping still feels unsafe. In this pattern, the unresolved emotional response keeps asking for an answer that more analysis cannot supply.",
         ],
       }}
       methodSection={{
@@ -43,7 +42,7 @@ export default function Overthinking() {
         paragraphs: [
           "The method does not introduce better thoughts or more accurate analysis. It works on the material that is keeping the system activated underneath the loops.",
           "When the activation on specific material reduces — the memories, anticipations, or unresolved situations the mind keeps returning to — the loops responding to that material tend to reduce with it. When a conversation stops replaying or an anticipation stops running, it is usually not because the person decided to stop. The activation underneath changed.",
-          "This is especially relevant for people who already understand themselves well, can identify exactly what the mind keeps returning to, and still cannot get mental quiet. The understanding is real. The activation underneath it is not resolved by the understanding.",
+          "The useful test is not whether you can explain the loop. It is whether the same subject still pulls you into it.",
         ],
       }}
       proof={{
@@ -61,7 +60,7 @@ export default function Overthinking() {
         { title: "Why you cannot relax even when there is time", description: "Why available time and physical tiredness do not necessarily make disengagement possible.", href: "/articles/why-you-cannot-relax" },
       ]}
       ctas={{
-        closing: "If the loop keeps returning to the same material, and previous approaches have not changed that, this page explains what the method is actually working on.",
+        closing: "If you have thought it through many times and the loop still will not stop, we can discuss the particular subjects it returns to. Read about the Method or book a first conversation.",
         primary: { label: "Book a first conversation", href: "https://calendly.com/ugisstrauss/private-1to1-fit-conversation" },
         secondary: { label: "How the method works", href: "/the-method" },
       }}

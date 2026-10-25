@@ -6,13 +6,13 @@ source: adaptive rewrite of approved Russian article
 
 # Do you need to finish with the past before building the future?
 
-There is an apparent contradiction in my process.
+You can spend so long getting ready to live differently that the different life stays permanently on hold.
 
-I say there is little point building new responses on top of an old structure that is still collapsing. Then I say that, at roughly 70% of the first clearing list, a person can begin constructing new patterns in parallel.
+But forcing a new habit while the old reaction still takes over does not solve the problem either. You prepare a boundary, enter the conversation and hear yourself agree again.
 
-So which is it? Remove every last brick before beginning anything new, or clear with one hand while building with the other?
+How do you know when it is time to begin?
 
-The answer is that construction can begin before every part of the clearing is complete. That does not mean abandoning the old work at 70% and opening the building with a ribbon-cutting ceremony.
+In my work, building new patterns can start before every part of the work with the past is complete. The question is whether enough has changed for the person to try something new—not whether every last reaction has been worked through.
 
 ## Two opposite extremes create the same delay
 
@@ -74,7 +74,7 @@ Not a new quarry. Not another life devoted to finding what is wrong. Polishing.
 
 At that stage, individual emotions, beliefs, bodily responses and future fears can be checked more precisely because the general noise is lower.
 
-First the bulldozer, then the scalpel. The person need not remain on an empty site until the scalpel has ceremonially completed everything in existence.
+We begin with the broader, accessible material, then work more precisely with what remains. New actions need not wait until that second pass is finished.
 
 ## Construction tests the foundation
 

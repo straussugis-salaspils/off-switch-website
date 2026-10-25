@@ -50,19 +50,17 @@ So I separate the signal from the state in which the person meets it. The mess m
 
 Current stress acts as an amplifier. But that may not be the whole story.
 
-## I would put a hundred euros on the body remembering more than this room
+## I check whether earlier experiences are intensifying the current reaction
 
 In my working model, the person may be reacting not only to the clothes scattered today.
 
-I would put a hundred euros on the body remembering the same scene five days ago, two weeks ago, three months ago and two years ago.
+The same scene may have happened five days ago, two weeks ago, three months ago and two years ago.
 
 Two years earlier, it may have occurred during a much more difficult period: shouting children, severe tension and other problems at home.
 
 Today, a similar picture appears and the response does not arrive alone.
 
-This is my working bet, not a statistic. I have not measured parents with specialist equipment and produced a peer-reviewed denomination of exactly one hundred euros.
-
-Nor do I assume this history in every case. For one person the active signal is noise, for another disorder, for another the tone. In some cases today's situation will be the main fact and no large history will appear.
+I do not assume this history in every case. For one person the active signal is noise, for another disorder, for another the tone. In some cases today's situation will be the main fact and no large history will appear.
 
 But when the response is clearly larger than one scene, I check whether the present has brought earlier material with it.
 
@@ -97,18 +95,6 @@ After shouting, the person understands that the room was not a catastrophe. They
 Then the door opens, the same mess appears—and body and emotion resume the old discussion before reason has found a chair.
 
 The person can assess the situation correctly afterwards and still react too strongly inside it. We therefore need to test the response, not merely the quality of the explanation.
-
-## I test one specific scene
-
-I do not announce that we will now discover which childhood trauma causes shouting at backpacks.
-
-We take the actual scene: this room, these objects, this moment of entering. What happens in the body and emotion? What exactly fires—the image, noise, tone, loss of control or something else?
-
-We work with the accessible material connected with that response, then return to the same scene and deliberately test it again.
-
-If the automatic explosion returns, the work is not complete. If it does not, we have a result for that scene—not for all human anger, the entire biography or every possible conversation with the children.
-
-One tested scene.
 
 ## Less old charge does not make today's behaviour acceptable
 

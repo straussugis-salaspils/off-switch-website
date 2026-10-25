@@ -83,7 +83,7 @@ The plan preserves the decision so the logical mind does not need to reconstruct
 
 If there is, think.
 
-If there is not, the returning mental and emotional response needs to be addressed as a response. In my work, I teach an Off-Switch practice for interrupting that automatic cycle. The closed technique itself is not reproduced here; the principle matters: keep the useful decision and stop treating every return of the thought as an instruction to decide again.
+If there is not, the returning mental and emotional response needs to be addressed as a response. In the programme, I teach an Off-Switch practice for interrupting that automatic cycle. The useful decision stays. What we work on is the reaction that makes you feel you have to decide it all over again.
 
 ## “Do not think about it” leaves a vacancy
 

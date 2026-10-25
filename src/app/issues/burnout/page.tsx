@@ -36,15 +36,14 @@ export default function Burnout() {
       mechanism={{
         heading: "Why rest is not enough",
         paragraphs: [
-          "Sustained pressure generates emotional and physiological load. When that load is not cleared between cycles — when each demanding period adds to what was already present — it accumulates. Over years, it reaches a point where genuine rest is no longer accessible, even when the external demands reduce. Accumulated load does not clear on its own.",
-          "Rest helps at the margins. It does not clear what has accumulated. That is why recovery keeps not happening.",
+          "Each demanding period can add to what the previous one left behind. Eventually, even when the demands ease, you remain tense, depleted or unable to settle. Time away offers some relief without changing what you are still carrying. That is the pattern this work addresses.",
           "If the external pressure is still continuing, the conditions themselves may also need to change; the method does not replace necessary workplace, medical, or practical decisions.",
         ],
       }}
       methodSection={{
-        heading: "How the method relates to this",
+        heading: "What the Off-Switch Method addresses in burnout",
         paragraphs: [
-          "The first phase of the method works directly on what has accumulated — not on managing the symptoms of it. The primary tool is used daily. It is not relaxation and it does not depend on insight or effort. Over time, it reduces the load until genuine rest becomes accessible again.",
+          "The first phase works on the accumulated emotional load. You learn a physical technique and practise it daily. This is not another instruction to relax or try harder to feel better; it is work on the response that keeps you from settling, so that rest can become restorative again.",
           "Once that has happened, the second phase works on the specific material contributing to it — the sustained difficult periods, the experiences that built up rather than cleared. The method works through these until they no longer activate.",
         ],
       }}
@@ -65,7 +64,7 @@ export default function Burnout() {
       ]}
       ctas={{
         closing:
-          "If this is familiar — rest not restoring, capacity reduced, recovery not happening — the mechanism explanation is the right starting point.",
+          "If you have stepped back but still cannot recover, the first conversation is a chance to look at what remains — and whether this work fits. You can also read the Method page for the daily practice and sequence involved.",
         primary: { label: "Book a first conversation", href: "https://calendly.com/ugisstrauss/private-1to1-fit-conversation" },
         secondary: { label: "How the method works", href: "/the-method" },
       }}

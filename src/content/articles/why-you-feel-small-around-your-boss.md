@@ -98,10 +98,10 @@ The real problem may become clearer: speak, document, escalate, change role or l
 
 Continuing to work on oneself because the manager continues behaving badly is an unusual development strategy.
 
-## The result is that today's person becomes today's person again
+## Distinguish today's manager from earlier experiences of authority
 
 First, remove what previous authority figures add to today's scene. Then look again at the current manager.
 
 Perhaps the boss only pressed an old button. Perhaps the response changed but the conversation still needs learning. Perhaps the boss truly is the problem.
 
-Now the present person is responsible for the present situation—not an entire historical committee speaking through one voice.
+You can assess what this manager actually does, and decide how to respond without an entire historical committee speaking through one voice.

@@ -26,7 +26,7 @@ const variantClasses: Record<ButtonVariant, string> = {
   "outline-light":
     "bg-transparent text-deep-text border border-deep-text/60 hover:border-deep-text hover:bg-white/8",
   "ghost-light":
-    "bg-transparent text-deep-muted hover:text-deep-text border border-transparent",
+    "bg-transparent text-deep-text/85 hover:text-white border border-transparent",
 };
 
 const sizeClasses: Record<ButtonSize, string> = {
@@ -36,7 +36,7 @@ const sizeClasses: Record<ButtonSize, string> = {
 };
 
 const base =
-  "inline-block transition-colors duration-150 font-sans";
+  "inline-flex min-h-11 items-center justify-center text-center transition-colors duration-150 font-sans focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-accent-dim motion-reduce:transition-none";
 
 export default function Button({
   href,

@@ -14,9 +14,7 @@ But he could not drive beyond the city boundary.
 
 His panic attack had happened while travelling from one city to another. Afterwards, driving inside the city was possible; crossing the boundary was not.
 
-Very precise magic.
-
-On one side of an invisible line, he was an adult who knew how to drive. Beyond it, the whole structure changed.
+His driving ability had not changed. What changed at that invisible line was the response.
 
 **The city boundary knew nothing about him. His reaction did.**
 
@@ -115,6 +113,10 @@ A successful short route proves the short route. It does not automatically liber
 
 If a longer route starts the reaction again, the earlier result was not fake. A new, specific target has appeared. We work with it and test again.
 
+**Individual case · client-maintained tracker**
+
+In one documented case, a client went from a limit of roughly five miles beyond the city to journeys of approximately 15, 100 and 200 miles over 90 days. [See his recorded progress.](/evidence/driving-panic)
+
 ## An imagined route does not issue a driving licence for reality
 
 A person can travel calmly in imagination and meet a different reaction in real life.
@@ -122,8 +124,6 @@ A person can travel calmly in imagination and meet a different reaction in real 
 That is not a failed test. It is new information.
 
 Imagination showed that one part was available. Reality revealed an element we had not yet seen. The answer is not to push harder and pretend the person lacks willpower. It is to identify what appeared and continue working with it.
-
-The reverse is also true: a calm picture in the mind is not yet recovered territory.
 
 Until the person safely does what they had been avoiding, we have preparation for a result—not the whole result.
 
@@ -139,11 +139,7 @@ The aim is not to make someone enter any situation and call that freedom. It is 
 
 ## The result is recovered territory, not bravery
 
-This article is not about every part of the panic story.
-
-The first article showed how a small final event can cross a threshold after prolonged overload. The second showed how panic itself becomes a new frightening scene and creates anticipation.
-
-Here, the question is practical:
+The question is practical:
 
 > Has the territory removed after the attack returned?
 

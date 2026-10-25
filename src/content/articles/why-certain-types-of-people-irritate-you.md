@@ -12,7 +12,7 @@ They may only be taking too long to formulate a simple thought. Yet the body tig
 
 You may have decided to remain calm today. A sensible plan. The response began first.
 
-## One person is irritating an entire type
+## Different people can set off the same reaction
 
 For someone it is slow people, for another controlling people, for another people who appear helpless.
 
@@ -71,14 +71,6 @@ On one day the same type is irritating but manageable. On another, one tone is e
 Parallel tasks, accumulated tension and current stress can amplify the connection. Rest may therefore reduce intensity without proving that tiredness caused the whole response.
 
 Current stress can be an amplifier rather than the complete cause.
-
-## I do not guess the original cause from the type
-
-“Controlling people irritate me” does not justify assigning a controlling parent by return post.
-
-We take one present episode. What exactly starts the response: look, voice, phrase, posture or helplessness? Work with what becomes accessible and test the same situation again.
-
-If the response remains, continue. If it changes, test beside the same signal—not through admiration for the explanation.
 
 ## No automatic explosion does not mean agreement
 

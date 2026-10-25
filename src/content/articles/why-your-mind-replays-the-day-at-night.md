@@ -64,7 +64,7 @@ Some people are not conducting a long inner conversation. The speed remains in t
 
 The calendar has ended the day; the state has not.
 
-Here, persuasion about the beauty of sleep may achieve little. The first step is to notice what remains active and reduce that present response. In my work I use a hands-based Off-Switch practice for current bodily stress. The closed instructions are not reproduced in an article, but the distinction matters: a body still holding the day requires a different entry from a mind replaying three events.
+Here, persuasion about the beauty of sleep may achieve little. The first step is to notice what remains active and reduce that present response. In my work I teach a hands-based Off-Switch practice for current bodily stress. A body still holding the day needs a different starting point from a mind replaying three events.
 
 ## A hard week is not the same as accumulated strain
 
@@ -76,9 +76,7 @@ As a person becomes able to notice and reduce stress responses during the day, t
 
 ## I do not promise to command sleep
 
-The tempting claim is simple: do the procedure and you must fall asleep.
-
-You must not.
+Doing the procedure does not guarantee that you will fall asleep.
 
 Not every waking is caused by work thoughts. Not every sleep difficulty is psychological. Four in the morning is a time, not a diagnosis. Physical, medical, environmental and behavioural factors may matter and deserve appropriate assessment.
 

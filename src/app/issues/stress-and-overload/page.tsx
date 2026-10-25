@@ -18,7 +18,7 @@ export default function StressAndOverload() {
       intro={[
         "The day is over. The pressure has not left with it.",
         "This is for people who are still functioning, but carrying more pressure than their system can keep absorbing. The workload may be understood. The responsibilities may be real. But even when the immediate demand is over, the system does not fully return to neutral.",
-        "The causes may be clear. The workload, the sustained demands, the responsibilities that do not fully stop. Understanding them does not lower the activation. Knowing why the system is under pressure and getting it to return to baseline are two different kinds of work. This is relevant to the gap between them.",
+        "You may know exactly why you are under pressure. That does not explain how to come down from it when there is finally a chance to stop. This page is about the load that remains.",
       ]}
       whatItLooksLike={[
         "Pressure present even when nothing immediate requires attention. A background state that doesn't fully leave between demands.",
@@ -33,8 +33,8 @@ export default function StressAndOverload() {
         heading: "Why the system stays running",
         paragraphs: [
           "Normal stress rises and falls. The body meets a demand, responds, and returns to baseline. That is how it is designed to work.",
-          "The problem begins when the load does not fully clear between cycles. When each demanding period adds to what was already present — because the previous load was not resolved before the next arrived. Over time, the system's baseline rises. What is present now includes what did not clear before.",
-          "At that point, the problem is no longer only the current workload. The system is already loaded before the next demand arrives. A normal request, decision, conflict, or deadline lands on top of existing charge. That is why the reaction can look disproportionate from the outside while feeling completely real from the inside. Rest helps at the margins. It does not clear what has accumulated. That is why reducing external pressure may not produce the return to neutral the person expects.",
+          "When you do not recover between demands, each new period of pressure adds to what the last one left behind. The next ordinary request lands on top of all of it. Your reaction can look disproportionate from the outside and feel entirely real from the inside.",
+          "By then, reducing the workload may bring some relief without bringing you back to calm. The immediate demand has gone; the accumulated response has not.",
           "If the external load is still objectively too high, practical workload, boundary, medical, or organizational changes may also be necessary; this work addresses the accumulated internal activation that remains even when the person already understands the pressure.",
         ],
       }}
@@ -43,7 +43,7 @@ export default function StressAndOverload() {
         paragraphs: [
           "The first phase of the method works directly on what has accumulated — not on managing its symptoms or reorganizing external demands. The primary tool is introduced in Session 1 and used daily by the client from that point. It is not relaxation, and it does not depend on insight, willpower, or trying to calm yourself down. Over time, it reduces the accumulated load until genuine rest becomes accessible again.",
           "Once that has happened, the second phase works through the specific material contributing to the sustained activation — the periods of sustained difficulty, the experiences that built up rather than cleared, the patterns still running underneath. The method works through these until they no longer activate.",
-          "The engagement has a defined structure and a clear endpoint. The aim is a measurable reduction in automatic activation, not an ongoing support arrangement.",
+          "We track whether the response is reducing and work towards an endpoint where you no longer need ongoing sessions.",
           "Where medical, psychiatric, or immediate crisis support is needed first, this is not the right starting point.",
         ],
       }}
@@ -64,7 +64,7 @@ export default function StressAndOverload() {
       ]}
       ctas={{
         closing:
-          "If this is familiar — pressure continues, rest does not restore capacity, and the baseline does not change — start with the mechanism explanation or book a first conversation.",
+          "You may not be able to remove every responsibility. The question is whether you can stop carrying the pressure of all of them all the time. Read how the work proceeds, or talk with me about your situation.",
         primary: { label: "Book a first conversation", href: "https://calendly.com/ugisstrauss/private-1to1-fit-conversation" },
         secondary: { label: "How the method works", href: "/the-method" },
       }}

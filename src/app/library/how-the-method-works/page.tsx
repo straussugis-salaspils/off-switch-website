@@ -63,7 +63,7 @@ export default function MethodReadingPathPage() {
               How the method works
             </h1>
             <p className="mt-5 max-w-3xl text-base leading-7 text-deep-text/75 sm:text-lg sm:leading-8">
-              Read these in order: first the difference between understanding and an automatic response, then the logic of stabilization, then the role of practice between sessions.
+              Start with the gap between understanding and reacting. Then read why we build stability before approaching difficult memories, and how you use the method between meetings.
             </p>
           </div>
         </header>
@@ -104,10 +104,10 @@ export default function MethodReadingPathPage() {
           <section className="mt-10 max-w-5xl border-y border-border py-7 sm:flex sm:items-center sm:justify-between sm:gap-8">
             <div>
               <h2 className="font-serif text-2xl font-normal text-ink">
-                Ready to look at the working formats?
+                Compare group and private programmes: meetings, practice and individual guidance
               </h2>
               <p className="mt-2 max-w-2xl text-sm leading-6 text-muted">
-                The method is one. The level of individual direction and the way the route is set are different.
+                You can learn in a small group or work with me privately. Compare the meetings, independent practice and personal direction in each format. You do not need to finish the reading before asking about the work.
               </p>
             </div>
             <Link

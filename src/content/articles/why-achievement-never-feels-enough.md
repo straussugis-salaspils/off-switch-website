@@ -36,9 +36,7 @@ The formula is:
 
 Buy the car, receive promotion, build the house, marry, have children, receive recognition.
 
-X arrives and happiness comes—perhaps for days or weeks. This is conversational shorthand, not a universal measured duration.
-
-Then a new X appears. The right to be happy moves forward.
+You reach the goal and enjoy it. Then the next goal takes over, and being pleased with what you have done starts to feel premature.
 
 The carrot works very well if the purpose is continuous running. **The living is always scheduled for later.**
 
@@ -81,18 +79,6 @@ Before: I must achieve this to earn the right to be good and happy.
 After: I can respect myself and live now; I choose this goal because it matters or interests me.
 
 One uses the goal to escape not being enough. The other moves in a chosen direction.
-
-## I work with the moving line specifically
-
-Find the formula: which sum, title, possession or recognition is supposed to deliver worth?
-
-What is expected with it—happiness, love, security, permission to respect oneself?
-
-Work with specific earlier scenes and responses rather than arguing abstractly that the person is already good enough.
-
-Then separate the next goal from the right to have value now. Does the desire to grow remain once the pressure is quieter?
-
-If the goal disappears, it may have existed mainly as proof. If it remains, it can now be chosen.
 
 ## Happiness and output are different measurements
 

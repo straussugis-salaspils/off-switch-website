@@ -11,7 +11,7 @@
   --color-surface-raised: #ece8e1;
   --color-border: #ddd8d0;
   --color-border-light: #eae6df;
-  --color-muted: #79716c;
+  --color-muted: #6b645f;
   --color-muted-light: #6f6863;
   --color-accent: #1b6e4a;
   --color-accent-dim: #2d9966;
@@ -69,16 +69,25 @@ h1, h2 {
 
 /* Method page rhythm: regular sections use a stable 4rem edge; opening
    screens receive a little more room without changing article layouts. */
-body > main > section[class] {
+body > main > section[class]:not([data-editorial-section]) {
   padding-block: 4rem;
 }
 
-body > main > section[class]:first-of-type {
+body > main > section[class]:not([data-editorial-section]):first-of-type {
   padding-block: 4.75rem;
 }
 
 .type-page-title {
   @apply font-serif text-4xl font-normal leading-[1.08] tracking-display sm:text-5xl lg:text-6xl;
+}
+
+/* An editorial opening belongs to the homepage, not every page title. */
+.type-home-title {
+  font-family: var(--font-serif);
+  font-size: clamp(2.5rem, calc(1.5rem + 4.5vw), 5.5rem);
+  font-weight: 400;
+  line-height: 1.02;
+  letter-spacing: var(--tracking-display);
 }
 
 .type-editorial-index-title {

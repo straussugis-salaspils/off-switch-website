@@ -23,7 +23,7 @@ export default function EmotionalTriggers() {
       whatItLooksLike={[
         "A specific type of situation or interaction — a tone of voice, a kind of criticism, a feeling of being dismissed or ignored, a particular relational dynamic — that reliably produces a response larger than the current situation warrants.",
         "Recognizing the pattern while it is happening. And still being unable to stop it.",
-        "The familiar aftermath: proportions returned to, the over-reaction visible in retrospect, the frustration that it happened again.",
+        "The familiar aftermath: perspective returns, you can see how much bigger the reaction was than the situation, and you are frustrated that it happened again.",
         "The pattern is consistent and specific. Not random emotional instability — a predictable response to a predictable kind of situation.",
         "Relationships affected by the recurring pattern. Partners, close colleagues, family — people who have been on the receiving end, more than once.",
         "Prior work that produced real insight. Therapy that named the origin. Coaching that mapped the trigger. Years of self-development that changed how the person understands themselves. The insight is real. The pattern persists.",
@@ -32,15 +32,14 @@ export default function EmotionalTriggers() {
         heading: "What the reaction is drawing from",
         paragraphs: [
           "The resemblance doesn't have to be exact. A particular tone, a familiar dynamic — and the old response fires. It's the match that lights something older.",
-          "What the present moment is matching can be specific source material: an earlier experience, a relational dynamic, an anticipated rejection or conflict, a body sensation, or an unfinished emotional charge. The cue does not need to look like the original — it needs to resemble it closely enough for the system to respond.",
-          "Understanding this is real and often genuinely valuable. The insight is not the problem. The reaction is not being produced by a lack of insight — it is being produced by source material that still carries activation.",
-          "Until that source material changes, the reaction keeps arriving when the cue lands, even when the person can name the pattern accurately.",
+          "It may connect to an earlier experience, a familiar relationship dynamic, anticipated rejection or conflict, or a body sensation. The resemblance only has to be close enough to bring up the response.",
+          "Knowing that connection can be valuable. But naming the pattern does not necessarily change the response attached to it. That is why you can recognize the trigger and still react.",
         ],
       }}
       methodSection={{
         heading: "What the method works on",
         paragraphs: [
-          "The method works directly on what the trigger traces back to — the specific source material the trigger is drawing from: earlier experiences, relational patterns, anticipated responses, body sensations, or unfinished emotional charge. As the activation on that material is worked down, the pattern-match response to present-day triggers reduces.",
+          "The Method works on the experiences, anticipated responses or sensations connected to the trigger. As their emotional charge comes down, the present-day cue has less to set off.",
           "This is not about developing better responses at the moment of triggering. It is not impulse control or pausing before reacting. It is about working back to what the trigger is actually drawing from — until it no longer carries the activation that drives the reaction.",
         ],
       }}
@@ -57,7 +56,7 @@ export default function EmotionalTriggers() {
         { title: "The past and difficult memories", description: "Browse the Library topic on recurring triggers, connected memories and reactions that continue in the present.", href: "/library/past-difficult-memories" },
       ]}
       ctas={{
-        closing: "If the pattern is familiar and still live, the next step is understanding what actually addresses it.",
+        closing: "You do not need to explain the pattern more convincingly. If you want to work on the reaction that still arrives, start with a conversation about your situation or read how the Method works.",
         primary: { label: "Book a first conversation", href: "https://calendly.com/ugisstrauss/private-1to1-fit-conversation" },
         secondary: { label: "How the method works", href: "/the-method" },
       }}

@@ -19,12 +19,12 @@ const evidenceCategories = [
   {
     title: "Client-maintained tracker cases",
     description:
-      "Two individual cases tracked on self-reported symptom scales throughout the engagement. Scores available for inspection.",
+      "Two clients recorded their own symptoms during the work. Each case includes the scores and how they were collected.",
   },
   {
     title: "Retrospective practitioner estimates",
     description:
-      "Two cases without formal trackers. Severity ratings are retrospective practitioner estimates, not validated measurements. Labelled explicitly.",
+      "Two cases had no formal tracker. Their ratings were estimated afterwards by the practitioner; they are not validated measurements.",
   },
   {
     title: "Participant reports",
@@ -34,7 +34,7 @@ const evidenceCategories = [
   {
     title: "Practitioner uptake",
     description:
-      "Twenty Ukrainian clinicians joined the delivery team after experiencing the method themselves under active hostilities. Professional behaviour, not self-report.",
+      "Twenty Ukrainian clinicians experienced the method during active hostilities, then trained and joined the delivery team. This records a professional decision, not a symptom score.",
   },
 ];
 
@@ -43,8 +43,8 @@ const outcomeSummary = [
     case: "Ukraine field application",
     before: "PTSD scores pre-program",
     after: "42–60% reduction",
-    changed: "Group-level PTSD symptom reduction, sustained at one-month follow-up",
-    type: "Field application data",
+    changed: "PTSD symptom scores fell among completing participants in the three publicly shown measured cohorts. Reductions held at one-month follow-up where measured.",
+    type: "Field data from self-selected completers; no control group",
     href: "/evidence/ukraine-2022",
     hrefLabel: "Ukraine Project →",
   },
@@ -52,8 +52,8 @@ const outcomeSummary = [
     case: "Senior organizational leader under multiple crises",
     before: "~60/100 distress",
     after: "~10/100",
-    changed: "Sleep restored, work capacity returned, divorce situation accepted",
-    type: "Retrospective practitioner estimate",
+    changed: "A shorter working day with the same net output. Sleep restored, work capacity returned and the divorce situation accepted, while external pressures continued.",
+    type: "Estimated afterwards by the practitioner; no formal tracker",
     href: "/evidence/institutional-leader",
     hrefLabel: "Full case →",
   },
@@ -61,27 +61,27 @@ const outcomeSummary = [
     case: "Catastrophic anxiety after stroke",
     before: "~70/100 threat activation",
     after: "~10–15/100",
-    changed: "Handled layoff, heart surgery, and new job without collapse",
-    type: "Practitioner-estimated rating + one self-rated recovery marker",
+    changed: "After the engagement, a layoff and heart surgery did not bring back the earlier collapse response. New work was found. The work addressed anxiety, not the medical conditions.",
+    type: "Practitioner-estimated rating + one self-rated recovery marker; no formal tracker",
     href: "/evidence/anxiety-after-stroke",
     hrefLabel: "Full case →",
   },
   {
     case: "Driving panic and public pressure overload",
-    before: "Tracker score 79",
-    after: "Tracker score 4",
+    before: "Tracker score 79/125",
+    after: "4/125 at 90 days",
     changed:
-      "Panic stopped; driving expanded from roughly five miles beyond the city edge to 15, 100, and 200-mile drives; public-pressure overload reduced in the first month",
-    type: "Client-maintained tracker",
+      "Driving expanded from roughly five miles beyond the city edge to completed journeys of 15, 100 and 200 miles. Panic stopped; broader public-pressure overload reduced in the first month.",
+    type: "25-item client-maintained, self-reported tracker; individual case",
     href: "/evidence/driving-panic",
     hrefLabel: "Full case →",
   },
   {
     case: "Complex PTSD and burnout",
-    before: "Tracker score 72",
-    after: "Tracker score 7",
-    changed: "Tracker score 72 → 7. Work boundaries re-established. Practical and financial life resumed. Close relationships reopened.",
-    type: "Client-maintained tracker",
+    before: "Tracker score 72/105",
+    after: "7/105 at six-week follow-up",
+    changed: "Work boundaries were established, previously avoided financial matters addressed and close relationships reopened. Improvement continued after the meetings ended.",
+    type: "21-item client-maintained, self-reported tracker; individual case",
     href: "/evidence/complex-ptsd-burnout",
     hrefLabel: "Full case →",
   },
@@ -90,9 +90,9 @@ const outcomeSummary = [
 const caseCards = [
   {
     title: "Driving Panic and Public Pressure Overload",
-    proof: "A concrete situational panic resolved when the underlying overload system was cleared.",
+    proof: "The work began with broader role overload, then addressed driving-specific fear and tested the change on the road.",
     metric: "79 → 4",
-    metricNote: "25-item client-maintained tracker",
+    metricNote: "25-item self-reported tracker, out of 125; baseline to 90 days",
     outcome:
       "Panic stopped. Driving range expanded from roughly five miles beyond the city edge to 15, 100, and eventually 200-mile drives.",
     type: "Client-maintained tracker",
@@ -102,33 +102,33 @@ const caseCards = [
   {
     title: "Complex PTSD and Burnout",
     proof:
-      "Complex PTSD reduced measurably, with agency restored after prior insight-based work had not resolved the pattern.",
+      "Daily practice and systematic work through personal history, including workplace experiences, family relationships and longstanding self-criticism.",
     metric: "72 → 7",
-    metricNote: "21-item client-maintained tracker",
+    metricNote: "21-item self-reported tracker, out of 105; baseline to six-week follow-up",
     outcome:
-      "Approximately 90% reduction sustained at six-week follow-up. Work boundaries improved and financial practice resumed.",
+      "The score continued falling during six weeks of independent practice after the meetings ended. Work boundaries improved and previously avoided financial matters were addressed.",
     type: "Client-maintained tracker",
     href: "/evidence/complex-ptsd-burnout",
     active: true,
   },
   {
     title: "Senior organizational leader under multiple crises",
-    proof: "Function returned while external crises remained unresolved.",
+    proof: "Daily practice, work through accumulated emotional material and a shorter working day with time protected for recovery.",
     metric: "~60 → ~10",
     metricNote: "Retrospective practitioner estimate, 0–100",
     outcome:
-      "Sleep restored. Work capacity recovered. Concurrent crises navigated from a stable baseline.",
+      "Net output stayed stable despite the shorter day. Sleep and energy for work improved while the external crises continued; change held at an informal four-month review.",
     type: "Retrospective practitioner estimate",
     href: "/evidence/institutional-leader",
     active: true,
   },
   {
     title: "Catastrophic Anxiety and Future Collapse After Stroke",
-    proof: "Catastrophic anticipation reduced, and the change held through later real-world stressors.",
+    proof: "Work on fear of the future and an older response to criticism, with unusually intensive independent practice. The medical conditions were treated medically.",
     metric: "~70 → ~10–15",
     metricNote: "Retrospective practitioner estimate, 0–100",
     outcome:
-      "Handled layoff and heart surgery without collapse. New work found. Previous catastrophic-anticipation pattern did not return.",
+      "During a three-month pause after the engagement, the client handled a layoff and heart surgery without the earlier collapse response and found new work.",
     type: "Retrospective practitioner estimate",
     href: "/evidence/anxiety-after-stroke",
     active: true,
@@ -142,29 +142,30 @@ export default function Evidence() {
       <section className="pt-20 pb-16 lg:pt-28 lg:pb-24 grain">
         <div className="max-w-[1120px] mx-auto px-6 lg:px-12">
           <div className="max-w-3xl">
-            <h1 className="font-serif text-5xl lg:text-6xl font-light text-deep-text leading-tight tracking-display mb-6">
-              Evidence
+            <h1 className="font-serif text-4xl sm:text-5xl lg:text-6xl font-light text-deep-text leading-[1.08] sm:leading-tight tracking-display mb-6">
+              Evidence from the Off-Switch Method: outcomes and how they were recorded
             </h1>
             <p className="text-base text-deep-muted leading-relaxed max-w-2xl mb-4">
-              When someone has lived for years with anxiety, panic, burnout, or trauma
-              load, “this may help” is not enough. It matters to see where the method has
-              been applied, what was measured, and where the limits are named clearly.
+              Being able to drive beyond a five-mile limit. Finishing a shorter working
+              day with the same output and some room to recover. Dealing with a difficult
+              event without the old collapse response. These are changes recorded in
+              the individual cases below.
             </p>
             <p className="text-base text-deep-muted leading-relaxed max-w-2xl mb-4">
-              The evidence includes field application data, anonymized individual case
-              outcomes, participant reports, and practitioner uptake.
+              The records also show what the work involved. Some clients kept symptom
+              trackers; two cases use ratings estimated afterwards by the practitioner.
+              They are not interchangeable kinds of evidence.
             </p>
             <p className="text-base text-deep-muted leading-relaxed max-w-2xl mb-4">
-              Across measured cohorts and individual cases, the documented changes are
-              typically symptom reductions on structured trackers and functional
-              restorations: sleep restored, work capacity returned, panic patterns no
-              longer firing in the same way, driving range expanded, leadership function
-              returned under unchanged external pressure.
+              Separately, the Ukraine 2022 field programme documents delivery at scale,
+              measured changes among completing participants and clinicians who went on
+              to join the delivery team. Participant accounts are included in their own
+              words.
             </p>
             <p className="text-base text-deep-muted leading-relaxed max-w-2xl">
-              This is not presented as a peer-reviewed clinical trial. It is presented as
-              field evidence and anonymized practitioner case evidence. That distinction
-              is stated clearly throughout.
+              This is field evidence and anonymised practitioner case evidence, not a
+              peer-reviewed clinical trial. Each record explains what was measured and
+              what it cannot establish about another person&rsquo;s outcome.
             </p>
           </div>
         </div>
@@ -185,7 +186,7 @@ export default function Evidence() {
               </p>
               <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 mb-4">
                 {[
-                  { value: "7,000+", label: "participants" },
+                  { value: "7,000+", label: "participants enrolled" },
                   { value: "6", label: "cohort groups" },
                   { value: "42–60%", label: "PTSD symptom reduction" },
                   { value: "20", label: "clinicians trained" },
@@ -199,8 +200,9 @@ export default function Evidence() {
                 ))}
               </div>
               <p className="text-sm text-deep-muted leading-relaxed">
-                Pre/post measurement across multiple cohorts. Results sustained at
-                one-month follow-up. Field data — not a controlled trial.
+                The reductions concern completing participants in the three publicly
+                shown measured cohorts, not all enrolments. They held at one-month
+                follow-up where measured. Field data — no control group.
               </p>
             </div>
           </div>
@@ -211,11 +213,11 @@ export default function Evidence() {
       <section className="py-16 lg:py-20 bg-surface">
         <div className="max-w-[1120px] mx-auto px-6 lg:px-12">
           <h2 className="font-serif text-3xl lg:text-4xl font-light text-ink mb-3">
-            Outcome summary
+            Reported changes in symptoms and everyday life
           </h2>
           <p className="text-sm text-muted leading-relaxed mb-8 max-w-2xl">
-            Compact summary across all five cases. Evidence types differ — see the full
-            record for each case for the tracking method and limitations.
+            Four individual cases and one field programme. Each link opens the full
+            account, including how the change was recorded and its limitations.
           </p>
 
           {/* Case-record strips */}
@@ -282,10 +284,11 @@ export default function Evidence() {
         <div className="max-w-[1120px] mx-auto px-6 lg:px-12">
           <div className="max-w-4xl">
             <h2 className="font-serif text-3xl lg:text-4xl font-light text-ink mb-3">
-              Evidence types on this page
+              How the evidence was collected
             </h2>
             <p className="text-sm text-muted leading-relaxed mb-8 max-w-2xl">
-              The evidence on this page falls into five categories.
+              A symptom tracker, a practitioner&rsquo;s estimate and a participant&rsquo;s
+              account tell us different things. Here is how to distinguish them.
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
               {evidenceCategories.map((cat) => (
@@ -306,8 +309,8 @@ export default function Evidence() {
             Field Application: Ukraine 2022
           </h2>
           <p className="text-base text-muted-light mb-8">
-            The Off-Switch Method was deployed under active war conditions, at scale,
-            with measured outcomes.
+            A free online programme during active war, with symptom measurement among
+            participants who completed it.
           </p>
 
           <div className="max-w-3xl space-y-4 mb-10">
@@ -333,7 +336,7 @@ export default function Evidence() {
             {[
               { cohort: "Group 3", pre: "53.1", end: "21.5", reduction: "60%", followUp: "—" },
               { cohort: "Group 4", pre: "62.7", end: "36.4", reduction: "42%", followUp: "34.9 (44%)" },
-              { cohort: "Group 5", pre: "69.2", end: "39.6", reduction: "43%", followUp: "37.2 (46%)" },
+              { cohort: "Group 5", pre: "69.2", end: "39.6", reduction: "43%", followUp: "37.2 (46.2%)" },
             ].map((row) => (
               <div key={row.cohort} className="border border-border bg-white p-6 lg:p-8">
                 <p className="text-xs uppercase tracking-widest text-muted-light mb-1.5">Cohort</p>
@@ -385,11 +388,11 @@ export default function Evidence() {
       <section className="py-16 lg:py-20 bg-surface">
         <div className="max-w-[1120px] mx-auto px-6 lg:px-12">
           <h2 className="font-serif text-3xl lg:text-4xl font-light text-ink mb-4">
-            Individual case outcomes
+            What the work involved in each case
           </h2>
           <p className="text-base text-muted leading-relaxed max-w-2xl mb-10">
-            Anonymized practitioner records showing what the work addressed and what
-            changed across different presenting situations.
+            The same method did not mean the same work for everyone. These anonymised
+            records show the sequence, the practice and what happened afterwards.
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-5 max-w-4xl">
@@ -493,8 +496,8 @@ export default function Evidence() {
               Practitioner uptake
             </h2>
             <p className="text-base text-ink-light leading-relaxed mb-4">
-              The most significant professional signal from the Ukraine program was not
-              the number of participants. It was what happened with the clinicians.
+              Some participants were themselves treating people affected by the war.
+              After experiencing the programme, they wanted to learn to deliver it.
             </p>
             <p className="text-base text-ink-light leading-relaxed mb-8">
               Twenty Ukrainian therapists, psychologists, and medical doctors joined the
@@ -537,7 +540,7 @@ export default function Evidence() {
 
       <CTABand
         dark
-        body="If the evidence is sufficient and you want to understand whether the work fits your situation:"
+        body="If you recognise something of your own situation here, we can talk about what you want to change and what the work would involve."
         primary={{ label: "Book a first conversation", href: "/book" }}
         secondary={{ label: "How the method works", href: "/the-method" }}
       />

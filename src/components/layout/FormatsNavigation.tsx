@@ -1,7 +1,7 @@
 import SectionNavigation from "@/components/layout/SectionNavigation";
 
 const items = [
-  { label: "All formats", href: "/formats" },
+  { label: "Compare programmes", href: "/formats" },
   { label: "Private 1:1", href: "/one-to-one" },
   { label: "Group", href: "/group" },
 ] as const;

@@ -24,17 +24,17 @@ export default function InstitutionalLeader() {
               <span>Case record</span>
             </p>
             <h1 className="font-serif text-5xl lg:text-6xl font-light text-deep-text leading-tight tracking-display mb-6">
-              Senior Organizational Leader Under Multiple Crises
+              How a senior leader reduced her working hours without reducing output
             </h1>
             <p className="text-base text-deep-muted leading-relaxed max-w-2xl mb-4">
-              This case matters because the pressure outside did not disappear. What
-              changed was the leader&rsquo;s capacity to move through it with restored sleep,
-              work capacity, and a lower internal load.
+              A senior leader came to the work unable to face problems she would
+              normally have managed. By the end, she was working a shorter day with
+              time protected for recovery. Her net output had stayed the same.
             </p>
             <p className="text-base text-deep-muted leading-relaxed max-w-2xl mb-4">
-              An anonymized practitioner case. Function returned while the external
-              crisis remained unresolved — a senior leader moved from functional collapse
-              to stable work capacity, restored sleep, and a lower internal load.
+              Sleep improved, and her energy for work returned. The relationship
+              rupture, family-care responsibility and personal loss had not disappeared.
+              She was meeting those pressures from a different starting point.
             </p>
             <p className="text-sm text-deep-muted/70 leading-relaxed max-w-2xl">
               Retrospective practitioner estimate. No formal tracker. Anonymized
@@ -51,16 +51,16 @@ export default function InstitutionalLeader() {
             <div>
               <p className="text-sm font-medium text-ink mb-3">Before</p>
               <p className="text-base text-ink-light leading-relaxed">
-                Functional collapse at work. Sleep disrupted. Multiple concurrent pressures
-                active simultaneously.
+                Poor sleep, no drive and no ideas. Work had become difficult to face
+                while several serious personal pressures were happening at once.
               </p>
             </div>
             <div>
               <p className="text-sm font-medium text-ink mb-3">After — close of engagement</p>
               <p className="text-base text-ink-light leading-relaxed">
-                Work capacity returned. Sleep restored. Primary external situation accepted.
-                Concurrent pressures navigated from a stable baseline. External situation
-                had not changed.
+                A shorter working day, protected recovery time and stable net output.
+                Sleep restored. The primary external situation was accepted, and the
+                remaining pressures could be faced without the earlier collapse.
               </p>
             </div>
           </div>
@@ -75,58 +75,33 @@ export default function InstitutionalLeader() {
             evidenceType="Retrospective practitioner estimate. Anonymized practitioner record. No formal tracker."
             startingPoint="Approximately 60/100 distress and functional collapse."
             endPoint="Approximately 10/100 by close of engagement and informal four-month review."
-            functionalOutcome="Sleep restored. Work capacity returned. Concurrent pressures navigated from a stable baseline."
+            functionalOutcome="Sleep restored. A shorter working day with stable net output. Work capacity returned despite continuing external pressures."
           />
         </div>
       </section>
 
-      {/* SUMMARY */}
+      {/* SITUATION */}
       <section className="py-14 lg:py-16">
         <div className="max-w-[1120px] mx-auto px-6 lg:px-12">
           <div className="max-w-3xl">
-            <h2 className="font-serif text-2xl lg:text-3xl font-light text-ink mb-5">Summary</h2>
+            <h2 className="font-serif text-2xl lg:text-3xl font-light text-ink mb-5">What was happening when she arrived</h2>
             <div className="space-y-4">
               <p className="text-base text-ink-light leading-relaxed">
-                A senior leader arrived framing the problem as burnout — she did not want
-                to work. The framing did not match the situation. Several high-stakes
-                pressures were active simultaneously: a major relationship rupture, serious
-                family-care responsibility, recent personal loss, and sustained functional
-                collapse at work.
+                She described the problem as burnout: she did not want to work. A senior
+                leader responsible for a public-facing institutional function, she had
+                lost the drive and ideas she normally brought to the role. Problems she
+                would usually have managed had become difficult to engage with.
               </p>
               <p className="text-base text-ink-light leading-relaxed">
-                Across approximately three months and seven to eight sessions, the work
-                moved through stabilisation, systematic clearing of accumulated emotional
-                material, and structural changes to how she worked. Sleep improved. Net
-                work output remained stable while recovery space was rebuilt.
+                Several pressures were active at once: a major relationship rupture,
+                a serious family-care responsibility and a recent personal loss.
+                Sleep was poor. She had already taken time away from work and expected
+                to need half a year to a year to recover.
               </p>
               <p className="text-base text-ink-light leading-relaxed">
-                The credibility of this case rests not on the numbers — there are no
-                formal tracker scores — but on what the external situation was. None of
-                the pressures had resolved. What changed was the baseline from which she
-                was operating.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* SITUATION */}
-      <section className="py-14 lg:py-16 bg-surface">
-        <div className="max-w-[1120px] mx-auto px-6 lg:px-12">
-          <div className="max-w-3xl">
-            <h2 className="font-serif text-2xl lg:text-3xl font-light text-ink mb-5">Context at intake</h2>
-            <div className="space-y-4">
-              <p className="text-base text-ink-light leading-relaxed">
-                A senior leader responsible for a public-facing institutional function.
-                At intake, several pressures were active at once: a major relationship
-                rupture, a serious family-care responsibility, a recent personal loss,
-                and sustained functional collapse at work — no drive, no ideas, difficulty
-                engaging with problems she would normally have managed.
-              </p>
-              <p className="text-base text-ink-light leading-relaxed">
-                Sleep was poor. Time away from work had already been taken. She expected
-                half a year to a year to recover. The active engagement took roughly three
-                months.
+                The active engagement lasted approximately three months, with seven to
+                eight sessions. It combined daily practice, work through accumulated
+                emotional material and a change to the structure of her working day.
               </p>
             </div>
           </div>
@@ -134,53 +109,58 @@ export default function InstitutionalLeader() {
       </section>
 
       {/* WORKING INTERPRETATION */}
-      <section className="py-14 lg:py-16">
+      <section className="py-14 lg:py-16 bg-surface">
         <div className="max-w-[1120px] mx-auto px-6 lg:px-12">
           <div className="max-w-3xl">
-            <h2 className="font-serif text-2xl lg:text-3xl font-light text-ink mb-5">Working interpretation</h2>
-            <p className="text-base text-ink-light leading-relaxed">
-              The working interpretation was that the &ldquo;burnout&rdquo; framing was a downstream
-              readout of a much wider accumulated load. The external pressures were not
-              about to resolve quickly. The accumulated load needed to come down regardless
-              of whether the external situations changed — because standard conversational
-              approaches would not reach the underlying activation.
-            </p>
+            <h2 className="font-serif text-2xl lg:text-3xl font-light text-ink mb-5">Why the work went beyond burnout</h2>
+            <div className="space-y-4">
+              <p className="text-base text-ink-light leading-relaxed">
+                My working interpretation was that the difficulty at work was one
+                consequence of a much wider emotional load. The pressures outside
+                were not about to resolve quickly. We needed to work on what she was
+                carrying while those situations continued.
+              </p>
+              <p className="text-base text-ink-light leading-relaxed">
+                In this case, I did not expect conversation alone to reach the reactions
+                keeping that load active. That is the practitioner&rsquo;s interpretation,
+                not a mechanism established by this record.
+              </p>
+            </div>
           </div>
         </div>
       </section>
 
       {/* WHAT THE WORK ADDRESSED */}
-      <section className="py-14 lg:py-16 bg-surface">
+      <section className="py-14 lg:py-16">
         <div className="max-w-[1120px] mx-auto px-6 lg:px-12">
           <div className="max-w-3xl">
-            <h2 className="font-serif text-2xl lg:text-3xl font-light text-ink mb-6">What the work addressed</h2>
+            <h2 className="font-serif text-2xl lg:text-3xl font-light text-ink mb-6">What we worked on</h2>
             <div className="space-y-7">
               <div>
-                <p className="text-base font-medium text-ink mb-2">Stabilization under unresolved pressure</p>
+                <p className="text-base font-medium text-ink mb-2">Daily practice while life remained difficult</p>
                 <p className="text-base text-ink-light leading-relaxed">
                   The primary self-applied technique was introduced in the first session
-                  and used daily from that point. Sleep typically begins to improve within
-                  one to two weeks — it did here. When the family situation escalated
+                  and used daily from that point. Sleep improved within one to two
+                  weeks. When the family situation escalated
                   mid-engagement, the work adapted to address what had arisen rather than
                   deferring it.
                 </p>
               </div>
               <div>
-                <p className="text-base font-medium text-ink mb-2">Reduction of accumulated emotional load</p>
+                <p className="text-base font-medium text-ink mb-2">The history behind the current load</p>
                 <p className="text-base text-ink-light leading-relaxed">
-                  Heavier emotional material was worked across the middle sessions —
-                  the unresolved personal pressures and accumulated emotional load. An
-                  autobiographical inventory was run across personal history. Anticipatory
-                  fear about the year ahead was addressed through a structured future-facing
-                  process.
+                  The middle sessions addressed the unresolved personal pressures and
+                  accumulated emotional load. She worked systematically through an
+                  inventory of her personal history. A structured future-facing process
+                  addressed the fear attached to the year ahead.
                 </p>
               </div>
               <div>
-                <p className="text-base font-medium text-ink mb-2">Structural recovery and work capacity</p>
+                <p className="text-base font-medium text-ink mb-2">Making room for recovery in the working day</p>
                 <p className="text-base text-ink-light leading-relaxed">
                   A structural change at work was made: a shorter working day with the
                   remainder protected for recovery. Net output remained stable. This was
-                  not a productivity intervention — it was a recovery design. By an
+                  not a productivity exercise: the purpose was to protect recovery. By an
                   informal four-month review, energy for work had returned to a sustained
                   level.
                 </p>
@@ -191,7 +171,7 @@ export default function InstitutionalLeader() {
       </section>
 
       {/* PRACTITIONER-ESTIMATED CHANGE */}
-      <section className="py-14 lg:py-16">
+      <section className="py-14 lg:py-16 bg-surface">
         <div className="max-w-[1120px] mx-auto px-6 lg:px-12">
           <div className="max-w-3xl">
             <h2 className="font-serif text-2xl lg:text-3xl font-light text-ink mb-5">Practitioner-estimated change</h2>
@@ -223,43 +203,21 @@ export default function InstitutionalLeader() {
       </section>
 
       {/* FUNCTIONAL CHANGES */}
-      <section className="py-14 lg:py-16 bg-surface">
-        <div className="max-w-[1120px] mx-auto px-6 lg:px-12">
-          <div className="max-w-3xl">
-            <h2 className="font-serif text-2xl lg:text-3xl font-light text-ink mb-5">Functional changes</h2>
-            <div className="space-y-4">
-              <p className="text-base text-ink-light leading-relaxed">
-                Sleep improved substantially. A shorter working day with protected
-                recovery time was established; net work output remained stable. The
-                &ldquo;burnout&rdquo; framing dissolved — it was a downstream effect, not the
-                primary problem.
-              </p>
-              <p className="text-base text-ink-light leading-relaxed">
-                The external pressures were navigated from a stable baseline rather than
-                from collapse. The primary external situation moved from non-acceptance to
-                working acceptance. Self-direction returned. By the four-month review,
-                energy for work had returned to a sustained level.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* WHAT THIS CASE SUGGESTS */}
       <section className="py-14 lg:py-16">
         <div className="max-w-[1120px] mx-auto px-6 lg:px-12">
           <div className="max-w-3xl">
-            <h2 className="font-serif text-2xl lg:text-3xl font-light text-ink mb-5">What this case suggests</h2>
+            <h2 className="font-serif text-2xl lg:text-3xl font-light text-ink mb-5">What changed outside the sessions</h2>
             <div className="space-y-4">
               <p className="text-base text-ink-light leading-relaxed">
-                This case suggests that accumulated load can be reduced even when the
-                external situation does not change. The external pressures remained largely
-                as they were. What changed was the internal baseline from which those
-                pressures were being met.
+                Sleep improved substantially. She could accept the primary external
+                situation and make her own decisions again, rather than meeting every
+                pressure from a state of collapse. By the informal four-month review,
+                her energy for work was sustained.
               </p>
               <p className="text-base text-ink-light leading-relaxed">
-                It does not prove a mechanism. It records a pattern: function returned
-                while external reality remained difficult.
+                The wider pressures remained largely as they were. The record shows
+                work capacity returning while life was still difficult; it does not
+                establish a mechanism or show that the external problems were solved.
               </p>
             </div>
           </div>
@@ -270,7 +228,7 @@ export default function InstitutionalLeader() {
       <section className="py-14 lg:py-16 bg-surface">
         <div className="max-w-[1120px] mx-auto px-6 lg:px-12">
           <div className="max-w-3xl">
-            <h2 className="font-serif text-2xl lg:text-3xl font-light text-ink mb-6">Limits and honesty</h2>
+            <h2 className="font-serif text-2xl lg:text-3xl font-light text-ink mb-6">What this record can and cannot establish</h2>
             <div className="space-y-3">
               {[
                 "Anonymized practitioner record. The client is not identified in any way.",

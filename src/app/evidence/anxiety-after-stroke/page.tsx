@@ -24,19 +24,17 @@ export default function AnxietyAfterStroke() {
               <span>Case record</span>
             </p>
             <h1 className="font-serif text-5xl lg:text-6xl font-light text-deep-text leading-tight tracking-display mb-6">
-              Catastrophic Anxiety and Future Collapse After Stroke
+              After a stroke, the fear of what came next
             </h1>
             <p className="text-base text-deep-muted leading-relaxed max-w-2xl mb-4">
-              This case matters not because life became easier. What mattered was that the
-              old collapse response did not return in situations where it had previously
-              felt almost inevitable.
+              The client had recovered physically and returned to work. The fear had
+              not followed suit. Decisions and uncertainty kept bringing the same
+              expectation: the future would end in catastrophe.
             </p>
             <p className="text-base text-deep-muted leading-relaxed max-w-2xl mb-4">
-              An anonymized practitioner case in which catastrophic anticipation following
-              a stroke remained active after medical recovery. The work addressed the
-              internal future-collapse pattern, not the medical condition itself. The
-              change held through later real-world events — a layoff and heart surgery —
-              both navigated without collapse.
+              After the main engagement, life brought a layoff and a heart condition
+              requiring surgery. Both were navigated without the earlier collapse
+              response. The client found new work, and the old pattern did not return.
             </p>
             <p className="text-sm text-deep-muted/70 leading-relaxed max-w-2xl">
               Retrospective practitioner estimate. No formal tracker. The work did not
@@ -56,9 +54,9 @@ export default function AnxietyAfterStroke() {
             <div>
               <p className="text-sm font-medium text-ink mb-3">Before</p>
               <p className="text-base text-ink-light leading-relaxed">
-                Internally organised around a catastrophic future-collapse frame — a
-                psychological state, not a medical prognosis. Catastrophic default in
-                response to uncertainty and future events.
+                Uncertainty and decisions brought an expectation of catastrophe.
+                This was a psychological state, not a medical prognosis. Sleep was
+                difficult, anxiety high and irritability persistent.
               </p>
             </div>
             <div>
@@ -85,60 +83,29 @@ export default function AnxietyAfterStroke() {
         </div>
       </section>
 
-      {/* SUMMARY */}
+      {/* SITUATION */}
       <section className="py-14 lg:py-16">
         <div className="max-w-[1120px] mx-auto px-6 lg:px-12">
           <div className="max-w-3xl">
-            <h2 className="font-serif text-2xl lg:text-3xl font-light text-ink mb-5">Summary</h2>
+            <h2 className="font-serif text-2xl lg:text-3xl font-light text-ink mb-5">Back at work, still expecting the worst</h2>
             <div className="space-y-4">
               <p className="text-base text-ink-light leading-relaxed">
-                Physically recovered from a stroke and back at work, the client was
-                internally organised around a catastrophic anticipation of future collapse
-                — a psychological frame, not a medical prognosis. The main engagement ran
-                for approximately three to four months. The collapsed internal future frame
-                shifted.
+                The client was the sole financial provider for a family with young
+                children. Before the stroke, work had involved sustained high pressure,
+                with stress accumulating over the preceding months. Physical recovery
+                had made returning to work possible, but had not settled the anxiety.
               </p>
               <p className="text-base text-ink-light leading-relaxed">
-                After the main engagement closed, there was a three-month pause. During
-                that pause, two significant events arrived: a layoff, and a diagnosis of
-                a cardiac condition requiring surgery. Both were navigated calmly and
-                stably. New work was found. The previous catastrophic-anticipation pattern
-                did not return.
+                At the start, there was very high anxiety, fear of future events,
+                irritability and difficulty sleeping. Decisions led straight to the
+                worst-case outcome. Medical reassurance that the stroke would not
+                recur had not changed that expectation. Previous therapeutic work had
+                not resolved the reaction either.
               </p>
               <p className="text-base text-ink-light leading-relaxed">
-                The credibility of this case rests not on the practitioner estimate but
-                on what happened after the engagement closed. Two objectively difficult
-                events arrived and neither produced the collapse that had previously been
-                predictable.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* SITUATION */}
-      <section className="py-14 lg:py-16 bg-surface">
-        <div className="max-w-[1120px] mx-auto px-6 lg:px-12">
-          <div className="max-w-3xl">
-            <h2 className="font-serif text-2xl lg:text-3xl font-light text-ink mb-5">Context at intake</h2>
-            <div className="space-y-4">
-              <p className="text-base text-ink-light leading-relaxed">
-                Physically recovered from a stroke and back at work. Sole financial
-                provider for a family with young children. Pre-stroke working pattern
-                had involved sustained high pressure with accumulated stress in the months
-                before the stroke occurred.
-              </p>
-              <p className="text-base text-ink-light leading-relaxed">
-                Presenting state at intake: very high anxiety, catastrophic default in any
-                decision, anticipatory fear, irritability, difficulty sleeping. The medical
-                reassurance that the stroke would not repeat had not altered the internal
-                state. Prior therapeutic work had not resolved the underlying activation
-                pattern.
-              </p>
-              <p className="text-base text-ink-light leading-relaxed">
-                The deeper pattern that emerged: internally living inside a catastrophic
-                future-collapse frame — a psychological conviction, not a medical
-                prognosis.
+                The main engagement lasted approximately three to four months. The
+                focus was the felt expectation of future collapse, not the medical
+                condition or the client&rsquo;s prognosis.
               </p>
             </div>
           </div>
@@ -146,55 +113,59 @@ export default function AnxietyAfterStroke() {
       </section>
 
       {/* WORKING INTERPRETATION */}
-      <section className="py-14 lg:py-16">
+      <section className="py-14 lg:py-16 bg-surface">
         <div className="max-w-[1120px] mx-auto px-6 lg:px-12">
           <div className="max-w-3xl">
-            <h2 className="font-serif text-2xl lg:text-3xl font-light text-ink mb-5">Working interpretation</h2>
-            <p className="text-base text-ink-light leading-relaxed">
-              The working interpretation was that the stroke had not invented the
-              underlying patterns — work pressure, anticipatory anxiety, a longstanding
-              threat response — but had locked them into a lethal-feeling frame. The
-              visible problem was post-stroke catastrophic anticipation, but the underlying
-              pattern included accumulated load that predated the stroke. The future-collapse
-              frame was a psychological state operating on top of an existing high-activation
-              baseline.
-            </p>
+            <h2 className="font-serif text-2xl lg:text-3xl font-light text-ink mb-5">Why we worked on emotional patterns from before the stroke</h2>
+            <div className="space-y-4">
+              <p className="text-base text-ink-light leading-relaxed">
+                My working interpretation was that the stroke had intensified existing
+                patterns: work pressure, anticipatory anxiety and a longstanding threat
+                response. What had already felt unsafe now felt potentially fatal.
+              </p>
+              <p className="text-base text-ink-light leading-relaxed">
+                That meant working both on fear of the future and on the accumulated
+                emotional load from before the stroke. This interpretation concerns
+                the emotional pattern; it is not an explanation of the stroke itself.
+              </p>
+            </div>
           </div>
         </div>
       </section>
 
       {/* WHAT THE WORK ADDRESSED */}
-      <section className="py-14 lg:py-16 bg-surface">
+      <section className="py-14 lg:py-16">
         <div className="max-w-[1120px] mx-auto px-6 lg:px-12">
           <div className="max-w-3xl">
-            <h2 className="font-serif text-2xl lg:text-3xl font-light text-ink mb-6">What the work addressed</h2>
+            <h2 className="font-serif text-2xl lg:text-3xl font-light text-ink mb-6">What we worked on</h2>
             <div className="space-y-7">
               <div>
-                <p className="text-base font-medium text-ink mb-2">Reduction of catastrophic future anticipation</p>
+                <p className="text-base font-medium text-ink mb-2">Being able to imagine a future</p>
                 <p className="text-base text-ink-light leading-relaxed">
-                  The collapsed one-year frame was the central intervention. A workable
-                  five-year frame was built first using a structured future process — with
-                  anticipatory fear at each anticipated point worked through until it no
-                  longer registered. The five-year frame stabilised, then a longer-range
-                  frame was built and walked.
+                  Looking one year ahead brought a sense of collapse. We used a
+                  structured future process to build a workable five-year perspective,
+                  addressing the fear at each anticipated point until it no longer
+                  registered. Once that perspective was stable, we worked through a
+                  longer stretch of the future.
                 </p>
               </div>
               <div>
-                <p className="text-base font-medium text-ink mb-2">Reduction of historical activation load</p>
+                <p className="text-base font-medium text-ink mb-2">The old response to criticism</p>
                 <p className="text-base text-ink-light leading-relaxed">
                   A longstanding threat response to criticism — active well before the
-                  stroke — was cleared through the historical chain of past instances. The
-                  full autobiographical inventory was completed in approximately one month,
-                  attributable to an unusually high volume of between-sessions practice.
+                  stroke — was worked through across the chain of earlier experiences.
+                  The full inventory of personal history was completed in approximately
+                  one month. That pace reflected an unusually high volume of practice
+                  between sessions.
                 </p>
               </div>
               <div>
-                <p className="text-base font-medium text-ink mb-2">Stability under real-world pressure</p>
+                <p className="text-base font-medium text-ink mb-2">What happened after the meetings ended</p>
                 <p className="text-base text-ink-light leading-relaxed">
-                  The strongest test of the work was not inside the sessions. During the
-                  post-engagement pause, two significant real-world events arrived. Both
-                  were navigated stably. The client found new work. The previous
-                  catastrophic-anticipation pattern did not return.
+                  During a three-month pause after the main engagement, the client was
+                  laid off and diagnosed with a cardiac condition requiring surgery.
+                  Both events were navigated calmly and stably, without a depressive
+                  episode or a return of the previous pattern. New work was found.
                 </p>
               </div>
             </div>
@@ -203,7 +174,7 @@ export default function AnxietyAfterStroke() {
       </section>
 
       {/* PRACTITIONER-ESTIMATED CHANGE */}
-      <section className="py-14 lg:py-16">
+      <section className="py-14 lg:py-16 bg-surface">
         <div className="max-w-[1120px] mx-auto px-6 lg:px-12">
           <div className="max-w-3xl">
             <h2 className="font-serif text-2xl lg:text-3xl font-light text-ink mb-5">Practitioner-estimated change</h2>
@@ -236,48 +207,25 @@ export default function AnxietyAfterStroke() {
       </section>
 
       {/* FUNCTIONAL CHANGES */}
-      <section className="py-14 lg:py-16 bg-surface">
-        <div className="max-w-[1120px] mx-auto px-6 lg:px-12">
-          <div className="max-w-3xl">
-            <h2 className="font-serif text-2xl lg:text-3xl font-light text-ink mb-5">Functional changes</h2>
-            <div className="space-y-4">
-              <p className="text-base text-ink-light leading-relaxed">
-                During the main engagement: internal time-frame shifted from catastrophic
-                collapse anticipation to a workable long-range frame. Catastrophic default
-                in decision-making substantially reduced. Sleep improved.
-              </p>
-              <p className="text-base text-ink-light leading-relaxed">
-                During the post-engagement pause: the subsequent real-world events were
-                navigated without collapse, without depressive episode, and without return
-                of the previous pattern. New work was found.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* WHAT THIS CASE SUGGESTS */}
       <section className="py-14 lg:py-16">
         <div className="max-w-[1120px] mx-auto px-6 lg:px-12">
           <div className="max-w-3xl">
-            <h2 className="font-serif text-2xl lg:text-3xl font-light text-ink mb-5">What this case suggests</h2>
+            <h2 className="font-serif text-2xl lg:text-3xl font-light text-ink mb-5">What changed in everyday life</h2>
             <div className="space-y-4">
               <p className="text-base text-ink-light leading-relaxed">
-                This case suggests that internal catastrophic anticipation can remain
-                active after the external medical danger has passed. Physical recovery
-                and medical reassurance did not, on their own, alter the internal pattern.
+                During the main engagement, the future became something the client
+                could consider without the same expectation of catastrophe. Decisions
+                no longer triggered that response to the same degree. Sleep improved.
               </p>
               <p className="text-base text-ink-light leading-relaxed">
-                It also suggests that when that pattern is reduced, the person may
-                navigate later real-world shocks — a layoff and heart surgery — without
-                the same collapse response. Two objectively difficult events arrived
-                during the post-engagement pause; neither produced the collapse that had
-                previously been predictable.
+                The later layoff and surgery matter because they were real difficulties,
+                not imagined tests in a session. They were not prevented by the work.
+                The change was in how the client met them.
               </p>
               <p className="text-base text-ink-light leading-relaxed">
-                This is a single case. It does not prove a mechanism or a general effect.
-                It records an outcome: the same person who arrived with a catastrophic
-                future-collapse frame later navigated objectively difficult events stably.
+                This single record does not establish a mechanism or a general effect.
+                It documents an emotional change that held through later events,
+                not a medical treatment outcome.
               </p>
             </div>
           </div>
@@ -288,7 +236,7 @@ export default function AnxietyAfterStroke() {
       <section className="py-14 lg:py-16 bg-surface">
         <div className="max-w-[1120px] mx-auto px-6 lg:px-12">
           <div className="max-w-3xl">
-            <h2 className="font-serif text-2xl lg:text-3xl font-light text-ink mb-6">Limits and honesty</h2>
+            <h2 className="font-serif text-2xl lg:text-3xl font-light text-ink mb-6">What this record can and cannot establish</h2>
             <div className="space-y-3">
               {[
                 "Anonymized practitioner record. The client is not identified in any way.",

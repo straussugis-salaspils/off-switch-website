@@ -19,6 +19,45 @@ const categoryDescriptions: Record<string, string> = {
   "building-new-life": "Why removing an old response is not the same as creating a new life, how to choose what comes next and how real action tests whether change is becoming sustainable.",
 };
 
+const categoryInvitations: Record<string, { heading: string; body: string }> = {
+  "anxiety-specific-fears": {
+    heading: "Compare group and private work on recurring anxiety",
+    body: "A quieter morning, a journey you stopped taking, a decision without another round of worry. Compare the group and private work to see how we approach the reactions behind those situations.",
+  },
+  "panic-attacks": {
+    heading: "Compare programmes for panic, anticipation and avoidance",
+    body: "The work addresses more than the last attack: anticipation, avoidance and the situations you want to return to. See what the group and private programmes involve.",
+  },
+  "trauma-ptsd": {
+    heading: "Choose the level of support for work with difficult memories",
+    body: "You do not need to begin with the hardest memory or arrive with your whole history organised. Read how the work is paced and which format provides the individual direction you may need.",
+  },
+  "past-difficult-memories": {
+    heading: "Compare group and private work with difficult memories",
+    body: "We start with accessible memories and reactions, then test what changes and what remains. Compare learning the sequence in a group with private work shaped around your history.",
+  },
+  "relationships-closeness-boundaries": {
+    heading: "Work on the reactions that interfere with conversations and boundaries",
+    body: "Say what you meant, wait for facts or choose a boundary without the old reaction deciding first. See how the group and private work approach the gap between knowing your answer and being able to act on it.",
+  },
+  "work-burnout-action": {
+    heading: "Separate automatic reactions from skills and working conditions that need changing",
+    body: "A reaction that makes stopping frightening, a conversation you cannot have, or conditions that are genuinely impossible: these need different answers. See what group and private work involve, including the practical changes that may still be needed.",
+  },
+  "anger-guilt-self-worth": {
+    heading: "Compare programmes for recurring anger, guilt and self-criticism",
+    body: "The work separates what needs action now from anger, guilt or self-criticism that keeps repeating. Explore the group and private programmes without giving up your judgement, responsibility or boundaries.",
+  },
+  "thoughts-sleep-low-mood": {
+    heading: "See how the programmes approach repetitive thoughts and difficulty acting",
+    body: "Replaying yesterday, rehearsing tomorrow and feeling unable to begin are not necessarily the same problem. See how the work distinguishes them, what you practise yourself and how the formats differ.",
+  },
+  "building-new-life": {
+    heading: "Connect work on old reactions with practical changes in daily life",
+    body: "It might be one conversation, a working rule or a direction worth testing. The programmes connect work on old responses with trying something new in life—not waiting for a perfect future plan.",
+  },
+};
+
 export const dynamicParams = false;
 
 export function generateStaticParams() {
@@ -37,6 +76,7 @@ export default async function LibraryCategoryPage({ params }: { params: Promise<
   const articles = getTranslatedArticlesByCategory(category);
   if (!articles.length) notFound();
   const title = articles[0].category;
+  const invitation = categoryInvitations[category];
   const canonical = `${siteOrigin}/library/${category}`;
 
   return (
@@ -71,7 +111,7 @@ export default async function LibraryCategoryPage({ params }: { params: Promise<
             </li>
           ))}
         </ol>
-        <section className="mt-10 max-w-5xl border-y border-border py-7 sm:flex sm:items-center sm:justify-between sm:gap-8"><div><h2 className="font-serif text-2xl font-normal text-ink">Articles explain the mechanism. The method is for changing the reaction.</h2><p className="mt-2 max-w-2xl text-sm leading-6 text-muted">If you recognise your situation, you can compare the available ways of working with it.</p></div><Link href="/formats" className="mt-4 inline-flex min-h-11 shrink-0 items-center font-semibold text-accent hover:text-ink sm:mt-0">Compare formats →</Link></section>
+        <section className="mt-10 max-w-5xl border-y border-border py-7 sm:flex sm:items-center sm:justify-between sm:gap-8"><div><h2 className="font-serif text-2xl font-normal text-ink">{invitation.heading}</h2><p className="mt-2 max-w-2xl text-sm leading-6 text-muted">{invitation.body}</p></div><Link href="/formats" className="mt-4 inline-flex min-h-11 shrink-0 items-center font-semibold text-accent hover:text-ink sm:mt-0">Compare formats →</Link></section>
       </main>
     </div>
   );

@@ -94,14 +94,6 @@ I may ask the person to imagine the exact silence, face, message or future conve
 
 If one scene opens another, the connected chain is addressed. I do not need one perfect root cause. I need today's pause to stop activating the entire old collection automatically.
 
-## I deliberately test the same response again
-
-Feeling better during the conversation is not enough.
-
-We return to the same pause and check for the old memory, physical response, fear of abandonment and urge to message or disappear first.
-
-When the imagined pause no longer starts the old film, life provides the next test. People close to us will still occasionally answer late. The aim is not a partner who supplies round-the-clock proof of safety. It is a pause that no longer governs the person in place of facts.
-
 ## Removing the old response does not make the partner good
 
 If much of the anxiety came from the past, today's silence is not automatically acceptable.

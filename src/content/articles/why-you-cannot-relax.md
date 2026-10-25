@@ -8,7 +8,7 @@ source: adaptive rewrite of approved Russian article
 
 Work is over. The phone is face down. Nobody is asking for anything.
 
-The person sits on the sofa while the whole body remains at work. Shoulders lifted. Next task already running in the mind. Even rest becomes a project: relax correctly, preferably by 9:30.
+You sit on the sofa. Your body is still at work. Shoulders lifted. Next task already running in your mind. Even rest becomes a project: relax correctly, preferably by 9:30.
 
 If you cannot relax, it does not necessarily mean you have failed to learn leisure. In my work I distinguish at least three tasks: accumulated tension, a specific event that still activates it and a life organised so that switching off never actually happens.
 
@@ -59,7 +59,7 @@ If a conflict remains unfinished in life, it may need a conversation or action. 
 
 I do not begin with the heaviest event available.
 
-First, the person learns to reduce a current response and recover some manageability. Then we work with what maintains the general background and gradually approach specific events, imagined futures and the organisation of the present day.
+First, the person learns to reduce a current response and regain some control over it. Then we work with what maintains the tension: specific events, imagined futures and the way the present day is organised.
 
 The pace depends on what the person can currently tolerate and what genuinely needs attention.
 
@@ -75,6 +75,6 @@ Because the state may have more than one layer. The background came down but a c
 
 Physical and medical causes, substance use, medication effects, continuing danger and severe sleep difficulties also require appropriate professional assessment. The Method is not a replacement for medical or mental-health care.
 
-My result is therefore modest and testable: the person can relax more.
+The change I look for is practical: an ordinary evening in which rest becomes possible.
 
 Not always, and not on command. But rest stops being an inaccessible state. On an ordinary evening or weekend, an activity can end not only in the calendar, but inside the person as well.

@@ -23,21 +23,21 @@ const commercialRecommendations: Record<number, CommercialRecommendation> = {
   1: {
     eyebrow: "If you understand the pattern but still react the old way",
     heading: "Stop repeating the old reaction and recover your ability to choose",
-    body: "I’m Ugis Strauss, creator of the Off-Switch Method, and I personally lead the three-month private 1:1 programme. We work with situations where insight is not enough, reduce the automatic responses that keep them active, and test the change in everyday life. The aim is for the same signal to stop dictating the same thoughts, feelings and actions.",
+    body: "Bring the conversation, journey or situation that keeps producing the same response. In private 1:1 work, I teach you the tool, choose the next step with you and check what changes when you face it again. Twelve sessions over three to four months, with practice between meetings.",
     href: "/one-to-one",
     label: "Explore private 1:1",
   },
   2: {
     eyebrow: "If there are several difficult issues and approaching them feels overwhelming",
     heading: "Build stability before working with the heaviest material",
-    body: "In the three-month private 1:1 programme, I first teach you how to bring the current response back under control. We then choose an appropriate pace for difficult memories and connected reactions. The aim is to work through important material without handing the entire process back to the reaction itself.",
+    body: "First, you learn a tool you can use. Then we choose where to begin and how to approach the harder material. In the three-to-four-month private programme, I guide the order and pace around what you can work with now.",
     href: "/one-to-one",
     label: "Explore private 1:1",
   },
   3: {
     eyebrow: "If relief during a session does not survive ordinary life",
     heading: "Learn to change the reaction between sessions",
-    body: "I personally lead the 12-week Off-Switch group. During the meetings you learn the method; between them you use it where the old reaction actually appears. The aim is not to need a practitioner beside you every time, but to recognise the automatic response, interrupt it and make a different action available.",
+    body: "The next difficult conversation is unlikely to wait for our next meeting. In the 12-week group, I teach the method and help you use it with the situations you bring. You practise between meetings, so the work can reach the rest of your week.",
     href: "/group",
     label: "Explore the group programme",
   },
@@ -92,7 +92,12 @@ function ArticleBody({ article, visual }: { article: PilotArticle; visual?: Arti
           );
         }
 
-        return <p key={`paragraph-${index}`} className="text-[17px] leading-[1.75] text-ink-light">{block.text}</p>;
+        return (
+          <p key={`paragraph-${index}`} className="text-[17px] leading-[1.75] text-ink-light">
+            {block.text}
+            {block.link ? <>{" "}<Link href={block.link.href} className="font-medium text-accent underline decoration-accent/30 underline-offset-4 hover:decoration-accent">{block.link.text}</Link>.</> : null}
+          </p>
+        );
       })}
     </div>
   );
@@ -100,7 +105,12 @@ function ArticleBody({ article, visual }: { article: PilotArticle; visual?: Arti
 
 function SeriesNavigation({ article }: { article: PilotArticle }) {
   return (
-    <nav aria-label="The architecture of the method series">
+    <details className="group mt-6 border-t border-deep-text/20">
+      <summary className="flex min-h-11 cursor-pointer list-none items-center justify-between gap-4 py-3 text-sm font-medium text-deep-text/80 hover:text-deep-text focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent-dim [&::-webkit-details-marker]:hidden">
+        <span>In this series · {methodArticles.length} articles</span>
+        <span aria-hidden="true" className="text-xl leading-none text-accent-dim transition-transform group-open:rotate-45">+</span>
+      </summary>
+      <nav aria-label="The architecture of the method series" className="pb-3 pt-2">
       <div className="flex flex-wrap items-center justify-between gap-x-5 gap-y-2">
         <p className="text-[11px] font-semibold uppercase tracking-widest text-accent-dim">
           Series: The architecture of the method
@@ -147,7 +157,8 @@ function SeriesNavigation({ article }: { article: PilotArticle }) {
           );
         })}
       </ol>
-    </nav>
+      </nav>
+    </details>
   );
 }
 
@@ -221,7 +232,7 @@ export default function PilotArticlePage({ article }: { article: PilotArticle })
   ).map((heading) => ({ id: heading.id, level: 2, text: heading.text }));
   const articleId = `M-0${article.seriesPosition}`;
   const visual = getArticleVisual(articleId);
-  const bodyText = article.blocks.map((block) => "text" in block ? block.text : "items" in block ? block.items.join(" ") : "").join(" ");
+  const bodyText = article.blocks.map((block) => block.type === "paragraph" && block.link ? `${block.text} ${block.link.text}.` : "text" in block ? block.text : "items" in block ? block.items.join(" ") : "").join(" ");
   const bodyHash = createHash("sha256").update(bodyText).digest("hex");
   const readingMinutes = Math.max(7, Math.round(bodyText.split(/\s+/).length / 200));
 
@@ -264,14 +275,14 @@ export default function PilotArticlePage({ article }: { article: PilotArticle })
 
       <header className="grain border-b border-deep-border py-6 sm:py-8 lg:py-10">
         <div className="publication-container">
-          <SeriesNavigation article={article} />
-          <div className="max-w-[900px] pt-8 sm:pt-10">
+          <div className="max-w-[900px] py-2 sm:py-4">
             <h1 data-frozen-article-title className="type-article-title text-deep-text">{article.title}</h1>
             <p data-ai-summary itemProp="description" className="mt-5 max-w-[780px] text-lg leading-8 text-deep-text/75">{article.standfirst}</p>
             <div className="mt-5 flex flex-wrap items-center gap-x-5 gap-y-2 text-sm text-deep-muted">
               <span>By Ugis Strauss</span><span aria-hidden="true">•</span><span>{readingMinutes} min read</span>
             </div>
           </div>
+          <SeriesNavigation article={article} />
         </div>
       </header>
 
@@ -294,7 +305,7 @@ export default function PilotArticlePage({ article }: { article: PilotArticle })
       <section className="bg-ground py-10" aria-label="About the author">
         <div className="publication-container">
           <div className="flex max-w-2xl items-center gap-5 border border-border bg-white p-5">
-            <Image src="/ugis-strauss.jpg" alt="Ugis Strauss" width={96} height={96} className="h-16 w-16 rounded-full object-cover" />
+            <Image src="/images/ugis/ugis-strauss-portrait-2026-v1.webp" alt="Ugis Strauss" width={96} height={96} sizes="96px" className="h-16 w-16 rounded-full object-cover object-[center_20%]" />
             <div>
               <p className="font-semibold text-ink">Ugis Strauss</p>
               <p className="mt-1 text-sm text-muted">Creator of the Off-Switch Method</p>

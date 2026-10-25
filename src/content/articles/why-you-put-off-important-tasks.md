@@ -74,7 +74,7 @@ The label is too large to test. Delaying a dissertation, call and report may hav
 
 Choose the task. What exactly is step one: open the document, write the heading, make the call, request the data?
 
-The person imagines that moment. What appears? What feels difficult or risky? How strong is the response from zero to five?
+The person imagines that moment. What appears: failure, criticism, boredom, exposure or endless effort? What feels difficult or risky? How strong is the response from zero to five?
 
 We work with the accessible element and return to the same first step. If the response remains, perhaps the active part is not the work itself but error, judgement or a later conversation.
 
@@ -93,7 +93,7 @@ The sequence is practical:
 ```text
 remove the response blocking the start
 → create a concrete picture of completion
-→ name the accessible first step
+→ name the accessible first step, when to take it and what it needs
 → do it
 ```
 
@@ -107,12 +107,10 @@ With conscious rescheduling, the person knows why, chooses a new time and names 
 
 The useful question is whether the action was actually rescheduled—or remained inaccessible.
 
-## The result is that the person began
+## The result is that you began
 
-Understanding the delay is not the result. Calm beside the task is an intermediate test. The finished image is a strategy.
+Understanding the delay is not the result. Calm beside the task is an intermediate test. The result is opening the document, writing the paragraph, making the call or sending the request.
 
-The result is opening the document, writing the paragraph, making the call or sending the request.
+One first step shows that this particular block has changed. The next real situation tests the wider pattern.
 
-One first step proves only this particular stop changed. The next real situation tests the wider pattern.
-
-If the person is calm but still does not begin, the next question is no longer necessarily fear. It may be the plan, skill, time, structure or conditions.
+If you are calm but still cannot begin, we look at what is missing: a chosen goal, plan, skill, information, time or the right conditions. We build what is absent instead of continuing to hunt for fear because fear used to live there. A calmer nervous system is useful, but it does not possess a project plan by divine intervention.

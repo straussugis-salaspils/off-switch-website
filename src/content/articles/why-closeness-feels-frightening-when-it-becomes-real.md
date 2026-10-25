@@ -8,11 +8,11 @@ source: adaptive rewrite of approved Russian article
 
 While the relationship was only a possibility, everything was fine.
 
-There were messages, meetings and thoughts about the person. Closeness and mutuality were wanted.
+You looked forward to their messages and to seeing them again. You wanted to be close, and hoped they wanted the same.
 
-Then the other person chose too. They came closer. Mutuality became real.
+Then they did. They came closer. The possibility became a relationship.
 
-And precisely then, joy was replaced by coldness, faults and an urge to step away.
+And precisely then, you started finding faults and wanting distance.
 
 Yesterday they were interesting. Today they speak incorrectly, eat strangely, write too often or fail to remain silent in the approved manner. Nothing terrible has happened. The person nearby is the same. Yet distance suddenly feels necessary.
 
@@ -34,7 +34,7 @@ The behaviours vary. The signal is that the relationship has crossed from fantas
 
 ## Wanting a relationship and tolerating closeness are different
 
-Someone can sincerely want a relationship. They are not pretending when they seek a partner or enjoy the meetings.
+Someone can sincerely want a relationship. They are not pretending when they seek a partner or enjoy spending time together.
 
 Conscious intention, however, is not the only participant.
 
@@ -104,16 +104,6 @@ My task is not to make someone love correctly. It is to remove what prevents the
 Then they can ask: Who is in front of me? What is happening? What do I want? Which options exist?
 
 The result may be continued closeness, a conversation, more space, a boundary or departure. Calm restores choice; it does not provide the answer in advance.
-
-## I test a specific scene, not the entire capacity to love
-
-“I fear intimacy” is too broad to serve as one object.
-
-We take a concrete moment when mutuality became undeniable and the relationship felt real. What happened in the body, desire, voice and decision? Which earlier pain and imagined future appeared?
-
-The response is tested. The future is tested separately. Then the person looks again at the actual relationship.
-
-Life provides the final evidence: what happens when closeness becomes real again?
 
 ## The result is not having to stay; it is no longer having to run
 

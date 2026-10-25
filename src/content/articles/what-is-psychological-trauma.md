@@ -68,7 +68,7 @@ The same applies beyond fear. A neutral pause can feel like rejection. Disagreem
 
 The logic of the present may be correct: *This person is not that person. I am an adult now. The danger is over.* But a knee reflex is not cancelled by deciding that the knee should remain still.
 
-In my working model, a specific signal today can press a response button connected with earlier scenes. This is an authorial model, not a claim that every intense emotion is trauma.
+In my working model, a specific signal today can start a response connected with earlier scenes. This is how I describe what I observe, not a claim that every intense emotion is trauma.
 
 ## What it means to work with psychological trauma
 

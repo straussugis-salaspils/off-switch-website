@@ -88,7 +88,7 @@ const categories: readonly LibraryCategory[] = [
 export const metadata: Metadata = buildPageMetadata({
   title: "The Off-Switch Method Library",
   description:
-    "Authorial guides on recurring emotional reactions, the difference between insight and change, and how the Off-Switch Method is structured.",
+    "Articles by Ugis Strauss on recurring emotional reactions, the difference between insight and change, and how the Off-Switch Method works.",
   path: "/library",
 });
 
@@ -126,23 +126,33 @@ export default function LibraryPage() {
           <div className="publication-container grid gap-9 lg:grid-cols-[minmax(0,760px)_300px] lg:items-end lg:justify-between lg:gap-16">
             <div>
               <p className="text-xs font-semibold uppercase tracking-widest text-accent-dim">
-                Authorial material · Ugis Strauss
+                Articles by Ugis Strauss
               </p>
               <h1 className="type-page-title mt-4 text-deep-text">
                 The Off-Switch Method Library
               </h1>
               <p className="mt-5 max-w-[680px] text-base leading-7 text-deep-text/75 sm:text-lg sm:leading-8">
-                Choose the subject closest to your situation. Each path is arranged in a deliberate reading order rather than as a pile of unrelated posts.
+                Start with the situation you recognise. Within each subject, the articles follow a reading order, so one question leads naturally to the next.
               </p>
             </div>
 
-            <aside className="border-l-2 border-accent pl-5 lg:mb-1 lg:pl-6">
+            <aside className="border-l-2 border-accent pl-5 lg:mb-1 lg:pl-6" aria-label="Start with a familiar situation">
               <p className="text-xs font-semibold uppercase tracking-widest text-accent-dim">
-                Orientation
+                Does one of these sound familiar?
               </p>
-              <p className="mt-3 font-serif text-xl font-normal leading-snug text-deep-text sm:text-2xl">
-                Articles help you distinguish what is happening. The method is for changing the reaction.
-              </p>
+              <ul className="mt-3 divide-y divide-deep-text/15">
+                {[
+                  ["I keep saying yes when I mean no", "/articles/why-it-is-hard-to-say-no"],
+                  ["I cannot stop working, even when exhausted", "/articles/why-you-cannot-stop-working-when-exhausted"],
+                  ["My mind keeps working when I go to bed", "/articles/why-your-mind-replays-the-day-at-night"],
+                ].map(([label, href]) => (
+                  <li key={href}>
+                    <Link href={href} className="flex min-h-11 items-center justify-between gap-3 py-3 text-base leading-snug text-deep-text hover:text-accent-dim focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent-dim">
+                      <span>{label}</span><span aria-hidden="true" className="shrink-0 text-accent-dim">→</span>
+                    </Link>
+                  </li>
+                ))}
+              </ul>
               <Link
                 href="/the-method"
                 className="mt-4 inline-flex min-h-11 items-center gap-2 font-semibold text-accent-dim hover:text-deep-text"
@@ -206,7 +216,7 @@ export default function LibraryPage() {
                 I understand the pattern, but it still happens
               </h2>
               <p className="mt-4 text-sm leading-6 text-muted">
-                The first English reading path explains the difference between insight, stabilization and change that can be tested in life.
+                These three articles explain why understanding may not stop a reaction, why we do not begin with the hardest memory, and what happens between meetings.
               </p>
               <Link
                 href="/library/how-the-method-works"

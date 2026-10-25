@@ -100,15 +100,9 @@ When the two are fused, the whole package appears in the job description even th
 
 I do not argue with fear by saying, “Do not worry about losing your job.” We test specific actions.
 
-What happens when the person imagines telling the manager the volume is impossible? Delegating? Ending today with an unfinished list?
+Telling the manager the volume is impossible, delegating or ending today with an unfinished list may bring fear, guilt, a picture of dismissal or the thought “This is not allowed.” We work with that response, without pretending the real risks have disappeared.
 
-Fear, guilt, a picture of dismissal, criticism or the thought *This is not allowed* may appear. That is workable material.
-
-After the response is addressed, we return to the same action. Can the person imagine stopping, assess the risk and make a plan instead of immediately reopening the laptop?
-
-Responsibility remains. Fear stops issuing the only command.
-
-## Then no must appear in the calendar and conversation
+## Put the boundary into your workload, calendar and conversations
 
 Less fear does not teach delegation, a workload conversation or a workable calendar.
 
@@ -126,4 +120,4 @@ The test is the next large task or impossible deadline. Does the person silently
 
 If the boundary fails, another lecture on balance is not the answer. Identify what returned: a response or a missing skill. Then test again.
 
-If the person can now stop and the work remains impossible, the next conclusion may be external: too few people, destructive conditions or lost meaning.
+If the person can now stop, has the relevant skills and the work remains impossible, the next conclusion may be external: too few people, destructive conditions or lost meaning. The tool should not become a sophisticated way of enduring the impossible for longer.

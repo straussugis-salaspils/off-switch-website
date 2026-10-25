@@ -142,7 +142,7 @@ export default function UkraineProject() {
               {[
                 { g: "Group 3", pre: "53.1", end: "21.5", red: "60%", fu: "—", fuc: "—" },
                 { g: "Group 4", pre: "62.7", end: "36.4", red: "42%", fu: "34.9", fuc: "44%" },
-                { g: "Group 5", pre: "69.2", end: "39.6", red: "43%", fu: "37.2", fuc: "46%" },
+                { g: "Group 5", pre: "69.2", end: "39.6", red: "43%", fu: "37.2", fuc: "46.2%" },
               ].map((r) => (
                 <div key={r.g} className="border border-border bg-white p-6 lg:p-8">
                   <p className="text-xs uppercase tracking-widest text-muted-light mb-1.5">Cohort</p>

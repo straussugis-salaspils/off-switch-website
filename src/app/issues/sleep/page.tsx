@@ -3,7 +3,7 @@ import IssuePageLayout from "@/components/blocks/IssuePageLayout";
 import { buildPageMetadata } from "@/lib/page-metadata";
 
 export const metadata: Metadata = buildPageMetadata({
-  title: "Sleep Anxiety and Waking at Night Activated",
+  title: "Sleep Anxiety and Waking Anxious at Night",
   description: "For recurring sleep anxiety, an activated mind at bedtime, or waking during the night with the response already running.",
   path: "/issues/sleep",
 });
@@ -11,7 +11,7 @@ export const metadata: Metadata = buildPageMetadata({
 export default function Sleep() {
   return (
     <IssuePageLayout
-      h1="Sleep Anxiety and Waking at Night Activated"
+      h1="Sleep Anxiety and Waking Anxious at Night"
       intro={[
         "You know what 3am is like.",
         "Not tired-3am. Activated-3am. The body exhausted, the mind already running something. A conversation that didn't finish right. Something coming. Nothing specific — just the background that was held at bay all day, now with nowhere left to go.",
@@ -31,10 +31,8 @@ export default function Sleep() {
       mechanism={{
         heading: "Why it continues even when habits improve",
         paragraphs: [
-          "The day gives the activation something to compete with. Night doesn't.",
-          "During waking hours, the underlying load is present but not the loudest thing in the room. There's structure, tasks, forward motion — the activation has somewhere else to go. Night removes that. What the day was covering becomes the only thing in the room.",
-          "The mind returns to the same material — the unfinished conversation, the concern, the anticipatory fear — not because the thinking is excessive, but because what's underneath has not resolved. The thoughts are not producing the disrupted sleep. The activation is producing the thoughts and the disrupted sleep both.",
-          "When the standard approaches don't work, it is usually because the target is wrong. The problem is not the sleep. It is what the sleep is revealing.",
+          "The day gives the tension something to compete with. Night doesn't. With the tasks and distractions gone, the unfinished conversation or fear about tomorrow has your full attention.",
+          "In this pattern, the same unresolved response drives both the thoughts and the difficulty sleeping. A better bedtime routine does not, by itself, change the response to that conversation or feared event. That is what the Method works on.",
         ],
       }}
       methodSection={{
@@ -58,7 +56,7 @@ export default function Sleep() {
         { title: "Why you cannot relax even when there is time", description: "How a system can remain active despite exhaustion, quiet and enough time to rest.", href: "/articles/why-you-cannot-relax" },
       ]}
       ctas={{
-        closing: "If sleep is the presenting problem and the standard fixes haven't moved it, the mechanism explanation on The Method page is the starting point.",
+        closing: "If your evenings or nights keep bringing back the same anxiety, we can look at whether this work is relevant to it. Read what the practice involves, or book a first conversation about your situation.",
         primary: { label: "Book a first conversation", href: "https://calendly.com/ugisstrauss/private-1to1-fit-conversation" },
         secondary: { label: "How the method works", href: "/the-method" },
       }}

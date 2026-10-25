@@ -51,6 +51,8 @@ The next part of recovery is practical:
 
 A boundary must appear in the calendar and conversation. The thought “I should work less” has not yet altered a single Tuesday.
 
+See the individual private-work case: [How a senior leader reduced her working hours without reducing output](/evidence/institutional-leader).
+
 Then comes the inconvenient test. Any new arrangement looks excellent during a quiet week. A sudden project, illness or conflict invites the old system back.
 
 If the person automatically takes everything again, the boundary is still under construction.

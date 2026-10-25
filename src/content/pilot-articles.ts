@@ -1,6 +1,6 @@
 export type ArticleBlock =
   | { type: "heading"; id: string; text: string }
-  | { type: "paragraph"; text: string }
+  | { type: "paragraph"; text: string; link?: { href: string; text: string } }
   | { type: "quote"; text: string }
   | { type: "list"; items: readonly string[] }
   | { type: "flow"; items: readonly string[] };
@@ -102,7 +102,7 @@ export const methodArticles: readonly PilotArticle[] = [
       },
       {
         type: "paragraph",
-        text: "Talking about the past can be valuable. It can name what happened, put responsibility where it belongs and reduce misplaced self-blame. But describing a fire and putting it out are different tasks. Reconstructing the same images, voices and sensations again and again can become another rehearsal of the response rather than a change in it.",
+        text: "Talking about the past can be valuable. It can name what happened, put responsibility where it belongs and reduce misplaced self-blame. But reconstructing the same images, voices and sensations again and again can become another rehearsal of the response rather than a change in it.",
       },
       {
         type: "quote",
@@ -128,11 +128,11 @@ export const methodArticles: readonly PilotArticle[] = [
       },
       {
         type: "paragraph",
-        text: "It is tempting to search for the one decisive event that explains everything. Sometimes there is a powerful central episode. Even then, later layers may gather around it: fear of the reaction itself, avoidance, a second failure or an image of the next catastrophe. More often, the material resembles a warehouse rather than a single root.",
+        text: "It is tempting to search for the one decisive event that explains everything. Sometimes there is a powerful central episode. Even then, later experiences may join it: fear of the reaction itself, avoidance, a second failure or an image of the next catastrophe. There may be several things to work with, not one perfect cause.",
       },
       {
         type: "paragraph",
-        text: "I do not begin by treating the biography as a mystery that must be solved before anything can change. First a bulldozer, then a scalpel: we reduce the accessible load systematically. What still activates the response then becomes clearer, allowing more precise work.",
+        text: "I do not begin by treating the biography as a mystery that must be solved before anything can change. We work systematically with accessible memories and reactions first. What still starts the response then becomes clearer, allowing more precise work.",
       },
       {
         type: "heading",
@@ -183,7 +183,7 @@ export const methodArticles: readonly PilotArticle[] = [
       {
         type: "heading",
         id: "presenting-problem",
-        text: "The presenting problem is real. It is not always the right place to begin",
+        text: "The problem that brought you here matters. It is not always where we begin",
       },
       {
         type: "paragraph",
@@ -191,7 +191,7 @@ export const methodArticles: readonly PilotArticle[] = [
       },
       {
         type: "paragraph",
-        text: "I take that problem seriously. I simply do not assume that the most painful material is the best place to begin. If you cannot yet reduce a smaller reaction independently, entering the hardest material gives the most activated part of the system control over the process.",
+        text: "I take that problem seriously. But if you cannot yet reduce a smaller reaction on your own, beginning with the hardest memory can leave you overwhelmed before you have learned how to steady yourself. The first step is to give you that ability.",
       },
       {
         type: "quote",
@@ -208,7 +208,7 @@ export const methodArticles: readonly PilotArticle[] = [
       },
       {
         type: "flow",
-        items: ["stabilize", "work through connected material", "test", "build what comes next"],
+        items: ["learn to steady yourself", "work with connected memories and reactions", "test what changed", "build what comes next"],
       },
       {
         type: "paragraph",
@@ -278,7 +278,7 @@ export const methodArticles: readonly PilotArticle[] = [
       },
       {
         type: "paragraph",
-        text: "This is not failure. It is improved resolution. Reaction, skill and structure require different responses. Emotional work should not be used to help someone tolerate a reality that requires a decision. Equally, skill training will not help if access to the skill disappears each time the old response activates.",
+        text: "That makes the next task clearer. A reaction, a missing skill and an impossible workload need different answers. Emotional work should not be used to help someone tolerate a reality that requires a decision. Equally, a skill is of little use if access to it disappears each time the old response starts.",
       },
       {
         type: "heading",
@@ -288,10 +288,6 @@ export const methodArticles: readonly PilotArticle[] = [
       {
         type: "paragraph",
         text: "You may come to remove one problem. First, you need a tool you can use with that problem and with the reactions connected to it. Then we address what keeps pulling you back. From there, we can decide what needs to be learned, changed or built.",
-      },
-      {
-        type: "paragraph",
-        text: "The biggest problem still matters. It simply no longer gets to set the agenda. First, develop a way to stop drowning. Then address what keeps pulling you back into the water. Once you reach the shore, you can decide where to go next.",
       },
     ],
   },
@@ -314,7 +310,7 @@ export const methodArticles: readonly PilotArticle[] = [
       },
       {
         type: "paragraph",
-        text: "We may meet on Zoom once a week, whether you are in the next city or on the other side of the world. It is understandable to want that hour to remove what has been troubling you for years. The difficulty is that life has not agreed to observe office hours.",
+        text: "We meet on Zoom, whether you are in the next city or on the other side of the world. It is understandable to hope one meeting will remove what has been troubling you for years. The difficulty is that life has not agreed to observe office hours.",
       },
       {
         type: "paragraph",
@@ -357,11 +353,19 @@ export const methodArticles: readonly PilotArticle[] = [
       },
       {
         type: "paragraph",
-        text: "I teach the sequence, observe where you get stuck and help adjust the next step. But you work with the memory at home, interrupt the response during the real conversation and take the new action in daily life. During the active phase, that may mean working through a personal list for about an hour a day.",
+        text: "I teach the sequence, observe where you get stuck and help adjust the next step. But you work with the memory at home, interrupt the response during the real conversation and take the new action in daily life. Allow 30–60 minutes a day for independent practice.",
       },
       {
         type: "paragraph",
-        text: "This is not homework included to make the programme look impressively substantial. One weekly hour cannot process everything accumulated across twenty, thirty or forty years. The meeting protects the order and quality of the work; consistent self-practice makes the necessary volume possible.",
+        text: "This is not homework included to make the programme look impressively substantial. A weekly meeting cannot do all the work accumulated across twenty, thirty or forty years. The meeting protects the order and quality of the work; consistent self-practice makes the necessary volume possible.",
+      },
+      {
+        type: "paragraph",
+        text: "See the individual private-work case:",
+        link: {
+          href: "/evidence/complex-ptsd-burnout",
+          text: "Complex PTSD and burnout: changes in work, sleep and family life",
+        },
       },
       {
         type: "heading",
@@ -422,7 +426,7 @@ export const methodArticles: readonly PilotArticle[] = [
       },
       {
         type: "paragraph",
-        text: "Meetings are usually more frequent at the beginning. As you become able to regulate the response and continue the work independently, they can become less frequent. That is not withdrawal. It means you no longer have to live from session to session.",
+        text: "In the group, we meet once a week for twelve weeks, for 90–150 minutes each time. Between meetings, you practise using the tool without me beside you. The aim is not to live from session to session, waiting for the next meeting before you can act.",
       },
       {
         type: "paragraph",

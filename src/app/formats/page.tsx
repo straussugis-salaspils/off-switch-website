@@ -6,16 +6,21 @@ import Button from "@/components/ui/Button";
 import { buildPageMetadata } from "@/lib/page-metadata";
 
 const oneToOneFacts = [
-  ["Route", "changes in response to your results"],
-  ["Length", "3 months"],
-  ["Meetings", "12 private 1:1 Zoom sessions"],
+  ["Approach", "individual direction, adjusted as you progress"],
+  ["Length", "3–4 months"],
+  ["Sessions", "12 private 1:1 Zoom sessions"],
+  ["Session length", "60–90 minutes"],
+  ["Daily practice", "30–60 minutes"],
   ["Led by", "Ugis Strauss"],
   ["Start", "available now"],
 ] as const;
 
 const groupFacts = [
-  ["Route", "shared architecture and pace"],
+  ["Approach", "a shared programme, applied to your own situation"],
   ["Length", "12 weeks"],
+  ["Meetings", "12 weekly live Zoom meetings"],
+  ["Meeting length", "90–150 minutes"],
+  ["Daily practice", "30–60 minutes"],
   ["Group", "up to 12 participants"],
   ["Led by", "Ugis Strauss"],
   ["Start", "next group planned for January 2027"],
@@ -24,7 +29,7 @@ const groupFacts = [
 export const metadata: Metadata = buildPageMetadata({
   title: "Ways to Work with the Off-Switch Method",
   description:
-    "Two ways to work through Off-Switch with Ugis Strauss: a three-month private 1:1 route or a structured 12-week group.",
+    "Work through Off-Switch with Ugis Strauss: 12 private 1:1 sessions over three to four months, or a structured 12-week group.",
   path: "/formats",
 });
 
@@ -53,104 +58,94 @@ export default function FormatsPage() {
     <>
       <FormatsNavigation />
 
-      <section className="grain bg-deep py-16 sm:py-20 lg:py-24">
+      <section data-editorial-section className="grain bg-deep py-12 sm:py-14 lg:py-16">
         <div className="mx-auto w-full max-w-[1180px] px-5 sm:px-7 lg:px-10">
           <p className="eyebrow-page-dark">Ways to work</p>
           <h1 className="type-page-title max-w-4xl text-deep-text">
-            How to work through Off-Switch
+            Compare private and group Off-Switch programmes
           </h1>
-          <div className="mt-8 max-w-2xl border-l border-accent-dim pl-5 sm:mt-10 sm:pl-7">
-            <p className="font-serif text-xl leading-snug text-deep-text sm:text-2xl">
-              The method is the same.
-            </p>
-            <p className="mt-3 text-base leading-7 text-deep-muted sm:text-lg">
-              What changes is the level of individual direction and how the next step is chosen.
-            </p>
-          </div>
+          <p className="mt-7 max-w-2xl font-serif text-xl leading-snug text-deep-text sm:text-2xl">
+            The same method. A different way of being guided.
+          </p>
+          <p className="mt-4 max-w-2xl text-base leading-7 text-deep-text/75 sm:text-lg">
+            Work privately with Ugis, with each next step planned around you.
+            Or join a small group and apply a shared programme to your own life.
+            Both involve independent practice between meetings.
+          </p>
+          <nav aria-label="Compare the programmes" className="mt-7 flex flex-wrap gap-x-7 gap-y-2">
+            <a href="#private-programme" className="inline-flex min-h-11 items-center gap-3 text-sm font-medium text-deep-text underline decoration-deep-text/40 underline-offset-4 hover:decoration-deep-text focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-accent-dim">
+              Private 1:1 · €6,000 <span aria-hidden="true">↓</span>
+            </a>
+            <a href="#group-programme" className="inline-flex min-h-11 items-center gap-3 text-sm font-medium text-deep-text underline decoration-deep-text/40 underline-offset-4 hover:decoration-deep-text focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-accent-dim">
+              Group · €2,000 <span aria-hidden="true">↓</span>
+            </a>
+          </nav>
         </div>
       </section>
 
-      <section className="py-16 sm:py-20 lg:py-24">
-        <div className="mx-auto grid w-full max-w-[1180px] gap-10 px-5 sm:px-7 lg:grid-cols-[minmax(0,1.15fr)_minmax(20rem,0.85fr)] lg:gap-20 lg:px-10">
-          <div>
-            <p className="eyebrow-section">01 · Private 1:1 work</p>
-            <h2 className="max-w-3xl font-serif text-3xl leading-tight tracking-display text-ink lg:text-4xl">
-              When the route has to change with your life
-            </h2>
-            <p className="mt-7 max-w-2xl text-base leading-7 text-ink-light sm:text-lg">
-              You work directly with Ugis. The result of one step determines the next: subject, order and depth change according to what has actually become different in your life.
-            </p>
-            <div className="mt-9 flex flex-col items-start gap-5 sm:flex-row sm:items-center">
-              <Button href="/one-to-one" variant="primary" size="lg">
-                Explore private 1:1 →
-              </Button>
-              <p className="text-sm leading-6 text-muted">Available to start now</p>
-            </div>
-          </div>
-
-          <div className="self-end border-t-2 border-accent pt-1">
-            <div className="flex items-end justify-between gap-4 border-b border-border py-5">
-              <p className="text-xs uppercase tracking-widest text-muted">Route fee</p>
-              <p className="font-serif text-3xl tracking-display text-ink sm:text-4xl">€6,000</p>
-            </div>
-            <FactRows facts={oneToOneFacts} />
-          </div>
-        </div>
-      </section>
-
-      <section className="bg-surface py-16 sm:py-20 lg:py-24">
-        <div className="mx-auto grid w-full max-w-[1180px] gap-10 px-5 sm:px-7 lg:grid-cols-[minmax(20rem,0.85fr)_minmax(0,1.15fr)] lg:gap-20 lg:px-10">
-          <div className="order-2 self-end border-t-2 border-accent pt-1 lg:order-1">
-            <div className="flex items-end justify-between gap-4 border-b border-border py-5">
-              <p className="text-xs uppercase tracking-widest text-muted">Route fee</p>
-              <p className="font-serif text-3xl tracking-display text-ink sm:text-4xl">€2,000</p>
-            </div>
-            <FactRows facts={groupFacts} />
-          </div>
-
-          <div className="order-1 lg:order-2">
-            <p className="eyebrow-section">02 · Group with Ugis</p>
-            <h2 className="max-w-3xl font-serif text-3xl leading-tight tracking-display text-ink lg:text-4xl">
-              When a shared order and working rhythm are useful
-            </h2>
-            <p className="mt-7 max-w-2xl text-base leading-7 text-ink-light sm:text-lg">
-              The group follows one systematic route. Ugis leads the live meetings, holds the shared sequence and helps participants apply the method to their own material between meetings.
-            </p>
-            <div className="mt-9 flex flex-col items-start gap-5 sm:flex-row sm:items-center">
-              <Button href="/group" variant="outline" size="lg">
-                Explore the group →
-              </Button>
-              <p className="text-sm leading-6 text-muted">Applications for the next group are open</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section className="bg-surface py-16 sm:py-20 lg:py-24">
+      <section data-editorial-section aria-label="Choose how you work with Ugis" className="py-12 sm:py-14 lg:py-16">
         <div className="mx-auto w-full max-w-[1180px] px-5 sm:px-7 lg:px-10">
-          <p className="eyebrow-section">Choose by the way you need to work</p>
-          <div className="grid gap-4 lg:grid-cols-2">
-            <Link
-              href="/one-to-one"
-              className="group flex min-h-52 flex-col justify-between border border-border bg-white p-6 transition-colors hover:border-accent hover:bg-accent-surface focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent sm:p-8"
-            >
-              <p className="max-w-md font-serif text-2xl leading-snug text-ink">
-                I want to start now and need an individual route
+          <div className="grid gap-8 lg:grid-cols-2 lg:gap-y-0">
+            <article id="private-programme" className="flex min-w-0 scroll-mt-36 flex-col border border-border border-t-2 border-t-accent bg-surface p-6 sm:p-8 lg:row-span-7 lg:grid lg:grid-rows-subgrid">
+              <p className="text-xs font-medium uppercase tracking-widest text-accent">01 · Private 1:1 work</p>
+              <h2 className="mt-5 max-w-md font-serif text-3xl leading-tight tracking-display text-ink sm:text-4xl">
+              Private sessions with an individually planned sequence
+              </h2>
+              <p className="mt-6 text-base leading-7 text-ink-light">
+                What changed this week? What still sets off the reaction? You
+                work directly with Ugis, and those answers shape the next meeting.
+                He adjusts what you work on, how deeply and in what order.
               </p>
-              <span className="mt-8 text-sm font-medium text-accent transition-transform group-hover:translate-x-1">
-                Private 1:1 →
-              </span>
-            </Link>
-            <Link
-              href="/group"
-              className="group flex min-h-52 flex-col justify-between border border-border bg-white p-6 transition-colors hover:border-accent hover:bg-accent-surface focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent sm:p-8"
-            >
-              <p className="max-w-md font-serif text-2xl leading-snug text-ink">
-                A shared route fits me, and I can wait for the next group
+              <div className="mt-7 flex flex-wrap items-end justify-between gap-4 border-t border-border pt-6">
+                <div>
+                  <p className="text-xs uppercase tracking-widest text-muted">Programme fee</p>
+                  <p className="mt-2 font-serif text-4xl tracking-display text-ink">€6,000</p>
+                </div>
+                <p className="max-w-[11rem] text-sm leading-6 text-muted">12 private sessions<br />over 3–4 months</p>
+              </div>
+              <div className="mt-7">
+                <Button href="/one-to-one" variant="primary" size="lg">Explore private 1:1 →</Button>
+              </div>
+              <p className="mt-4 mb-7 text-sm leading-6 text-muted">Available to start now</p>
+              <FactRows facts={oneToOneFacts} />
+            </article>
+
+            <article id="group-programme" className="flex min-w-0 scroll-mt-36 flex-col border border-border border-t-2 border-t-accent bg-white p-6 sm:p-8 lg:row-span-7 lg:grid lg:grid-rows-subgrid">
+              <p className="text-xs font-medium uppercase tracking-widest text-accent">02 · Group with Ugis</p>
+              <h2 className="mt-5 max-w-md font-serif text-3xl leading-tight tracking-display text-ink sm:text-4xl">
+                A shared group programme with independent practice
+              </h2>
+              <p className="mt-6 text-base leading-7 text-ink-light">
+                Ugis leads the live meetings and takes a small group through a
+                connected 12-week programme. You learn the method, then practise
+                on the memories, worries and reactions that are relevant to you.
               </p>
-              <span className="mt-8 text-sm font-medium text-accent transition-transform group-hover:translate-x-1">
-                Group →
-              </span>
+              <div className="mt-7 flex flex-wrap items-end justify-between gap-4 border-t border-border pt-6">
+                <div>
+                  <p className="text-xs uppercase tracking-widest text-muted">Programme fee</p>
+                  <p className="mt-2 font-serif text-4xl tracking-display text-ink">€2,000</p>
+                </div>
+                <p className="max-w-[11rem] text-sm leading-6 text-muted">12 weekly meetings<br />over 12 weeks</p>
+              </div>
+              <div className="mt-7">
+                <Button href="/group" variant="outline" size="lg">Explore the group →</Button>
+              </div>
+              <p className="mt-4 mb-7 text-sm leading-6 text-muted">Applications open · January 2027 planned; exact dates not yet confirmed.</p>
+              <FactRows facts={groupFacts} />
+            </article>
+          </div>
+
+          <div className="mt-9 border-t border-border pt-7 sm:flex sm:items-start sm:justify-between sm:gap-10">
+            <div className="max-w-2xl">
+              <h2 className="font-serif text-2xl leading-snug tracking-display text-ink">Discuss which programme fits your situation</h2>
+              <p className="mt-3 text-base leading-7 text-ink-light">
+                The question is how you want the work to be directed: around
+                your individual progress, or through a shared sequence. Both
+                ask you to make time for daily practice.
+              </p>
+            </div>
+            <Link href="/book" className="mt-4 inline-flex min-h-11 shrink-0 items-center text-sm font-medium text-accent underline underline-offset-4 hover:text-accent-dim sm:mt-0">
+              Talk it through with Ugis →
             </Link>
           </div>
         </div>

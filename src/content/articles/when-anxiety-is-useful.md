@@ -26,7 +26,7 @@ When I talk about changing an anxiety response, people reasonably ask whether fe
 
 Not if the useful information is preserved first.
 
-My aim is not to produce a fearless idiot. A bus does not become softer because we have done excellent emotional work.
+The aim is not to make you fearless. A bus does not become softer because we have done excellent emotional work.
 
 The first question is: what useful action is this anxiety trying to secure?
 

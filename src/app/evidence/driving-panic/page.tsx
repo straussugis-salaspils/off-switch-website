@@ -24,22 +24,22 @@ export default function DrivingPanicCase() {
               <span>Case record</span>
             </p>
             <h1 className="font-serif text-5xl lg:text-6xl font-light text-deep-text leading-tight tracking-display mb-6">
-              Driving Panic and Public Pressure Overload
+              Driving panic: beyond the five-mile limit
             </h1>
             <p className="text-base text-deep-muted leading-relaxed max-w-2xl mb-4">
-              This case matters not only because the tracker score changed. What mattered
-              was that a situation that had narrowed daily life to a few miles gradually
-              stopped governing ordinary decisions.
+              After a severe panic episode on the road, this client could drive no more
+              than roughly five miles beyond the city limits. Over 90 days, he completed
+              journeys of approximately 15, 100 and 200 miles.
             </p>
             <p className="text-base text-deep-muted leading-relaxed max-w-2xl mb-4">
-              An anonymized practitioner case in which a client who could not drive more
-              than roughly five miles beyond the city limits reduced a self-maintained
-              anxiety tracker from 79 to 4 over 90 days, and gradually regained driving
-              capacity including 15-, 100-, and 200-mile drives.
+              The work did not begin with longer drives. First came the pressure he was
+              carrying in the rest of his life; then the driving-specific work and a
+              gradual return to the road. His self-rated anxiety tracker fell from 79/125
+              to 4/125 during the same period.
             </p>
             <p className="text-sm text-deep-muted/70 leading-relaxed max-w-2xl">
-              Client-maintained tracker. Anonymized practitioner record. Not a controlled
-              study.
+              One anonymized practitioner case, with a client-maintained tracker.
+              Not a controlled study; the record covers a 90-day period.
             </p>
           </div>
         </div>
@@ -52,15 +52,15 @@ export default function DrivingPanicCase() {
             <div>
               <p className="text-sm font-medium text-ink mb-3">Before</p>
               <p className="text-base text-ink-light leading-relaxed">
-                Could not drive more than roughly five miles beyond the city limits.
-                Panic while driving after an acute driving panic episode.
+                After the severe road episode, panic prevented him from driving more
+                than roughly five miles beyond the city limits.
               </p>
             </div>
             <div>
               <p className="text-sm font-medium text-ink mb-3">After — by 90 days</p>
               <p className="text-base text-ink-light leading-relaxed">
-                Drives of approximately 15, 100, and 200 miles completed. Driving panic
-                pattern did not reappear in the same way during the tracked period.
+                He completed drives of approximately 15, 100 and 200 miles. The driving
+                panic pattern did not reappear in the same way during the tracked period.
               </p>
             </div>
           </div>
@@ -80,51 +80,21 @@ export default function DrivingPanicCase() {
         </div>
       </section>
 
-      {/* SUMMARY */}
+      {/* SITUATION */}
       <section className="py-14 lg:py-16">
         <div className="max-w-[1120px] mx-auto px-6 lg:px-12">
           <div className="max-w-3xl">
-            <h2 className="font-serif text-2xl lg:text-3xl font-light text-ink mb-5">Summary</h2>
+            <h2 className="font-serif text-2xl lg:text-3xl font-light text-ink mb-5">The pressure was not only on the road</h2>
             <div className="space-y-4">
               <p className="text-base text-ink-light leading-relaxed">
-                After a severe panic episode on the road, the client was unable to drive
-                more than roughly five miles beyond the city limits. The visible problem
-                was a driving panic pattern.
+                Driving panic was the problem he brought to the work. Alongside it was
+                sustained overload from a major, high-responsibility role: being evaluated
+                by others, carrying ongoing accountability and remaining publicly responsible
+                for what happened.
               </p>
               <p className="text-base text-ink-light leading-relaxed">
-                The wider context was a nervous system already carrying sustained overload
-                from a high-responsibility role. The working interpretation was that
-                the system was already in a high-activation state before the road episode,
-                and the road event may have been a threshold crossing rather than an
-                originating cause.
-              </p>
-              <p className="text-base text-ink-light leading-relaxed">
-                Early in the engagement, the public-pressure and leadership overload
-                reduced substantially — a turning point after which the driving-specific
-                pattern work became more tractable. Over 90 days, the self-rated tracker
-                moved from 79/125 to 40/125 at 60 days, and to 4/125 at 90 days. Driving
-                capacity returned through staged real-world testing.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* SITUATION */}
-      <section className="py-14 lg:py-16 bg-surface">
-        <div className="max-w-[1120px] mx-auto px-6 lg:px-12">
-          <div className="max-w-3xl">
-            <h2 className="font-serif text-2xl lg:text-3xl font-light text-ink mb-5">Context at intake</h2>
-            <div className="space-y-4">
-              <p className="text-base text-ink-light leading-relaxed">
-                The client experienced panic symptoms while driving following a severe road
-                episode. He was unable to drive more than roughly five miles beyond the
-                city limits at the start of the engagement.
-              </p>
-              <p className="text-base text-ink-light leading-relaxed">
-                Alongside this, he was carrying sustained overload from a major
-                high-responsibility role — external evaluation pressure, sustained
-                accountability load, and continuous public-facing responsibility.
+                The question was whether the road episode had created the whole problem,
+                or whether it had happened when he was already carrying too much.
               </p>
             </div>
           </div>
@@ -132,53 +102,51 @@ export default function DrivingPanicCase() {
       </section>
 
       {/* WORKING INTERPRETATION */}
-      <section className="py-14 lg:py-16">
+      <section className="py-14 lg:py-16 bg-surface">
         <div className="max-w-[1120px] mx-auto px-6 lg:px-12">
           <div className="max-w-3xl">
-            <h2 className="font-serif text-2xl lg:text-3xl font-light text-ink mb-5">Working interpretation</h2>
+            <h2 className="font-serif text-2xl lg:text-3xl font-light text-ink mb-5">Why we looked beyond the driving episode</h2>
             <p className="text-base text-ink-light leading-relaxed">
-              The working interpretation was that the driving panic was not an isolated
-              event. The system appeared already primed by sustained overload before the
-              road episode occurred. In this reading, the road event was a threshold
-              crossing rather than an originating cause — and addressing only the driving
-              material, without reducing the wider overload pattern, would have left the
-              underlying activation state largely intact.
+              The working interpretation was that he had already been in a prolonged state
+              of overload. The road episode may have pushed that state past its limit,
+              rather than started it. On that reading, working only with the driving fear
+              would leave the wider pressure response in place.
             </p>
           </div>
         </div>
       </section>
 
       {/* WHAT THE WORK ADDRESSED */}
-      <section className="py-14 lg:py-16 bg-surface">
+      <section className="py-14 lg:py-16">
         <div className="max-w-[1120px] mx-auto px-6 lg:px-12">
           <div className="max-w-3xl">
-            <h2 className="font-serif text-2xl lg:text-3xl font-light text-ink mb-6">What the work addressed</h2>
+            <h2 className="font-serif text-2xl lg:text-3xl font-light text-ink mb-6">How the work unfolded</h2>
             <div className="space-y-7">
               <div>
-                <p className="text-base font-medium text-ink mb-2">Stabilization under sustained overload</p>
+                <p className="text-base font-medium text-ink mb-2">First, reduce the wider overload</p>
                 <p className="text-base text-ink-light leading-relaxed">
-                  The initial focus was on reducing the active overload state — public-pressure
-                  activation, chronic load, and overwhelm. A reduction in the wider overload
-                  became apparent within the first month and coincided with a turning point
-                  in the case.
+                  We began with the chronic pressure, overwhelm and reactions connected to
+                  his public-facing role. Within the first month, that wider load had
+                  noticeably reduced. This was the turning point after which the
+                  driving-specific work became more manageable.
                 </p>
               </div>
               <div>
-                <p className="text-base font-medium text-ink mb-2">Reduction of the driving and load pattern</p>
+                <p className="text-base font-medium text-ink mb-2">Then, work with the driving panic</p>
                 <p className="text-base text-ink-light leading-relaxed">
-                  Once the wider overload had reduced, the driving-specific material was
-                  addressed: the original panic episode, anticipatory activation, and the
-                  external-evaluation pattern connected to the system&rsquo;s elevated baseline.
-                  These were worked as a single connected pattern rather than isolated
+                  The next work addressed the original road episode, the anxiety that
+                  began in anticipation of driving, and the pressure of being judged by
+                  others. These were approached as a connected pattern, rather than
+                  treating each symptom as a separate problem.
+                </p>
+              </div>
+              <div>
+                <p className="text-base font-medium text-ink mb-2">Check the change on the road</p>
+                <p className="text-base text-ink-light leading-relaxed">
+                  Feeling calmer in a session was not the final test. He returned to
+                  driving in stages, making actual journeys at increasing distances.
+                  What he could do on the road was checked alongside how he rated his
                   symptoms.
-                </p>
-              </div>
-              <div>
-                <p className="text-base font-medium text-ink mb-2">Staged return to functional driving</p>
-                <p className="text-base text-ink-light leading-relaxed">
-                  The change was tested through real-world driving rather than relying on
-                  in-session report alone. The result is grounded in observed functional
-                  capacity, not self-reported internal state.
                 </p>
               </div>
             </div>
@@ -187,7 +155,7 @@ export default function DrivingPanicCase() {
       </section>
 
       {/* TRACKED PROGRESS */}
-      <section className="py-14 lg:py-16">
+      <section className="py-14 lg:py-16 bg-surface">
         <div className="max-w-[1120px] mx-auto px-6 lg:px-12">
           <div className="max-w-3xl">
             <h2 className="font-serif text-2xl lg:text-3xl font-light text-ink mb-5">Tracked progress</h2>
@@ -229,20 +197,18 @@ export default function DrivingPanicCase() {
       </section>
 
       {/* FUNCTIONAL CHANGES */}
-      <section className="py-14 lg:py-16 bg-surface">
+      <section className="py-14 lg:py-16">
         <div className="max-w-[1120px] mx-auto px-6 lg:px-12">
           <div className="max-w-3xl">
-            <h2 className="font-serif text-2xl lg:text-3xl font-light text-ink mb-5">Functional changes</h2>
+            <h2 className="font-serif text-2xl lg:text-3xl font-light text-ink mb-5">From nearby towns to longer journeys</h2>
             <div className="space-y-4">
               <p className="text-base text-ink-light leading-relaxed">
-                The role-related overload reduced in the early engagement — a change that
-                preceded resolution of the driving-specific pattern.
+                The return began with smaller nearby towns, then larger cities. The
+                completed journeys grew to approximately 15, 100 and eventually 200 miles.
               </p>
               <p className="text-base text-ink-light leading-relaxed">
-                Driving capacity returned through staged real-world testing: first to
-                smaller nearby towns, then to larger cities, expanding to approximately
-                15, 100, and eventually 200-mile drives. The driving panic pattern did
-                not reappear in the same way during the 90-day tracked period.
+                The driving panic pattern did not reappear in the same way during the
+                90-day tracked period.
               </p>
             </div>
           </div>
@@ -250,22 +216,20 @@ export default function DrivingPanicCase() {
       </section>
 
       {/* WHAT THIS CASE SUGGESTS */}
-      <section className="py-14 lg:py-16">
+      <section className="py-14 lg:py-16 bg-surface">
         <div className="max-w-[1120px] mx-auto px-6 lg:px-12">
           <div className="max-w-3xl">
-            <h2 className="font-serif text-2xl lg:text-3xl font-light text-ink mb-5">What this case suggests</h2>
+            <h2 className="font-serif text-2xl lg:text-3xl font-light text-ink mb-5">What the anxiety scores and completed journeys show</h2>
             <div className="space-y-4">
               <p className="text-base text-ink-light leading-relaxed">
-                This case suggests that the driving panic was connected to a broader
-                overload and role-pressure pattern, not only to the driving event itself.
-                When the wider load reduced, the driving-specific work became more
-                tractable, and the change could be confirmed through real-world driving
-                rather than score reduction alone.
+                The tracker and the journeys tell different parts of the same story.
+                One records his own ratings of anxiety; the other records a return to
+                something he had been unable to do.
               </p>
               <p className="text-base text-ink-light leading-relaxed">
-                Functional testing through actual driving at increasing distances provides
-                a more direct measure of change than score reduction alone. In this case,
-                the two were consistent.
+                In this case, lower symptom scores went together with a wider driving
+                range. The wider pressure eased first; the driving-specific work
+                became more manageable afterwards.
               </p>
             </div>
           </div>
@@ -273,10 +237,10 @@ export default function DrivingPanicCase() {
       </section>
 
       {/* LIMITS AND HONESTY */}
-      <section className="py-14 lg:py-16 bg-surface">
+      <section className="py-14 lg:py-16">
         <div className="max-w-[1120px] mx-auto px-6 lg:px-12">
           <div className="max-w-3xl">
-            <h2 className="font-serif text-2xl lg:text-3xl font-light text-ink mb-6">Limits and honesty</h2>
+            <h2 className="font-serif text-2xl lg:text-3xl font-light text-ink mb-6">What this record can and cannot establish</h2>
             <div className="space-y-3">
               {[
                 "Anonymized practitioner record. The client is not identified in any way.",

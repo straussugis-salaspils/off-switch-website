@@ -57,7 +57,7 @@ It keeps playing the question:
 
 The event ended, but the system continues preparing for its return. A memory, sound, image or place starts the same rehearsal in the present.
 
-This is my authorial metaphor, not an established neuroscientific theory of PTSD. It is useful for a practical distinction: today's facts and a continuing response to old danger can exist at the same time.
+I use “rehearsal” to describe what I observe. It is a metaphor, not an established neuroscientific explanation of PTSD. It helps distinguish today's facts from a continuing response to old danger: both can be present at the same time.
 
 ## One episode and many episodes are different kinds of work
 

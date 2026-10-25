@@ -10,10 +10,10 @@ export const metadata: Metadata = {
 
 const clusters = [
   {
-    group: "Acute activation",
+    group: "Fear and alarm",
     heading: "Anxiety, panic, and threat response",
     supporting:
-      "For people whose system moves into fear, danger, or alarm faster than the mind can settle it.",
+      "When the body moves into fear or alarm before you can talk yourself out of it.",
     issues: [
       {
         label: "Panic Attacks",
@@ -27,14 +27,14 @@ const clusters = [
         href: "/issues/anxiety",
         recognition:
           "The anxiety is already there when you wake up. Before the day has given it a reason.",
-        detail: "Persistent background activation — not situational, not rational.",
+        detail: "A background anxiety that does not seem to need a reason in the present.",
       },
       {
         label: "Sleep and Night Anxiety",
         href: "/issues/sleep",
         recognition:
           "Not tired-3am. Activated-3am. The body exhausted. The mind already running something.",
-        detail: "Night removes what the day was covering. What remains is the activation.",
+        detail: "The distractions stop. The tension does not.",
       },
     ],
   },
@@ -56,7 +56,7 @@ const clusters = [
         href: "/issues/stress-and-overload",
         recognition:
           "The day is over. The pressure has not left with it.",
-        detail: "Still functioning, but the system no longer fully comes down between demands.",
+        detail: "Still getting things done, but no longer recovering between demands.",
       },
       {
         label: "When Emotions Take Over",
@@ -70,15 +70,15 @@ const clusters = [
         href: "/issues/overthinking",
         recognition:
           "The thinking has kept going past the point where it was useful. The loop continues anyway.",
-        detail: "Not a thinking problem. An activation problem the mind is trying to solve.",
+        detail: "Another round of analysis does not settle the feeling that keeps the loop going.",
       },
     ],
   },
   {
-    group: "Stored response patterns",
+    group: "The past in the present",
     heading: "Past responses still running",
     supporting:
-      "For people whose present reactions are still shaped by charged material from earlier experiences.",
+      "When something that happened earlier still shapes how you react now.",
     issues: [
       {
         label: "PTSD",
@@ -115,9 +115,9 @@ export default function WhoThisIsFor() {
               Who This Is For
             </h1>
             <p className="text-base text-deep-muted leading-relaxed max-w-2xl">
-              The Off-Switch Method works directly on the activation, not only on the
-              explanation of where it came from. These pages are for people who understand
-              the story, but still feel the reaction happening in the body.
+              You may know why it happens. You may have done useful work on it already.
+              These pages are about the reactions that remain — and what working on
+              them involves. Start with the description you recognize.
             </p>
           </div>
         </div>

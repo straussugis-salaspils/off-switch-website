@@ -14,7 +14,7 @@ The other may have changed since then. A great deal may have occurred in the rel
 
 If divorce is needed, divorce is needed. No question.
 
-But I want the person to divorce because of an adequate assessment of what exists now—not because a fifteen-year-old wound has made the decision in advance.
+But I want that decision to come from seeing the relationship as it is now—not from a fifteen-year-old wound making the decision in advance.
 
 So how can we tell whether the problem belongs to today's relationship or whether the past is making it larger?
 
@@ -91,16 +91,6 @@ These are new facts about today's relationship.
 
 A boundary set only in the mind is still a proposal. It exists in life when it has been expressed and the person can act consistently with it.
 
-## A real problem remains real without intense emotion
-
-Some actions and conditions do not become acceptable after the response changes.
-
-Someone can stop raging and still know that trust is absent, conversations change nothing, or distance is necessary. Hatred is not required for a firm decision.
-
-Sometimes calm leads to staying and renegotiating. Sometimes it produces a much firmer boundary. Sometimes it produces departure.
-
-The Method does not choose one correct ending.
-
 ## Running away and leaving calmly feel different inside
 
 When someone runs from an unresolved old life, the argument continues internally. They rehearse, prove and fear recurrence, sometimes bringing the same response into the next relationship.
@@ -111,12 +101,14 @@ The decision may still be difficult. Divorce, distance and serious conversations
 
 The difference is acting on the present rather than trying to end the past through one more decision today.
 
-## The result is neither mandatory reconciliation nor mandatory separation
+## The Method must not choose the relationship for the person
 
 I do not judge the result by whether the couple remains together.
 
-The result is remembering without the old charge, seeing current behaviour, conducting the conversation, setting a boundary and observing reality's response.
+I check the change against the same partner, conversation and behaviour—not only against a calmer account of the past. Does the old fear, humiliation or abandonment scene still take over? What do the person's actual conversations and boundaries reveal now?
+
+A real problem remains real when the emotional intensity drops. Trust may still be absent; conversations may still change nothing. Hatred is not required for a firm decision.
 
 After that, the person may choose acceptance, a new form of relationship, distance or departure.
 
-If divorce is needed, divorce is needed. But the decision should belong to the person today—not to a fifteen-year-old wound.
+> The result is not ‘stay’ or ‘leave’. The result is being able to decide without the old reaction casting the vote first.

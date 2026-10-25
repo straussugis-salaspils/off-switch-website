@@ -26,7 +26,7 @@ I test whether the former response still reproduces. The person imagines the sit
 
 Fear no longer arrives. Uncertainty no longer takes control. The old automatic answer does not force silence, agreement, escape or delay.
 
-That is a substantial result. It should not be dismissed because the cleared space has not immediately grown furniture.
+That is a substantial result, even if the person has not yet decided what to do differently.
 
 Freedom not to repeat the old is real. It is not yet an instruction for what to do instead.
 
@@ -48,7 +48,7 @@ My metaphor is simple. Before a new house can be built, a collapsing old house m
 
 The demolition is finished. The debris is removed. There is a clear building site.
 
-Looking at the site and saying “It is empty, so the work failed” would be inaccurate. The old house is genuinely gone. It no longer occupies the space, drops pieces on people or forces them through the same crooked corridors.
+Looking at the site and saying “It is empty, so the work failed” misses what has changed. The old house is genuinely gone.
 
 The clear site is simply not a new house.
 
@@ -101,8 +101,4 @@ When an old response ends, the person is no longer obliged to repeat what once c
 
 Freedom from the old simply does not arrive bundled with confidence, purpose and a new way of living.
 
-Sometimes the clear building site comes first.
-
-The old house is gone. The new one is not there yet. This is not failure.
-
-It is the place where the person can stop searching the past for another command and begin asking a different question: what should be built now?
+The person can stop searching the past for another command and begin asking a different question: what should be built now?

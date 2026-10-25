@@ -24,18 +24,18 @@ export default function ComplexPtsdBurnout() {
               <span>Case record</span>
             </p>
             <h1 className="font-serif text-5xl lg:text-6xl font-light text-deep-text leading-tight tracking-display mb-6">
-              Complex PTSD and Burnout
+              Complex PTSD and burnout: changes in work, sleep and family life
             </h1>
             <p className="text-base text-deep-muted leading-relaxed max-w-2xl mb-4">
-              The important change here was not only a lower tracker score. It was the
-              return of practical agency in areas where the load had been closing down
-              work, money, and close relationships.
+              Work boundaries were established. Financial matters that had been avoided
+              were addressed. A previously avoided family relationship reopened. These
+              were things the client began doing as the emotional load reduced, not
+              tasks assigned in a session.
             </p>
             <p className="text-base text-deep-muted leading-relaxed max-w-2xl mb-4">
-              An anonymized practitioner case in which a long-standing complex PTSD and
-              burnout pattern reduced from a self-rated tracker score of 72 to 7 over
-              approximately 14 weeks — with the reduction continuing after the engagement
-              closed, through self-directed practice.
+              Over approximately 14 weeks, the client&rsquo;s self-rated symptom tracker
+              fell from 72/105 to 7/105. That included about two months of meetings,
+              followed by six weeks of independent practice with no further sessions.
             </p>
             <p className="text-sm text-deep-muted/70 leading-relaxed max-w-2xl">
               Client-maintained tracker. Anonymized practitioner record. Not a controlled
@@ -54,15 +54,15 @@ export default function ComplexPtsdBurnout() {
               <p className="text-sm font-medium text-ink mb-3">Before</p>
               <p className="text-base text-ink-light leading-relaxed">
                 Tracker score 72/105. Prior insight-based work, including EMDR, had not
-                resolved the core pattern. Practical agency substantially reduced
-                across work, financial, and relational domains.
+                resolved the core pattern. Financial decisions were avoided,
+                relationships withdrawn from and professional development put on hold.
               </p>
             </div>
             <div>
               <p className="text-sm font-medium text-ink mb-3">After — by six-week follow-up</p>
               <p className="text-base text-ink-light leading-relaxed">
-                Tracker score 7/105. Work boundaries established. Practical and financial
-                life actions resumed. Close relationships reopened.
+                Tracker score 7/105. Work boundaries established, financial matters
+                addressed and close relationships reopened.
               </p>
             </div>
           </div>
@@ -77,54 +77,33 @@ export default function ComplexPtsdBurnout() {
             evidenceType="Client-maintained self-rated tracker. Anonymized practitioner record."
             startingPoint="Tracker score 72/105."
             endPoint="Tracker score 7/105 at six-week post-engagement follow-up — approximately 90% reduction."
-            functionalOutcome="Work boundaries established. Agency in practical and financial life areas restored. Close relationships reopened."
+            functionalOutcome="Work boundaries established. Previously avoided financial matters addressed. A close family relationship reopened."
           />
         </div>
       </section>
 
-      {/* SUMMARY */}
+      {/* SITUATION */}
       <section className="py-14 lg:py-16">
         <div className="max-w-[1120px] mx-auto px-6 lg:px-12">
           <div className="max-w-3xl">
-            <h2 className="font-serif text-2xl lg:text-3xl font-light text-ink mb-5">Summary</h2>
+            <h2 className="font-serif text-2xl lg:text-3xl font-light text-ink mb-5">Understanding the history had not stopped the reaction</h2>
             <div className="space-y-4">
               <p className="text-base text-ink-light leading-relaxed">
-                The client arrived with a long trauma history that had not resolved under
-                prior therapeutic work, including extensive EMDR. Symptoms covered all four
-                complex PTSD clusters: intrusive material, avoidance, negative changes in
-                thinking and mood, and physical or emotional reactivity.
+                A senior professional in an international technology role arrived with
+                a long trauma history and burnout from sustained performance demands.
+                Earlier therapeutic work, including extensive EMDR, had helped make
+                sense of the history. The reactions attached to it remained.
               </p>
               <p className="text-base text-ink-light leading-relaxed">
-                Over approximately two months of engagement plus six weeks of self-directed
-                practice, the tracker moved from 72/105 to 7/105. Reduction continued
-                after engagement closed, without further sessions.
+                Sleep was poor. Financial decisions were being avoided, close
+                relationships withdrawn from and professional development suspended.
+                Avoidance of one close family member was present but initially
+                unrecognised.
               </p>
               <p className="text-base text-ink-light leading-relaxed">
-                Agency returned alongside the score drop, not after it: work boundaries
-                established, financial matters addressed, close relationships reopened,
-                a personal practice begun.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* SITUATION */}
-      <section className="py-14 lg:py-16 bg-surface">
-        <div className="max-w-[1120px] mx-auto px-6 lg:px-12">
-          <div className="max-w-3xl">
-            <h2 className="font-serif text-2xl lg:text-3xl font-light text-ink mb-5">Context at intake</h2>
-            <div className="space-y-4">
-              <p className="text-base text-ink-light leading-relaxed">
-                A senior professional in an international technology role. Long trauma
-                history. Prior therapeutic work — including extensive EMDR — had addressed
-                meaning but not resolved the underlying activation. Sleep was poor. Avoidance
-                of a close family member was active and initially unrecognised.
-              </p>
-              <p className="text-base text-ink-light leading-relaxed">
-                Coexisting burnout from sustained performance demands. Agency had reduced
-                across practical areas: financial decisions avoided, close relationships
-                withdrawn from, professional development suspended.
+                Symptoms covered the four clusters recorded in the case: intrusive
+                material, avoidance, negative changes in thinking and mood, and
+                physical or emotional reactivity.
               </p>
             </div>
           </div>
@@ -132,53 +111,59 @@ export default function ComplexPtsdBurnout() {
       </section>
 
       {/* WORKING INTERPRETATION */}
-      <section className="py-14 lg:py-16">
+      <section className="py-14 lg:py-16 bg-surface">
         <div className="max-w-[1120px] mx-auto px-6 lg:px-12">
           <div className="max-w-3xl">
-            <h2 className="font-serif text-2xl lg:text-3xl font-light text-ink mb-5">Working interpretation</h2>
-            <p className="text-base text-ink-light leading-relaxed">
-              The working interpretation was that prior insight-based work had reached the
-              level of meaning — where the events came from, what they produced — without
-              clearing the underlying activation still attached to the material. The
-              burnout appeared to be a functional consequence of that sustained activation
-              pattern, not a separate condition.
-            </p>
+            <h2 className="font-serif text-2xl lg:text-3xl font-light text-ink mb-5">Why the work focused on the reactions that remained</h2>
+            <div className="space-y-4">
+              <p className="text-base text-ink-light leading-relaxed">
+                My working interpretation was that the client understood where the
+                events came from and what they had meant, but still reacted to them.
+                Burnout appeared to be a consequence of that continuing emotional
+                load rather than a separate problem.
+              </p>
+              <p className="text-base text-ink-light leading-relaxed">
+                That does not make the earlier work irrelevant. It had helped the
+                client understand the pattern and likely contributed to the stability
+                from which this work began. This is not a comparison study of methods.
+              </p>
+            </div>
           </div>
         </div>
       </section>
 
       {/* WHAT THE WORK ADDRESSED */}
-      <section className="py-14 lg:py-16 bg-surface">
+      <section className="py-14 lg:py-16">
         <div className="max-w-[1120px] mx-auto px-6 lg:px-12">
           <div className="max-w-3xl">
-            <h2 className="font-serif text-2xl lg:text-3xl font-light text-ink mb-6">What the work addressed</h2>
+            <h2 className="font-serif text-2xl lg:text-3xl font-light text-ink mb-6">What we worked on</h2>
             <div className="space-y-7">
               <div>
-                <p className="text-base font-medium text-ink mb-2">Stabilization and reduction of activation load</p>
+                <p className="text-base font-medium text-ink mb-2">Starting with the immediate strain</p>
                 <p className="text-base text-ink-light leading-relaxed">
-                  Initial work focused on reducing the immediate stress load — acute
-                  reactivity, surface-level activation, sleep disruption. The primary
+                  Initial work addressed the immediate stress, strong reactions and
+                  disrupted sleep. The primary
                   self-applied technique was introduced and used daily from the first
                   session. Old material began surfacing during practice and was cleared
                   as it appeared.
                 </p>
               </div>
               <div>
-                <p className="text-base font-medium text-ink mb-2">Reduction of accumulated emotional and trauma load</p>
+                <p className="text-base font-medium text-ink mb-2">Following the pattern through personal history</p>
                 <p className="text-base text-ink-light leading-relaxed">
-                  Systematic clearing across life domains: workplace material, the full
-                  history of high-pressure presentations beginning from school, family
-                  relationships including the avoidance item, and the longstanding
-                  negative self-assessment, which was specifically addressed.
+                  We worked systematically through workplace experiences, the history
+                  of high-pressure presentations going back to school, and family
+                  relationships, including the avoided relationship. The client&rsquo;s
+                  longstanding negative view of themselves was also addressed directly.
                 </p>
               </div>
               <div>
-                <p className="text-base font-medium text-ink mb-2">Structural recovery and restoration of agency</p>
+                <p className="text-base font-medium text-ink mb-2">Addressing work boundaries and practical decisions</p>
                 <p className="text-base text-ink-light leading-relaxed">
-                  As the activation load reduced, the client began taking practical actions
-                  that had not previously been taken. These emerged as the pattern cleared —
-                  not as assigned tasks. The practical action record is the most direct
-                  functional indicator in this case.
+                  As the emotional load reduced, the client began taking actions that
+                  had previously been avoided. The changes in work, money and
+                  relationships happened alongside the falling tracker score, not
+                  after all the emotional work was finished.
                 </p>
               </div>
             </div>
@@ -187,7 +172,7 @@ export default function ComplexPtsdBurnout() {
       </section>
 
       {/* TRACKED PROGRESS */}
-      <section className="py-14 lg:py-16">
+      <section className="py-14 lg:py-16 bg-surface">
         <div className="max-w-[1120px] mx-auto px-6 lg:px-12">
           <div className="max-w-3xl">
             <h2 className="font-serif text-2xl lg:text-3xl font-light text-ink mb-5">Tracked progress</h2>
@@ -232,10 +217,10 @@ export default function ComplexPtsdBurnout() {
       </section>
 
       {/* FUNCTIONAL CHANGES */}
-      <section className="py-14 lg:py-16 bg-surface">
+      <section className="py-14 lg:py-16">
         <div className="max-w-[1120px] mx-auto px-6 lg:px-12">
           <div className="max-w-3xl">
-            <h2 className="font-serif text-2xl lg:text-3xl font-light text-ink mb-5">Functional changes</h2>
+            <h2 className="font-serif text-2xl lg:text-3xl font-light text-ink mb-5">What changed outside the sessions</h2>
             <div className="space-y-4">
               <p className="text-base text-ink-light leading-relaxed">
                 Sleep improved. A previously avoided family relationship was reopened.
@@ -243,29 +228,14 @@ export default function ComplexPtsdBurnout() {
                 were addressed. A personal practice was begun.
               </p>
               <p className="text-base text-ink-light leading-relaxed">
-                These changes occurred in parallel with the tracker reduction, not after it.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* WHAT THIS CASE SUGGESTS */}
-      <section className="py-14 lg:py-16">
-        <div className="max-w-[1120px] mx-auto px-6 lg:px-12">
-          <div className="max-w-3xl">
-            <h2 className="font-serif text-2xl lg:text-3xl font-light text-ink mb-5">What this case suggests</h2>
-            <div className="space-y-4">
-              <p className="text-base text-ink-light leading-relaxed">
-                This case suggests that prior insight-based work may reduce meaning-level
-                distress without clearing the underlying activation pattern. The tracker
-                reduction and functional changes occurred together — and continued after
-                the practitioner was no longer involved.
+                Independent practice continued after the meetings ended. During those
+                six weeks, the score fell from 23 to 7. The client did not need further
+                sessions for that additional reduction to occur.
               </p>
               <p className="text-base text-ink-light leading-relaxed">
-                The post-engagement reduction — from 23 to 7, with no further sessions —
-                is the most methodologically informative data point. It does not prove a
-                mechanism; it records an outcome.
+                That continuing change is an important part of this record. It is an
+                observed outcome, not proof of a mechanism or a prediction for another
+                person.
               </p>
             </div>
           </div>
@@ -276,7 +246,7 @@ export default function ComplexPtsdBurnout() {
       <section className="py-14 lg:py-16 bg-surface">
         <div className="max-w-[1120px] mx-auto px-6 lg:px-12">
           <div className="max-w-3xl">
-            <h2 className="font-serif text-2xl lg:text-3xl font-light text-ink mb-6">Limits and honesty</h2>
+            <h2 className="font-serif text-2xl lg:text-3xl font-light text-ink mb-6">What this record can and cannot establish</h2>
             <div className="space-y-3">
               {[
                 "Anonymized practitioner record. The client is not identified in any way.",

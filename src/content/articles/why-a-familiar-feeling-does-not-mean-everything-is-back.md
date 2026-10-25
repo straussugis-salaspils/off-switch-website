@@ -86,11 +86,11 @@ Imagine someone who previously feared dogs. The old response was completed and t
 
 Then a new aggressive dog bites them.
 
-This is not a philosophical crisis for the Method. It is a new aggressive dog that genuinely bit the person.
+The bite is a new event, with its own consequences.
 
 A new response can develop after a new event. In my model, that is new material, not the return of the old completed scene.
 
-Earlier work should not make someone insensitive to actual danger, and it should not require pretending the bite did not occur. Nor does new fear prove the earlier work was fraudulent.
+Earlier work should not make someone insensitive to actual danger, and it should not require pretending the bite did not occur.
 
 Treat the new event as new.
 
@@ -115,8 +115,6 @@ I often tell clients:
 The gift is not feeling bad again. Nobody needs to thank the manager for a vicious tone or the dog for its teeth.
 
 The gift is a specific signal that can now be tested. Instead of “Sometimes I feel anxious again,” there is an episode, moment and response. We know where to look.
-
-A remaining signal does not have to cancel an established result; it may clarify the scope. A new event does not have to impersonate the old one.
 
 ## The next step depends on what is found
 

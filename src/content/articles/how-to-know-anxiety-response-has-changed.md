@@ -32,7 +32,7 @@ Completed work looks different: the person drives out of town again and the old 
 
 ## Begin with one specific response
 
-“All my anxiety” cannot be measured with one number as though the entire question has now become pleasantly mathematical.
+“All my anxiety” is too broad to test as one response.
 
 I choose one memory or one situation. The person imagines it and rates the negative emotional response from zero to five.
 
@@ -60,9 +60,7 @@ One scene reaches zero. Excellent. That does not prove that the entire anxious p
 
 Other memories may remain. The words may no longer activate the person, while the tone still does. A physical sensation or another part of the episode may be separate.
 
-I distinguish the specific target, the connected cluster and the person’s wider state.
-
-Completion of one target proves completion of one target—not the whole biography.
+We check the particular scene, the connected memories and the wider anxious state separately.
 
 ## Test the imagined future
 

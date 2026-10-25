@@ -26,7 +26,7 @@ One source of pressure disappeared, so the pressure fell. There is no need to ex
 
 The question is not whether the relief was genuine.
 
-The question is what, exactly, ended with the report.
+The question is what, exactly, ended with the report. Solving it was useful; it was not required to erase every older response, nearby fear and imagined future at the same time. That would be an ambitious job description for a report.
 
 ## One issue may have occupied the foreground
 
@@ -40,15 +40,7 @@ But the most visible issue is not necessarily the only one. It may simply occupy
 
 While the report is dominant, the other responses are harder to notice. When it is submitted, its contribution disappears and the contrast is strong: it was difficult; now it is easier. Later, the other active lines become audible again.
 
-## The rest of the background may never have left
-
-This distinction is simple but important:
-
 **For something to return, it first has to leave completely.**
-
-Perhaps only the front issue ended. The other responses remained active before, during and after the report. They were simply obscured by the loudest problem.
-
-When that problem ends, the rest of the field becomes visible again.
 
 ## Solving a task and changing an old response are different
 
@@ -57,14 +49,6 @@ Submitting a report, paying a debt or having a difficult conversation solves an 
 Changing a specific old response is another operation. In my model, the response is addressed and then tested directly. If that work is complete, I do not describe the old response as having quietly gone away and then returned.
 
 A similar anxiety later may indicate a neighbouring element, another part of the connected cluster, or a new event. Those are different possibilities.
-
-## The solved problem was not false
-
-It would be equally foolish to decide that, because anxiety remains, the report never mattered.
-
-Real tasks still need real solutions. Paying a debt is useful. Having the conversation is useful. Receiving the information that resolves uncertainty is useful.
-
-Solving one task proves that one task has been solved. It is not required to erase every older response, nearby fear and imagined future at the same time. That would be an ambitious job description for a report.
 
 ## A calm week is welcome, but it is not a complete test
 
@@ -96,7 +80,7 @@ Sometimes an older background remains. Sometimes another connected element becom
 
 ## Check what actually changed
 
-“I felt better” and “then I felt anxious again” are not precise enough for me.
+“I felt better” and “then I felt anxious again” describe the experience. To find the next step, we need a little more detail.
 
 Which issue ended? What disappeared with it? What remained in the background? Which situation started the response again? Was it a familiar element, a previously unnoticed detail or a new event?
 
@@ -105,8 +89,6 @@ If a situation still starts a response, that is not a reason to declare all the 
 ## Relief and completion are different claims
 
 Solving one problem can bring genuine relief without ending the whole anxious background.
-
-One subject occupied the foreground and drowned out everything else. When it ended, the remaining background became audible again.
 
 That does not cancel the relief. It defines its scale.
 

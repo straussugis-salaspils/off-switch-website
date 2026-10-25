@@ -6,17 +6,17 @@ source: adaptive rewrite of approved Russian article
 
 # Why it is hard to say no when you do not want to agree
 
-Before the conversation, the person knows: *I do not want to do this.*
+Before the conversation, you know: “I do not want to do this.”
 
-Then someone asks. They smile, soften their voice and say, “Yes, of course.”
+Then someone asks. You smile, soften your voice and say, “Yes, of course.”
 
 The conversation ends. Only then does the sensible answer return:
 
 > Why on earth did I agree again?
 
-Sometimes they keep the promise and feel angry. Sometimes they delay, do it badly or avoid the second conversation altogether. The no existed internally from the beginning. Somehow it never reached the voice.
+Perhaps you keep the promise and feel angry. Perhaps you put it off, do it badly or avoid the second conversation altogether. The no was there from the beginning. Somehow it never reached your voice.
 
-My main question is not why the person does not know what they want. They do know. The question is what acts before their decision.
+You already knew what you wanted. I want to find out what happened between knowing it and answering.
 
 ## The no was present, but the response was faster
 
@@ -42,7 +42,7 @@ I do not assign one compulsory cause. For one person it is conflict, for another
 
 ## Automatic agreement is not compromise
 
-The word *yes* proves very little by itself.
+The word “yes” proves very little by itself.
 
 A skilful communicator can say, “Yes, I understand why you need it. I cannot do it today.” They have acknowledged the other person's need while keeping their position.
 
@@ -68,7 +68,7 @@ This is not necessarily deliberate manipulation. Often it is the continuation of
 
 A smile is not always joy. Sometimes it is raised hands.
 
-The person sees a displeased face, hears a hard voice and smiles automatically, becomes softer and tries to be liked: *I am good. I am not dangerous. Please do not attack me.*
+The person sees a displeased face, hears a hard voice and smiles automatically, becomes softer and tries to be liked: “I am good. I am not dangerous. Please do not attack me.”
 
 The answer is not to learn a permanent stone expression. Free friendliness means being able to smile—or calmly not smile.
 
@@ -78,13 +78,7 @@ An automatic smile driven by fear occurs before the person chooses how to conduc
 
 Someone can learn ten elegant boundary phrases and keep one on a card. If another person's displeasure starts the old response in the real conversation, the card does not govern the body.
 
-I therefore begin not with the perfect refusal but with what makes the refusal unavailable.
-
-We identify situations maintaining automatic agreement and work with their emotional charge. There may be one early scene or a chain of later moments in which the person kept agreeing against themselves.
-
-Then we test: imagine the person who was impossible to refuse, their request, face, voice and possible displeasure. Does the body tighten? Does the voice disappear? Is there an immediate need to agree?
-
-If so, more remains active.
+That is why I start with what makes the refusal unavailable. The right sentence is useful only if you can still reach it when someone is waiting for an answer.
 
 ## A new conversation still needs to be learned
 
@@ -92,7 +86,7 @@ Removing an automatic response is not the same as learning a difficult conversat
 
 Someone may no longer fear the manager but not know how to discuss a deadline. They may disagree with a partner but not know how to state a boundary without a ten-minute defence speech.
 
-The old response can leave without installing a new communication skill by magic.
+The old response can leave without installing a new communication skill by magic. The Method does not write the boundary or make the decision for the person.
 
 So we build the action separately: the words, tone, alternative proposal and response if pressure continues.
 
@@ -106,12 +100,12 @@ Before the real situation, the person imagines the conversation, hears the reque
 
 If fear, guilt or the urge to smooth everything immediately returns, we have useful information: another response to address or a skill to practise.
 
-When the imagined conversation is manageable, the action is repeated, then tested in life. A boundary existing only in imagination is still awaiting installation.
+When the imagined conversation is manageable, the new answer is rehearsed, then tested in life. A boundary existing only in imagination is still awaiting installation.
 
 ## The result is not saying no to everyone
 
 Turning a habitually agreeable person into someone who refuses every request would merely replace one automatic response with another.
 
-The result is choice: agree when you genuinely want to, refuse without panic and endless justification, offer a compromise, tolerate someone else's displeasure, and then act consistently with your answer.
+What we work towards is choice: agree when you genuinely want to, refuse without panic and endless justification, offer a compromise, tolerate someone else's displeasure, and then act consistently with your answer.
 
-First, the person stops surrendering automatically. Then their own voice becomes available. Real life establishes whether they can use it.
+The next request is the test. Can you hear what you want, give your answer and stand by it while the other person is still there?
