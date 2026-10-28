@@ -99,7 +99,6 @@ export default function OneToOnePage() {
                 ["Length", "3–4 months"],
                 ["Sessions", "12 private 1:1 Zoom sessions, 60–90 minutes each"],
                 ["Daily practice", "30–60 minutes"],
-                ["Fee", "€6,000"],
                 ["Start", "available now"],
               ].map(([term, value]) => (
                 <div key={term} className="border-b border-deep-border py-4">
@@ -295,7 +294,6 @@ export default function OneToOnePage() {
           </div>
           <dl className="border-t-2 border-accent pt-6 lg:text-right">
             <dt className="text-xs uppercase tracking-widest text-muted">12 sessions · 3–4 months</dt>
-            <dd className="mt-2 font-serif text-4xl tracking-display text-ink sm:text-5xl">€6,000</dd>
             <dd className="mt-3 text-sm text-muted">Available now</dd>
           </dl>
         </div>

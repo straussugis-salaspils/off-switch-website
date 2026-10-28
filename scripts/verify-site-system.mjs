@@ -166,6 +166,13 @@ walk(path.join(root, "src"));
 const executableSource = srcFiles.map((file) => fs.readFileSync(file, "utf8")).join("\n");
 expect(!/mc\.yandex|yandexmetrika|\bym\s*\(/i.test(executableSource), "Yandex measurement code found in src");
 
+// Public programme overviews omit fees; the separate funnel owns its offers.
+for (const route of ["", "formats/", "one-to-one/", "group/"]) {
+  const source = read(`src/app/${route}page.tsx`);
+  expect(!/[€$£]\s*\d|\b(?:EUR|USD|GBP)\s*\d|\bpriceCurrency\b/.test(source), `Published programme price found on /${route}`);
+  expect(!/Programme fee|\["Fee",/.test(source), `Empty programme fee label remains on /${route}`);
+}
+
 const appPages = [];
 const collectPages = (directory) => {
   for (const entry of fs.readdirSync(directory, { withFileTypes: true })) {

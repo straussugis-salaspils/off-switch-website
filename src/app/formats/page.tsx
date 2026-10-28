@@ -74,10 +74,10 @@ export default function FormatsPage() {
           </p>
           <nav aria-label="Compare the programmes" className="mt-7 flex flex-wrap gap-x-7 gap-y-2">
             <a href="#private-programme" className="inline-flex min-h-11 items-center gap-3 text-sm font-medium text-deep-text underline decoration-deep-text/40 underline-offset-4 hover:decoration-deep-text focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-accent-dim">
-              Private 1:1 · €6,000 <span aria-hidden="true">↓</span>
+              Private 1:1 <span aria-hidden="true">↓</span>
             </a>
             <a href="#group-programme" className="inline-flex min-h-11 items-center gap-3 text-sm font-medium text-deep-text underline decoration-deep-text/40 underline-offset-4 hover:decoration-deep-text focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-accent-dim">
-              Group · €2,000 <span aria-hidden="true">↓</span>
+              Group <span aria-hidden="true">↓</span>
             </a>
           </nav>
         </div>
@@ -97,10 +97,6 @@ export default function FormatsPage() {
                 He adjusts what you work on, how deeply and in what order.
               </p>
               <div className="mt-7 flex flex-wrap items-end justify-between gap-4 border-t border-border pt-6">
-                <div>
-                  <p className="text-xs uppercase tracking-widest text-muted">Programme fee</p>
-                  <p className="mt-2 font-serif text-4xl tracking-display text-ink">€6,000</p>
-                </div>
                 <p className="max-w-[11rem] text-sm leading-6 text-muted">12 private sessions<br />over 3–4 months</p>
               </div>
               <div className="mt-7">
@@ -121,10 +117,6 @@ export default function FormatsPage() {
                 on the memories, worries and reactions that are relevant to you.
               </p>
               <div className="mt-7 flex flex-wrap items-end justify-between gap-4 border-t border-border pt-6">
-                <div>
-                  <p className="text-xs uppercase tracking-widest text-muted">Programme fee</p>
-                  <p className="mt-2 font-serif text-4xl tracking-display text-ink">€2,000</p>
-                </div>
                 <p className="max-w-[11rem] text-sm leading-6 text-muted">12 weekly meetings<br />over 12 weeks</p>
               </div>
               <div className="mt-7">

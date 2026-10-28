@@ -179,7 +179,7 @@ export default function Home() {
                 helps me choose what we do next, how deeply and in what order.
               </p>
               <p className="mt-7 text-sm leading-relaxed text-muted">
-                12 private sessions · 3–4 months · €6,000
+                12 private sessions · 3–4 months
               </p>
               <div className="mt-5"><Button href="/one-to-one" variant="primary" size="md">Explore private 1:1 →</Button></div>
             </div>
@@ -195,7 +195,7 @@ export default function Home() {
                 method to your own memories, worries and reactions.
               </p>
               <p className="mt-7 text-sm leading-relaxed text-muted">
-                12 weekly meetings · 12 weeks · €2,000
+                12 weekly meetings · 12 weeks
               </p>
               <div className="mt-5"><Button href="/group" variant="outline" size="md">Explore the group →</Button></div>
               <p className="mt-4 text-sm leading-relaxed text-muted">Next group planned for January 2027.</p>

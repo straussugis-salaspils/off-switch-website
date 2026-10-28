@@ -82,16 +82,15 @@ export default function GroupPage() {
             </p>
           </div>
 
-          <dl className="mt-12 grid border-y border-deep-border sm:grid-cols-2 lg:grid-cols-4">
+          <dl className="mt-12 grid border-y border-deep-border sm:grid-cols-3">
             {[
               ["Length", "12 weeks"],
               ["Group", "up to 12 participants"],
-              ["Fee", "€2,000"],
               ["Next group", "planned for January 2027"],
             ].map(([term, value], index) => (
               <div
                 key={term}
-                className={`py-5 sm:px-6 ${index > 0 ? "border-t border-deep-border sm:border-l sm:border-t-0" : ""} ${index === 2 ? "sm:border-l-0 lg:border-l" : ""}`}
+                className={`py-5 sm:px-6 ${index > 0 ? "border-t border-deep-border sm:border-l sm:border-t-0" : ""}`}
               >
                 <dt className="text-[0.6875rem] uppercase tracking-widest text-deep-muted">{term}</dt>
                 <dd className="mt-2 font-serif text-xl leading-snug text-deep-text">{value}</dd>
@@ -231,7 +230,6 @@ export default function GroupPage() {
           </div>
           <div className="border-t-2 border-accent pt-6 lg:text-right">
             <p className="text-xs uppercase tracking-widest text-muted">12 weeks · up to 12 people</p>
-            <p className="mt-2 font-serif text-4xl tracking-display text-ink sm:text-5xl">€2,000</p>
           </div>
         </div>
       </section>
